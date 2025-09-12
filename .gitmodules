@@ -1,0 +1,9 @@
+[submodule "tau-bench"]
+	path = tau-bench
+	url = https://github.com/sierra-research/tau-bench
+[submodule "tau2-bench"]
+	path = tau2-bench
+	url = https://github.com/sierra-research/tau-bench.git
+[submodule "UserBench"]
+	path = UserBench
+	url = https://github.com/SalesforceAIResearch/UserBench.git

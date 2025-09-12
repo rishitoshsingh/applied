@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LLM Trajectory Viewer</title>
+</head>
+
+<body>
+    <h1>LLM Trajectory Viewer</h1>
+    <form id="jsonForm" method="get">
+        <label for="file">Enter JSON file path:</label>
+        <input type="text" id="file" name="file" placeholder="/path/to/json">
+        <label for="type">Type:</label>
+        <select id="type" name="type">
+            <option value="tau1">TAU 1</option>
+            <option value="tau2">TAU 2 (tasks.json)</option>
+        </select>
+        <button type="submit">View</button>
+    </form>
+    <script>
+        document.getElementById('jsonForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            var file = document.getElementById('file').value;
+            var type = document.getElementById('type').value;
+            if (type === 'tau1') {
+                window.location.href = '/view_json?file=' + encodeURIComponent(file);
+            } else {
+                window.location.href = '/view_tau2_tasks?file=' + encodeURIComponent(file);
+            }
+        });
+    </script>
+</body>
+
+</html>
