@@ -1,0 +1,32 @@
+[
+    {
+        "Task id": 16,
+        "procedural": "No",
+        "declarative": "Yes",
+        "reason": "The conversation is primarily declarative as the user is seeking information about the flight delay and potential compensation. The assistant provides information about how to check flight status, what compensation might be available, and how to proceed with a compensation claim. There are no step-by-step instructions or actions being performed by the assistant on behalf of the user, which would categorize it as procedural. The user is not booking, modifying, or canceling any reservations, but rather gathering information and understanding the process for compensation, which is declarative."
+    },
+    {
+        "Task id": 36,
+        "procedural": "No",
+        "declarative": "Yes",
+        "reason": "The conversation is primarily declarative as the user is seeking information and clarification about the travel insurance for their flight reservation. The user is not providing step-by-step instructions for the assistant to follow but is rather asking the assistant to check the reservation details and explore possible solutions. The assistant provides information about the reservation status and policy restrictions, which is a declarative task. There are no procedural tasks where the assistant is following a series of steps provided by the user."
+    },
+    {
+        "Task id": 37,
+        "procedural": "No",
+        "declarative": "Yes",
+        "reason": "The conversation is primarily about the user expressing dissatisfaction with a delayed flight and seeking compensation. The assistant provides information about the compensation policy and issues a certificate as per the policy. The user requests further compensation or alternatives, but the assistant explains the limitations of the policy. The conversation involves the exchange of information and clarification of policies, which is declarative in nature. There are no step-by-step actions or instructions being followed, which would make it procedural."
+    },
+    {
+        "Task id": 38,
+        "procedural": "No",
+        "declarative": "Yes",
+        "reason": "The conversation is primarily about the user seeking information and assistance regarding a refund for travel insurance. The user is making requests for information and exceptions, and the assistant is providing responses based on the policies and available options. The assistant offers a goodwill gesture and suggests escalating the issue to a human agent. The tasks involve understanding the refund policy and exploring possible exceptions, which are declarative in nature as they involve the assistant providing information and making decisions based on company policies."
+    },
+    {
+        "Task id": 44,
+        "procedural": "No",
+        "declarative": "Yes",
+        "reason": "The conversation is primarily about the user seeking information regarding the number of suitcases they can take on their flight. The user provides details such as their membership status and flight confirmation number, and the assistant uses this information to provide a factual answer. The task is declarative because the user is requesting information and the assistant is providing it based on the user's membership status and reservation details. There is no step-by-step action or process being followed, which would categorize it as procedural."
+    }
+]

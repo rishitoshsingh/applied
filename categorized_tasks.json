@@ -1,0 +1,32 @@
+[
+  {
+    "Task id": 0,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The user is performing a step-by-step action of exchanging items, in which user is instructing the agent. Also, there are multiple tasks in the conversation: AUTHENTICATE and EXCHANGE ITEMS."
+  },
+  {
+    "Task id": 1,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The user is trying to exchange a product, and the agent is helping the user with step-by-step instructions. The user is delegating the agent to do something for him, so it is a procedural task. Also, there are multiple tasks in the conversation, so it is a procedural task."
+  },
+  {
+    "Task id": 2,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "There are multiple tasks in this conversation. The first task is to find the number of t-shirt options available, which is a declarative task. The second task is to return a few items, which involves a step-by-step process, so it is a procedural task. Thus, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 3,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "There are multiple tasks in this conversation. The first task is to show the t-shirt options, and the second task is to modify the order. Since there are multiple tasks, the conversation is procedural. The user is asking for information in the first task, so it is declarative. The user is delegating the agent to do something for him in the second task, so it is procedural. Thus, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 4,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "There are multiple tasks in the conversation. The first task is to show the t-shirt options, which is a declarative task. The second task is to modify the order, which is a procedural task."
+  }
+]

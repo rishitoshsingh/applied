@@ -1,0 +1,38 @@
+[
+    {
+        "Task id": 14,
+        "procedural": "Yes",
+        "declarative": "No",
+        "reason": "The conversation involves multiple tasks: modifying the flight reservation to upgrade the cabin class and adding checked bags. The user provides specific instructions on what changes to make and sets a budget constraint for the upgrade. The assistant follows these instructions step-by-step, confirming details and costs, and then processes the payment. This step-by-step interaction and execution of tasks make the conversation procedural. There is no declarative aspect as the user is not seeking information or making requests for information; instead, they are instructing the assistant to perform specific actions."
+    },
+    {
+        "Task id": 27,
+        "procedural": "Yes",
+        "declarative": "No",
+        "reason": "The conversation involves multiple tasks: canceling a reservation and modifying another reservation. The user provides specific instructions and information, and the assistant follows these instructions to complete the tasks. The assistant asks for necessary details and confirms actions before proceeding, which is characteristic of procedural tasks. The conversation does not involve the assistant providing information or making decisions independently, which would be indicative of declarative tasks."
+    },
+    {
+        "Task id": 31,
+        "procedural": "Yes",
+        "declarative": "No",
+        "reason": "The conversation involves multiple tasks related to flight cancellations. The user initially attempts to cancel a flight from ATL to JFK, which is not possible due to the airline's policy. The user then requests to cancel another flight from DEN to BOS. The assistant follows a step-by-step process to gather necessary information, verify details, and execute the cancellation. The tasks are procedural as they involve a series of actions and decisions based on user input and airline policies, rather than just providing information or making a decision based on the assistant's own reasoning."
+    },
+    {
+        "Task id": 32,
+        "procedural": "Yes",
+        "declarative": "No",
+        "reason": "The conversation involves multiple tasks related to booking a flight, which makes it procedural. The user initially requests to book a flight, then modifies the booking details by changing it from a round trip to a one-way ticket, adding an extra passenger, and specifying seating preferences. The assistant follows the user's instructions step-by-step to adjust the booking details, confirm the cost, and finalize the payment method. The tasks involve a series of actions and decisions, which are characteristic of procedural tasks."
+    },
+    {
+        "Task id": 43,
+        "procedural": "Yes",
+        "declarative": "No",
+        "reason": "The conversation involves a single task: MODIFY a flight reservation by changing the passenger name. The user provides specific instructions and details for the modification, and the assistant follows these instructions step-by-step to complete the task. The assistant does not provide any additional information or make decisions independently, which characterizes the task as Procedural."
+    },
+    {
+        "Task id": 47,
+        "procedural": "Yes",
+        "declarative": "No",
+        "reason": "The conversation involves a single task: CANCEL. The user is trying to cancel a reservation, and the assistant follows a step-by-step process to achieve this. The user provides necessary information, and the assistant guides the user through the process of identifying the correct reservation ID and confirming the cancellation. The assistant does not provide any additional information or make decisions beyond what is required to complete the cancellation process. Therefore, the task is procedural as it involves a series of actions to achieve a specific outcome."
+    }
+]

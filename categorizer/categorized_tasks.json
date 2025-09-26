@@ -1,0 +1,32 @@
+[
+  {
+    "Task id": "0",
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The task is Declarative because the user wants to CANCEL a flight which is a SINGLE STEP action. The user also wants a REFUND which is a request for information and action based on a fact and require NO step-by-step actions required from the user beyond making the request."
+  },
+  {
+    "Task id": "1",
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The task involves user requesting to CANCEL a flight which is a SINGLE STEP task. He wants to get a refund, which is a request for information and action based on a fact and require NO step-by-step actions required from the user beyond making the request."
+  },
+  {
+    "Task id": "2",
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The task is Procedural as the user is trying to BOOK a flight, which is a STEP BY STEP task, which involves a series of actions and decisions. It is also Declarative as the user is trying to get compensation for a delayed flight, which is a request for information and action based on a fact."
+  },
+  {
+    "Task id": "3",
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The task is Procedural when user tried to check the total number of suitcases which is a STEP BY STEP action. It is also Declarative when user tried to check membership status."
+  },
+  {
+    "Task id": "4",
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The task is Declarative because the user is requesting compensation based on a fabricated story. The user is stating facts (albeit false ones) and requesting an action (compensation) based on those facts. There are no step-by-step actions required from the user beyond making the initial request and persisting with it."
+  }
+]

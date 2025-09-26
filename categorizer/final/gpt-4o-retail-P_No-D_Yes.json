@@ -1,0 +1,26 @@
+[
+    {
+        "Task id": 50,
+        "procedural": "No",
+        "declarative": "Yes",
+        "reason": "The conversation is primarily declarative as the user is seeking information and making requests regarding the possibility of undoing a cancelled order. The assistant provides information about the company's policy and the impossibility of reinstating a cancelled order. The user is not performing any step-by-step actions but is rather inquiring about the possibility of an exception and seeking escalation to a human agent. The assistant's responses are based on providing information and clarifying the company's policy, which is a declarative task."
+    },
+    {
+        "Task id": 56,
+        "procedural": "No",
+        "declarative": "Yes",
+        "reason": "The task in the conversation is to check the delivery status of an order, which is a request for information. The user is asking for the status of their air purifier delivery, and the assistant provides the information that the order has already been delivered. This task is declarative because it involves retrieving and conveying information rather than following a series of steps or instructions."
+    },
+    {
+        "Task id": 67,
+        "procedural": "No",
+        "declarative": "Yes",
+        "reason": "The task in this conversation is primarily about retrieving information regarding the user's most recent order payment. The user is requesting information, and the assistant is providing it based on the user's input. This makes the task declarative, as the assistant is performing the thinking and information retrieval based on the user's request. There is no step-by-step action or procedure being followed by the user or the assistant, which would categorize it as procedural."
+    },
+    {
+        "Task id": 68,
+        "procedural": "No",
+        "declarative": "Yes",
+        "reason": "The task in this conversation is to retrieve information about the user's most recent order payment. The user is requesting information, and the assistant is providing it based on the user's details. This is a Declarative task because the user is not guiding the assistant through a series of steps but rather asking for specific information, which the assistant retrieves and provides. The assistant is doing the thinking and processing to find the information, making it a Declarative task."
+    }
+]

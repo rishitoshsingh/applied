@@ -1,0 +1,14 @@
+[
+    {
+        "Task id": 22,
+        "procedural": "Yes",
+        "declarative": "No",
+        "reason": "The conversation involves multiple tasks where the user is requesting specific actions to be performed by the assistant. The tasks include updating the user's address, modifying the address for a pending order, and then reverting the user's address back to the original one. Each of these tasks involves step-by-step actions where the assistant follows the user's instructions to complete the tasks. There is no request for information or statement of facts that would categorize any part of the conversation as declarative. Therefore, the conversation is procedural."
+    },
+    {
+        "Task id": 103,
+        "procedural": "Yes",
+        "declarative": "No",
+        "reason": "The conversation involves multiple tasks where the user is requesting changes to their orders, which are procedural in nature. The tasks include modifying the delivery address, modifying an order item, and exchanging an item. Each task involves a series of steps that the assistant follows based on the user's instructions. The assistant is not providing information or making decisions independently but is instead executing the user's requests step-by-step. Therefore, the conversation is categorized as Procedural."
+    }
+]
