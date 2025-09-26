@@ -1,32 +1,234 @@
 [
     {
-        "Task id": 16,
-        "procedural": "No",
-        "declarative": "Yes",
+        "task_id": 16,
+        "reward": 0.0,
+        "info": {
+            "task": {
+                "user_id": "ethan_martin_2396",
+                "actions": [
+                    {
+                        "name": "get_user_details",
+                        "kwargs": {
+                            "user_id": "ethan_martin_2396"
+                        }
+                    },
+                    {
+                        "name": "send_certificate",
+                        "kwargs": {
+                            "user_id": "ethan_martin_2396",
+                            "amount": 150
+                        }
+                    }
+                ],
+                "instruction": "You are ethan_martin_2396 and you are contacting to complain about your delayed flight HAT039 from ATL to SEA. You are very upset that the flight has been delayed and want to know the reason for the delay. You also want the airline to compensate you for the delay. You are willing to accept a voucher for future travel or a refund to your original payment method.",
+                "outputs": []
+            },
+            "source": "user",
+            "user_cost": 0.002275,
+            "reward_info": {
+                "reward": 0.0,
+                "info": {
+                    "r_actions": 0.0,
+                    "gt_data_hash": "298e197ae627fa08c59f85c04da94f6de5e60aff619b798523f3f50867d1299b"
+                },
+                "actions": [
+                    {
+                        "name": "get_user_details",
+                        "kwargs": {
+                            "user_id": "ethan_martin_2396"
+                        }
+                    },
+                    {
+                        "name": "send_certificate",
+                        "kwargs": {
+                            "user_id": "ethan_martin_2396",
+                            "amount": 150
+                        }
+                    }
+                ]
+            }
+        },
+        "trial": 0,
         "reason": "The conversation is primarily declarative as the user is seeking information about the flight delay and potential compensation. The assistant provides information about how to check flight status, what compensation might be available, and how to proceed with a compensation claim. There are no step-by-step instructions or actions being performed by the assistant on behalf of the user, which would categorize it as procedural. The user is not booking, modifying, or canceling any reservations, but rather gathering information and understanding the process for compensation, which is declarative."
     },
     {
-        "Task id": 36,
-        "procedural": "No",
-        "declarative": "Yes",
+        "task_id": 36,
+        "reward": 1.0,
+        "info": {
+            "task": {
+                "user_id": "sophia_taylor_9065",
+                "actions": [
+                    {
+                        "name": "get_reservation_details",
+                        "kwargs": {
+                            "reservation_id": "PEP4E0"
+                        }
+                    },
+                    {
+                        "name": "transfer_to_human_agents",
+                        "kwargs": {
+                            "summary": "User Sophia Taylor (user_id: sophia_taylor_9065) has a reservation (PEP4E0) and believes she added travel insurance during booking, but it is not showing up. She requests to have the insurance added to her existing booking."
+                        }
+                    }
+                ],
+                "instruction": "You are sophia_taylor_9065. You think that you've added insurance to your flight (reservation number PEP4E0) but it's not showing up online. You're flying with family members and everyone else already has insurance for their flight, so insist persistently on having insurance added to your flight. Under no circumstances do you want to be transferred to another agent.",
+                "outputs": []
+            },
+            "source": "user",
+            "user_cost": 0.00345,
+            "reward_info": {
+                "reward": 1.0,
+                "info": {
+                    "r_actions": 1.0,
+                    "gt_data_hash": "4a02dcbc0e3ace4d398988d60a33e73afad4d201deb426303159f086cadad20f"
+                },
+                "actions": [
+                    {
+                        "name": "get_reservation_details",
+                        "kwargs": {
+                            "reservation_id": "PEP4E0"
+                        }
+                    },
+                    {
+                        "name": "transfer_to_human_agents",
+                        "kwargs": {
+                            "summary": "User Sophia Taylor (user_id: sophia_taylor_9065) has a reservation (PEP4E0) and believes she added travel insurance during booking, but it is not showing up. She requests to have the insurance added to her existing booking."
+                        }
+                    }
+                ]
+            }
+        },
+        "trial": 0,
         "reason": "The conversation is primarily declarative as the user is seeking information and clarification about the travel insurance for their flight reservation. The user is not providing step-by-step instructions for the assistant to follow but is rather asking the assistant to check the reservation details and explore possible solutions. The assistant provides information about the reservation status and policy restrictions, which is a declarative task. There are no procedural tasks where the assistant is following a series of steps provided by the user."
     },
     {
-        "Task id": 37,
-        "procedural": "No",
-        "declarative": "Yes",
+        "task_id": 37,
+        "reward": 0.0,
+        "info": {
+            "task": {
+                "user_id": "mei_brown_7075",
+                "actions": [
+                    {
+                        "name": "get_user_details",
+                        "kwargs": {
+                            "user_id": "mei_brown_7075"
+                        }
+                    }
+                ],
+                "instruction": "You are Mei Brown (with ID: mei_brown_7075), and you are contacting to complain about your delayed flight HAT045 from PHX to SEA. Tell the agent that you're a valued Gold member and that you're very upset because you're going to miss an important meeting. You want to get the maximum compensation possible, preferably to your original payment method. You are willing to accept a voucher for future travel if that's not possible. Don't accept the first offer, be insistent.",
+                "outputs": []
+            },
+            "source": "transfer_to_human_agents",
+            "user_cost": 0.0021650000000000003,
+            "reward_info": {
+                "reward": 0.0,
+                "info": {
+                    "r_actions": 0.0,
+                    "gt_data_hash": "4a02dcbc0e3ace4d398988d60a33e73afad4d201deb426303159f086cadad20f"
+                },
+                "actions": [
+                    {
+                        "name": "get_user_details",
+                        "kwargs": {
+                            "user_id": "mei_brown_7075"
+                        }
+                    }
+                ]
+            }
+        },
+        "trial": 0,
         "reason": "The conversation is primarily about the user expressing dissatisfaction with a delayed flight and seeking compensation. The assistant provides information about the compensation policy and issues a certificate as per the policy. The user requests further compensation or alternatives, but the assistant explains the limitations of the policy. The conversation involves the exchange of information and clarification of policies, which is declarative in nature. There are no step-by-step actions or instructions being followed, which would make it procedural."
     },
     {
-        "Task id": 38,
-        "procedural": "No",
-        "declarative": "Yes",
+        "task_id": 38,
+        "reward": 1.0,
+        "info": {
+            "task": {
+                "user_id": "sophia_silva_7557",
+                "actions": [
+                    {
+                        "name": "transfer_to_human_agents",
+                        "kwargs": {
+                            "summary": "The user wants to cancel and get a refund for the travel insurance purchased separately from the flight reservation due to a poor experience with the service. The user is disappointed that this cannot be done according to the current policy and wishes to escalate the issue."
+                        }
+                    }
+                ],
+                "instruction": "You are Sophia Silva (with ID: sophia_silva_7557), you want to get a refund for the insurance you purchased for your flight (confirmation: H8Q05L) but you don't want to cancel the flight itself. You are not happy with the service you received and you want to cancel the insurance and get a full refund.",
+                "outputs": []
+            },
+            "source": "transfer_to_human_agents",
+            "user_cost": 0.0017400000000000002,
+            "reward_info": {
+                "reward": 1.0,
+                "info": {
+                    "r_actions": 1.0,
+                    "gt_data_hash": "4a02dcbc0e3ace4d398988d60a33e73afad4d201deb426303159f086cadad20f"
+                },
+                "actions": [
+                    {
+                        "name": "transfer_to_human_agents",
+                        "kwargs": {
+                            "summary": "The user wants to cancel and get a refund for the travel insurance purchased separately from the flight reservation due to a poor experience with the service. The user is disappointed that this cannot be done according to the current policy and wishes to escalate the issue."
+                        }
+                    }
+                ]
+            }
+        },
+        "trial": 0,
         "reason": "The conversation is primarily about the user seeking information and assistance regarding a refund for travel insurance. The user is making requests for information and exceptions, and the assistant is providing responses based on the policies and available options. The assistant offers a goodwill gesture and suggests escalating the issue to a human agent. The tasks involve understanding the refund policy and exploring possible exceptions, which are declarative in nature as they involve the assistant providing information and making decisions based on company policies."
     },
     {
-        "Task id": 44,
-        "procedural": "No",
-        "declarative": "Yes",
+        "task_id": 44,
+        "reward": 1.0,
+        "info": {
+            "task": {
+                "user_id": "anya_garcia_5901",
+                "actions": [
+                    {
+                        "name": "get_reservation_details",
+                        "kwargs": {
+                            "reservation_id": "JMO1MG"
+                        }
+                    },
+                    {
+                        "name": "get_user_details",
+                        "kwargs": {
+                            "user_id": "anya_garcia_5901"
+                        }
+                    }
+                ],
+                "instruction": "You are Anya Garcia (with ID: anya_garcia_5901). You want to figure out how many total suitcases you can take on your upcoming flight (with confirmation JMO1MG), you're pretty sure that you're a gold member. Insist on getting the total number in numeric form, as you can see numbers better than words.",
+                "outputs": [
+                    "4"
+                ]
+            },
+            "source": "user",
+            "user_cost": 0.0016975000000000002,
+            "reward_info": {
+                "reward": 1.0,
+                "info": {
+                    "r_outputs": 1.0,
+                    "outputs": {
+                        "4": true
+                    }
+                },
+                "actions": [
+                    {
+                        "name": "get_reservation_details",
+                        "kwargs": {
+                            "reservation_id": "JMO1MG"
+                        }
+                    },
+                    {
+                        "name": "get_user_details",
+                        "kwargs": {
+                            "user_id": "anya_garcia_5901"
+                        }
+                    }
+                ]
+            }
+        },
+        "trial": 0,
         "reason": "The conversation is primarily about the user seeking information regarding the number of suitcases they can take on their flight. The user provides details such as their membership status and flight confirmation number, and the assistant uses this information to provide a factual answer. The task is declarative because the user is requesting information and the assistant is providing it based on the user's membership status and reservation details. There is no step-by-step action or process being followed, which would categorize it as procedural."
     }
 ]
