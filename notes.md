@@ -18,9 +18,10 @@ User is saying what he needs, Agent is figuring itself what tool to call
 ## TASK6 -> Procedural
 User started to delegate the tasks
 
-
-
-Per domain, 3 json (3 categories)
-
-## 45 is Procedural, Declarative (Yes, No) -> Can be (No, Yes)
-83 not p
+TODO:
+# Give Commands to run code
+# Make Doc with each exmaple from all categories
+# Start UserBench Categorizer
+# Remind amir of 5000 data
+# Do Human eyeballing on some examples in 5000 data
+# Read USER RL
