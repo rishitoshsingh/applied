@@ -1,14 +1,9 @@
 # applied
 
-## Prerequisites
-
-- List required software (e.g., Python, Node.js)
-- Installation instructions for dependencies
-
 ## Installation
 
 ```bash
-git clone --recurse-submodules https://github.com/yourusername/applied.git
+git clone --recurse-submodules https://github.com/rishitoshsingh/applied.git
 cd applied
 
 pip install -r requirements.txt
