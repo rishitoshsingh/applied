@@ -1,0 +1,302 @@
+[
+  {
+    "Task id": 0,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The conversation involves booking a flight, which requires a step-by-step process. The user provides specific details and preferences, and the assistant guides them through the booking process. The user is actively making choices and providing information to complete the booking. The task is BOOK."
+  },
+  {
+    "Task id": 1,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The user has two tasks: MODIFY and CANCEL. Both tasks require specific steps and information from the user, making them procedural. The user is also asking for information about whether cancellation is an option, which is declarative."
+  },
+  {
+    "Task id": 2,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: MODIFY and BOOK. The user first requests to downgrade flights and then asks for confirmation of the total savings. The downgrade task is procedural as the user provides instructions to downgrade specific flights. The confirmation of savings is declarative as the user is requesting information."
+  },
+  {
+    "Task id": 3,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The conversation involves multiple tasks (MODIFY). The user is guiding the assistant through a step-by-step process to modify the flight, including specifying flight preferences, cabin class, and payment methods. The assistant primarily follows the user's instructions, making it a procedural task."
+  },
+  {
+    "Task id": 4,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: MODIFY. The user first asks to modify a flight booking, which involves a step-by-step process of providing details, confirming the upgrade, and then attempting to change the passenger name. The user also asks for information about the possibility of upgrading the flight and whether the agent can change the passenger name. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 5,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The conversation involves multiple tasks (identifying the reservation, modifying the reservation). The user provides specific instructions for the assistant to follow, such as providing IDs, requesting modifications, and confirming actions. The assistant primarily executes these instructions, making it a procedural interaction."
+  },
+  {
+    "Task id": 6,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The conversation involves a flight modification task, where the user provides specific instructions to change the flight date and class. The assistant follows these instructions step-by-step, making it a procedural task."
+  },
+  {
+    "Task id": 7,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes both procedural and declarative aspects. The user is trying to change the flight reservation which includes multiple steps, so it is procedural. The user is also asking for information about the refund, so it is declarative. The user has two tasks: MODIFY and BOOK."
+  },
+  {
+    "Task id": 8,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: getting information about gift card balances, modifying a reservation, canceling a reservation, and booking a new one. Since there are multiple tasks, it is procedural. The user also asks questions and requests information, which makes it declarative. The user is trying to get information about whether basic economy tickets can be changed (Declarative). The user then proceeds to cancel and rebook, specifying payment preferences (Procedural)."
+  },
+  {
+    "Task id": 9,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: checking balances (declarative), modifying a reservation (procedural), and canceling a reservation (procedural), and booking a new reservation (procedural). The user also asks questions about policies and payment methods (declarative). Since there are multiple tasks, it is procedural. Also, since the user is asking questions, it is declarative."
+  },
+  {
+    "Task id": 10,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: MODIFY, CANCEL and BOOK. Since there are multiple tasks, the conversation is procedural. The user is also asking questions and requesting information, which makes the conversation declarative as well. MODIFY and CANCEL are declarative because the agent is informing the user about the policies and limitations. BOOK is procedural because the user is guiding the agent through the steps of booking a flight."
+  },
+  {
+    "Task id": 11,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes both procedural and declarative aspects. The user is trying to book a flight, which involves a step-by-step process (Procedural). The user also asks for information about certificate balance and updated costs, which are information retrieval tasks (Declarative). The main task is BOOK. The subtasks include getting information about the certificate balance, updated costs, and payment methods."
+  },
+  {
+    "Task id": 12,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The user has two tasks: CANCEL and BOOK. The user is trying to cancel the flight in a step-by-step manner, providing information when asked, so it is procedural. The user is also asking questions about the possibility of a refund, which is declarative."
+  },
+  {
+    "Task id": 13,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY and getting information about flight options. The user is trying to modify the flight step by step, providing specific details and preferences, which makes it procedural. Also, the user is asking for information about available flights and their departure times, which makes it declarative."
+  },
+  {
+    "Task id": 14,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The user has one task, which is to modify the flight reservation. The user is guiding the assistant step by step on how to modify the flight reservation, including upgrading the class and adding checked bags. The assistant is following the user's instructions. Therefore, the task is procedural."
+  },
+  {
+    "Task id": 15,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: MODIFY (downgrading cabin class) and CANCEL (cancelling the reservation). The user is also asking for information about removing a passenger and other options, which are declarative tasks. Since there are multiple tasks, it is procedural. Also, the user is asking questions and the agent is providing information, so it is declarative as well."
+  },
+  {
+    "Task id": 16,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The user is asking for information about flight delay compensation. The agent is providing information and guidance, but not performing any actions based on step-by-step instructions. Therefore, the conversation is declarative."
+  },
+  {
+    "Task id": 17,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The user has one task, which is to modify the flight. The user is guiding the assistant step by step to explore different options to fit the user's budget. The assistant is following the user's instructions, so it is a procedural task."
+  },
+  {
+    "Task id": 18,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The user is trying to get information about the cancellation policy, possible refunds, vouchers, or other options for their flight. The agent is providing information and checking policies, but not performing a step-by-step procedure. The user is asking questions and requesting information, which makes the conversation declarative."
+  },
+  {
+    "Task id": 19,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY and BOOK. The user initially wants to modify their flight, which involves several steps like providing reservation details, specifying desired changes, and confirming the new itinerary. This step-by-step interaction makes it procedural. Additionally, the user asks questions about insurance coverage and available flights, which require the agent to provide information and options, making it declarative. Finally the user books the flight at the end."
+  },
+  {
+    "Task id": 20,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The conversation involves multiple tasks: MODIFY a flight and inquire about CANCELing a checked bag. The user provides specific instructions and the agent follows them to modify the flight. Although the user asks a question about removing the checked bag, the primary interaction is procedural as the user is guiding the agent through the modification process."
+  },
+  {
+    "Task id": 21,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY and BOOK. The user initially tries to modify a flight, which involves checking the possibility of changes and associated fees (Declarative). When modification isn't possible, the user asks for alternative flight options and then books a new flight. The booking process involves providing details and confirming the booking, which are step-by-step actions (Procedural). Also, the user is asking for information about flight options (Declarative)."
+  },
+  {
+    "Task id": 22,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The user has one task, which is to modify the flight. The user is guiding the assistant step by step to achieve the goal. First, the user asks to change the flight, then asks about upgrading, and finally confirms the upgrade and change. The assistant is following the user's instructions, so it is procedural."
+  },
+  {
+    "Task id": 23,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: MODIFY flight, which includes finding a nonstop flight, changing the return flight, upgrading to business class, and adding checked bags. Since there are multiple tasks, it is procedural. The user is also asking for information about flight options, which makes it declarative."
+  },
+  {
+    "Task id": 24,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The user has one task: MODIFY the flight. This task involves a series of steps and decisions, making it procedural. The user also asks questions about fees and available flights, which require the agent to provide information, making it declarative as well."
+  },
+  {
+    "Task id": 25,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: canceling a flight and booking a new flight. Canceling the flight involves a series of steps where the user provides information and confirms the cancellation, which is procedural. The user also asks a question about refund eligibility based on their silver membership, which is declarative. Booking a new flight also involves a series of steps, including specifying preferences and confirming details, making it procedural. The user also asks for the second cheapest flight, which requires the agent to provide information, making it declarative."
+  },
+  {
+    "Task id": 26,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: CANCEL and MODIFY. The user is first canceling a reservation and then upgrading another reservation. Since there are multiple tasks, the conversation is procedural. Also, the assistant provides information about the reservations and policies, which makes the conversation declarative as well. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 27,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The conversation includes multiple tasks: CANCEL and MODIFY. The user provides specific instructions and information (reservation codes, user ID, reasons for cancellation, desired flight changes, and payment details), and the assistant follows these instructions to cancel a reservation and modify another. The assistant does not make independent decisions but rather executes the user's requests step by step. Therefore, the conversation is procedural."
+  },
+  {
+    "Task id": 28,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The user has one task which is CANCEL. The user is instructing the agent to cancel the flights step by step. The agent is following the instructions of the user. Hence, it is procedural."
+  },
+  {
+    "Task id": 29,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes both declarative and procedural aspects. The user initially asks to cancel flights (Procedural), which requires specific steps and information like user ID and reservation IDs. The assistant guides the user through this process. Additionally, the user asks about refund eligibility (Declarative), which is a request for information that the assistant provides based on certain conditions. Therefore, the conversation involves a mix of step-by-step instructions and information retrieval, making it both procedural and declarative."
+  },
+  {
+    "Task id": 30,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes both declarative and procedural aspects. Initially, the user requests information about multiple flight bookings on the same day, which is a declarative task. Subsequently, the user asks to cancel one of the duplicate flights, which transitions the conversation into a procedural task. The agent guides the user through the steps required for the cancellation, but ultimately cannot complete the cancellation due to policy restrictions, indicating a procedural flow that requires human intervention. The tasks included are: 1. Information retrieval about flight bookings (Declarative). 2. Cancellation of a flight (Procedural)."
+  },
+  {
+    "Task id": 31,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The conversation involves multiple tasks (cancel one flight, then cancel another flight), making it procedural. The user provides specific instructions and the agent follows them to cancel the flights. The agent also asks for specific information to proceed with the cancellation, such as user ID, reservation ID, and reason for cancellation."
+  },
+  {
+    "Task id": 32,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The conversation involves a multi-step process of booking a flight, modifying details, and confirming the booking. The user provides specific instructions and preferences at each step, and the assistant follows these instructions to complete the booking. Since there are multiple tasks, it is procedural."
+  },
+  {
+    "Task id": 33,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: MODIFY, CANCEL, and BOOK(upgrade to business class). Since there are multiple tasks, it is procedural. The user also asks for information about flight durations, which is a declarative task. The agent also needs to check the flight details to find flights over 3 hours, and to find the possibility of upgrading to business class. So, it is both."
+  },
+  {
+    "Task id": 34,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: CANCEL, MODIFY, and BOOK. The user first asks to cancel two flights (CANCEL), then modifies one of the flights by upgrading it (MODIFY) before canceling it, and finally asks about other upcoming flights and their total cost (BOOK). Since there are multiple tasks, it is procedural. Also, the user is asking a question about upcoming flights, which is declarative."
+  },
+  {
+    "Task id": 35,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The user has multiple tasks: CANCEL, MODIFY. The user is also asking questions and requesting information, which makes the conversation declarative. The user is trying to cancel and modify the flight, which involves a step-by-step process, making the conversation procedural."
+  },
+  {
+    "Task id": 36,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The user is trying to get some information about the insurance and whether it can be added to his flight. The agent is providing information based on the user's questions. The user is not giving step-by-step instructions, so it is a declarative task."
+  },
+  {
+    "Task id": 37,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The user is trying to get information about compensation for a delayed flight and is making requests based on their Gold member status. The agent is providing information and explaining the policy, but not performing any booking, modification, or cancellation tasks. Therefore, the conversation is declarative."
+  },
+  {
+    "Task id": 38,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The user has one task: CANCEL. The user initially asks for a refund, which is a declarative request. Then, the user engages in a step-by-step process of providing information (confirmation number) and requesting escalation, making it procedural as well. The agent is also making decisions based on the user's information, so it is both procedural and declarative."
+  },
+  {
+    "Task id": 39,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The user has one task, which is to CANCEL the flight. The user is asking for information about the possibility of getting a refund. The agent is providing information and checking the policy. The agent is doing all the thinking, so it is a declarative task."
+  },
+  {
+    "Task id": 40,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The user is trying to get information about compensation for a flight cancellation. The agent is providing information and options, but the user is not giving step-by-step instructions. The user is stating facts and requesting information, so the task is declarative."
+  },
+  {
+    "Task id": 41,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two tasks: retrieving booking details and canceling a flight. The retrieval of booking details is declarative because the user is requesting information. The cancellation task is procedural because the user is instructing the agent to perform a specific action (canceling the flight) and confirming the action."
+  },
+  {
+    "Task id": 42,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The user is trying to cancel a flight and get a refund. The assistant is providing information based on the user's details. The user is also stating that they purchased insurance and asking the assistant to transfer them to a human agent. The assistant is doing all the thinking here, so it is declarative."
+  },
+  {
+    "Task id": 43,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The conversation involves a MODIFY task where the user provides specific details (user ID, reservation ID, old name, new name) and instructions to change a passenger name on a flight reservation. The assistant follows the user's instructions step-by-step, indicating a procedural interaction."
+  },
+  {
+    "Task id": 44,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The user is asking a question to get information about the number of suitcases they can take on their flight. The agent is providing the answer. The user is not giving step-by-step instructions, so it is declarative."
+  },
+  {
+    "Task id": 45,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: addressing a flight delay and verifying passenger details. The user initially seeks help with a delay (Declarative), then requests compensation (Declarative), and finally asks to verify the number of passengers (Declarative). The assistant provides information and takes actions based on the user's requests, making it a mix of both Procedural and Declarative."
+  },
+  {
+    "Task id": 46,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: booking a flight, inquiring about a previous reservation, and clarifying passenger details. The booking task involves a step-by-step process of gathering information, which is procedural. The user also asks for details about a previous reservation, which is a declarative task as the agent provides information. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 47,
+    "procedural": "Yes",
+    "declarative": "No",
+    "reason": "The user has one task, which is to cancel a reservation. The user provides information step by step, and the agent follows the instructions. Therefore, it is a procedural task."
+  },
+  {
+    "Task id": 48,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The user has two tasks: MODIFY and BOOK. The MODIFY task is initially declarative as the user is asking about the possibility of changing dates. However, it transitions to procedural as the assistant guides the user through the available modification options. The BOOK task is declarative, as the user is asking to be connected to a human agent to book a flight."
+  },
+  {
+    "Task id": 49,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The user is trying to cancel the reservation, but the agent is doing all the thinking. The user is asking for information and the agent is providing it. So, it is a declarative task."
+  }
+]

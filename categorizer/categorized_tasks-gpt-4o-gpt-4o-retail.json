@@ -1,0 +1,692 @@
+[
+  {
+    "Task id": 0,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: EXCHANGE_ORDER and SHOW_INFO. \n\n1. EXCHANGE_ORDER: The user is requesting to exchange two items from their order. The assistant follows a step-by-step process to authenticate the user, retrieve the order details, confirm the items to be exchanged, and finalize the exchange process. This task is procedural as it involves a series of actions and confirmations to complete the exchange.\n\n2. SHOW_INFO: The user also requests information about the availability of certain product options (e.g., clicky keyboard with or without backlight). The assistant provides this information, which is a declarative task as it involves retrieving and presenting information to the user.\n\nOverall, the conversation is both procedural and declarative because it involves executing a process (exchange) and providing information (product availability)."
+  },
+  {
+    "Task id": 1,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves both procedural and declarative elements. \n\nProcedural: The user is actively engaging in a step-by-step process to exchange items from their order. The assistant follows the user's instructions to authenticate the user, locate the order, and process the exchange. This involves multiple steps such as verifying identity, finding the order, and selecting new items, which are procedural tasks.\n\nDeclarative: The user requests information about available options for the exchange, and the assistant provides details about the items, including item IDs and prices. The assistant also confirms the exchange and provides information about the refund process. These actions involve the assistant providing information and making decisions based on the user's requests, which are declarative tasks.\n\nOverall, the conversation is both procedural and declarative because it involves a series of actions to complete the exchange (procedural) and the provision of information and options (declarative)."
+  },
+  {
+    "Task id": 2,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: SHOW_INFO and RETURN_ORDER. \n\n1. SHOW_INFO: The user initially asks for information about the available T-shirt options in the online store. This task is declarative because the user is requesting information, and the assistant provides the details without requiring any procedural steps from the user.\n\n2. RETURN_ORDER: The user wants to return items (cleaner, headphones, and smart watch). This task is procedural because it involves a series of steps that the assistant follows to process the return. The user provides confirmation and additional information as needed, and the assistant processes the return request for the headphones and smart watch. The assistant also provides instructions on how to return the items, which involves procedural actions.\n\nOverall, the conversation is both procedural and declarative because it includes both the retrieval of information and the execution of a process."
+  },
+  {
+    "Task id": 3,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: SHOW_INFO and MODIFY_ORDER. \n\n1. SHOW_INFO: The user initially requests information about the available t-shirt options in the online store. This task is declarative because the user is seeking information, and the assistant provides it based on the store's inventory.\n\n2. MODIFY_ORDER: The user requests to change the pending orders for small, v-neck t-shirts to a specific type (purple, small, polyester). This task is procedural because the user is instructing the assistant to perform a specific action (modifying the order), and the assistant follows these instructions to complete the task.\n\nSince the conversation includes both a request for information and a procedural action, it is categorized as both procedural and declarative."
+  },
+  {
+    "Task id": 4,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes two main tasks: SHOW_INFO and MODIFY_ORDER. \n\n1. SHOW_INFO: The user initially asks for information about the number of T-shirt options available in the online store. This task is declarative because the user is requesting information, and the assistant provides the details without requiring any step-by-step instructions from the user.\n\n2. MODIFY_ORDER: The user requests to modify the details of a pending T-shirt order. This task is procedural because the user specifies the changes they want to make, and the assistant follows these instructions to complete the modification. The assistant also confirms the changes and processes the modification, which involves a step-by-step action.\n\nSince the conversation involves both requesting information and performing a step-by-step action, it is categorized as both procedural and declarative."
+  },
+  {
+    "Task id": 5,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves the task of EXCHANGE_ORDER, which is procedural as the user is trying to perform a step-by-step action to exchange items. The assistant is following the user's instructions to authenticate the identity and proceed with the exchange process. However, the conversation also involves declarative elements as the user is providing information (name, zip code, email) and the assistant is processing this information to find the user's account, which involves the assistant thinking and making decisions based on the provided data. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 6,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: EXCHANGE_ORDER and SHOW_INFO. The user is attempting to exchange items, which is a procedural task as it involves a step-by-step process that requires authentication and further actions to complete the exchange. The assistant is following the user's instructions to authenticate their identity, which is procedural. However, the conversation also involves declarative elements as the user is trying to provide information to authenticate their identity, and the assistant is processing this information to find the user's account. The assistant is also providing information about the inability to find the user's account, which is declarative. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 7,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: EXCHANGE_ORDER and SHOW_INFO. The user is attempting to exchange a water bottle and a desk lamp, which is a procedural task as it involves step-by-step actions to complete the exchange process. However, the assistant is unable to proceed with the exchange due to authentication issues, which requires the user to provide information to locate their account. This part of the conversation is declarative as it involves the assistant trying to retrieve information based on the user's input. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 8,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks related to exchanging items, specifically a water bottle and a desk lamp. The user is attempting to initiate an EXCHANGE_ORDER task for these items. The conversation is procedural because the user is trying to perform a step-by-step action to exchange items, but the process cannot be completed due to authentication issues. The assistant provides procedural guidance on how the exchange would typically be handled once authentication is successful. \n\nAdditionally, the conversation is declarative because the user is seeking information about the exchange process and product options, such as the availability of a larger water bottle or a brighter, battery-operated desk lamp. The assistant provides information and clarifications about the exchange process and product variants, which involves declarative aspects as the assistant is providing information and clarifications based on the user's queries."
+  },
+  {
+    "Task id": 9,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks. The primary task is EXCHANGE_ORDER, where the user wants to exchange a couple of items. This task is procedural as it involves a step-by-step process of authentication and selection of items for exchange. The assistant is following the user's instructions and trying to authenticate the user's identity to proceed with the exchange.\n\nAdditionally, there is a SHOW_INFO task where the user requests information about available options for a bigger water bottle and a brighter desk lamp. This task is declarative as the user is requesting information, and the assistant provides the available options based on the user's request.\n\nSince the conversation involves both procedural steps (EXCHANGE_ORDER) and declarative information requests (SHOW_INFO), it is categorized as both Procedural and Declarative."
+  },
+  {
+    "Task id": 10,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: RETURN ORDER and MODIFY_ORDER. The user initially requests a refund, which is a RETURN ORDER task. The assistant follows a procedure to authenticate the user and retrieve order details, making this part procedural. The user then requests to change the refund method, which is a MODIFY_ORDER task. The assistant provides information about the available options and limitations, making this part declarative. Since the conversation involves both procedural steps (authentication and order retrieval) and declarative elements (providing information about refund options), it is categorized as both procedural and declarative."
+  },
+  {
+    "Task id": 11,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: RETURN_ORDER and SHOW_INFO. \n\n1. RETURN_ORDER: The user wants to return all items from two orders and initially requests to refund each to the opposite payment method. The assistant guides the user through the process of returning the orders, including authentication and confirming the return details. This task is procedural as it involves step-by-step actions to process the return.\n\n2. SHOW_INFO: The assistant provides information about the user's orders, including order IDs, items, total amounts, and original payment methods. This task is declarative as it involves providing information to the user without requiring step-by-step actions.\n\nSince the conversation includes both procedural actions (returning orders) and declarative information (showing order details), it is categorized as both Procedural and Declarative."
+  },
+  {
+    "Task id": 12,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: CANCEL_ORDER and RETURN_ORDER. The user is trying to cancel or return items, which involves procedural steps such as authentication, order identification, and refund processing. The assistant follows a step-by-step process to authenticate the user, retrieve order details, and confirm the user's preferences for the return and refund, making it procedural. Additionally, the conversation includes declarative elements where the assistant provides information about the orders and explains the refund process, which involves the assistant thinking and providing information, making it declarative as well. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 13,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: CANCEL_ORDER and RETURN_ORDER. The user is seeking assistance to either cancel or return items from a recent purchase. The assistant provides a step-by-step process for the user to follow, such as providing an email for authentication and locating the order ID, which makes it procedural. However, the conversation also involves declarative elements as the user is requesting information about what is needed to proceed with the cancellation or return, and the assistant provides this information, which involves the assistant doing the thinking and providing factual information. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 14,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: RETURN_ORDER and SHOW_INFO. The RETURN_ORDER task is procedural because the user is providing specific instructions on which items to return and how the refund should be processed, and the assistant is following these instructions step-by-step. The SHOW_INFO task is declarative because the user requests information about their recent orders, and the assistant provides this information by retrieving and displaying the order details. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 15,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: MODIFY_ORDER and SHOW_INFO. \n\n1. MODIFY_ORDER: The user wants to change the boot size for a pending order. This task is procedural because it involves a step-by-step process where the assistant follows the user's instructions to authenticate the user, check availability, and then modify the order as per the user's request.\n\n2. SHOW_INFO: The assistant provides information about the availability of the new boot size and the details of the current and new items, including the price difference. This task is declarative because the assistant provides information and details that the user needs to make a decision.\n\nOverall, the conversation is both procedural and declarative because it involves executing a task (procedural) and providing information (declarative)."
+  },
+  {
+    "Task id": 16,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: CANCEL_ORDER and RETURN_ORDER. The user is requesting to cancel pending orders and return an item, which are procedural tasks as they involve step-by-step actions that the assistant follows based on the user's instructions. The assistant asks for confirmation and reasons for cancellation, which the user provides, indicating a procedural nature. Additionally, the user requests information about the total refund amount, which is a declarative task as it involves the assistant providing information based on the user's request. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 17,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves a task of MODIFY_ADDRESS, where the user is requesting to update the delivery address for an order. This task is procedural because the user and the assistant follow a step-by-step process to authenticate the user, verify the order status, and update the address. The assistant follows the user's instructions to make the changes. Additionally, the conversation includes declarative elements as the assistant provides information about the current address and confirms the updated address details, which involves the assistant thinking and providing information to the user. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 18,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: RETURN_ORDER and EXCHANGE_ORDER. \n\n1. RETURN_ORDER: The user initially wants to return an office chair due to it being broken. The assistant follows a step-by-step process to authenticate the user and retrieve order details, which is procedural. However, the assistant also provides information about the order, which is declarative.\n\n2. EXCHANGE_ORDER: The user changes their mind and decides to exchange the item instead. The assistant again follows a step-by-step process to confirm details and initiate the exchange, which is procedural. The assistant also provides information about the exchange process, which is declarative.\n\nOverall, the conversation is both procedural and declarative because it involves step-by-step actions and information retrieval."
+  },
+  {
+    "Task id": 19,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: RETURN_ORDER and EXCHANGE_ORDER. The user is trying to return a water bottle and exchange an office chair for a cheaper version. The assistant follows a step-by-step process to authenticate the user, retrieve order details, and attempt to process the return and exchange, which makes the conversation procedural. However, the conversation also includes declarative elements, such as the assistant providing information about the savings for exchanging items and retrieving order details for the user. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 20,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks. The primary task is an attempt to EXCHANGE_ORDER, as the user wants to upgrade items from a delivered order. This task is procedural because the user and assistant go through a step-by-step process to identify the orders and items for upgrade. However, the task cannot be completed because the orders are not in a 'delivered' status, which is a declarative aspect as the assistant provides information about the order status and the conditions under which exchanges can be made. Additionally, the user inquires about payment methods, which involves declarative responses from the assistant about the feasibility of using a gift card or PayPal. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 21,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER, MODIFY_ORDER, and SHOW_INFO. \n\n1. EXCHANGE_ORDER: The user initially requests to exchange shoes with a specific item ID. This task is procedural as it involves a step-by-step process where the assistant follows the user's instructions to authenticate identity and proceed with the exchange.\n\n2. MODIFY_ORDER: The user requests to change a product in a pending order. This is also procedural because the assistant follows the user's instructions to modify the order and confirm the payment method.\n\n3. SHOW_INFO: The user asks for the gift card balance. This task is declarative as the user is requesting information, and the assistant provides the information without needing further instructions.\n\nSince there are multiple tasks, the overall conversation is procedural, but it also includes declarative elements due to the information request."
+  },
+  {
+    "Task id": 22,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ADDRESS and MODIFY_ORDER. \n\n1. MODIFY_ADDRESS: The user requests to update their address, which involves a step-by-step process where the assistant follows the user's instructions to authenticate and update the address. This is procedural as it involves a sequence of actions to be completed.\n\n2. MODIFY_ORDER: The user requests to update the address for a pending order. The assistant checks the status of the orders and updates the address for the pending order. This is also procedural as it involves checking order status and updating the address based on the user's confirmation.\n\n3. MODIFY_ADDRESS (Revert): The user requests to revert the address back to the original one. The assistant confirms the original address and updates it back. This is procedural as it involves reverting the address based on user confirmation.\n\nThe conversation is also declarative because the assistant provides information about the status of the orders and confirms the addresses before making changes, which involves understanding and processing information to provide accurate responses. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 23,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER for the helmet and luggage set, and MODIFY_ORDER for the grill. The user is requesting specific actions to be taken on their orders, which involves step-by-step actions by the assistant, making it procedural. The assistant follows the user's instructions to exchange items and modify an order. Additionally, the conversation includes declarative elements as the user requests information about item IDs and order details, which the assistant provides by looking up the necessary information. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 24,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes two main tasks: CANCEL_ORDER and SHOW_INFO. Initially, the user wants to cancel an order for a grill, which involves a step-by-step process where the assistant follows the user's instructions to authenticate identity and identify the correct order. This makes the CANCEL_ORDER task procedural. Later, the user requests information about the materials of the t-shirts they ordered, which is a request for information that the assistant provides based on the user's orders. This makes the SHOW_INFO task declarative. Since the conversation involves both procedural and declarative tasks, it is categorized as both."
+  },
+  {
+    "Task id": 25,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: \n\n1. **SHOW_INFO**: The user requests information about the tracking number for an order mistakenly sent to Texas. This task is declarative as the user is requesting information and the assistant is providing it based on the system's data.\n\n2. **RETURN_ORDER**: The user wants to return items from the order. This task is procedural as the user is guiding the assistant through the steps of returning the items and specifying the refund method.\n\n3. **MODIFY_ORDER**: The user attempts to change the refund method from PayPal to Amex. This is procedural as the user is trying to modify the process, but it also involves declarative elements as the assistant provides information about the refund policy.\n\nOverall, the conversation is both procedural and declarative because it involves both the retrieval of information and the execution of a process with specific steps."
+  },
+  {
+    "Task id": 26,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: SHOW_INFO and RETURN_ORDER. \n\n1. SHOW_INFO: The user requests the tracking number for an order, which is a request for information. The assistant retrieves and provides the tracking number, making this task declarative as the agent is doing the thinking and providing information.\n\n2. RETURN_ORDER: The user requests to return items from an order. The assistant confirms the details and processes the return, following a step-by-step action to complete the task. This makes the task procedural as the assistant is following a process to complete the user's request.\n\nSince there are multiple tasks, the overall conversation is procedural, but it also includes declarative elements due to the information retrieval aspect."
+  },
+  {
+    "Task id": 27,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: RETURN_ORDER and EXCHANGE_ORDER. The user is requesting to return a hose and a backpack, and to exchange hiking boots for a waterproof version. The assistant follows a step-by-step process to authenticate the user, locate the account, and identify the order details, which makes the conversation procedural. However, the assistant also provides information about the order status and the process for returns and exchanges, which involves declarative elements as the assistant is providing information and making decisions based on the system's capabilities. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 28,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: RETURN_ORDER and CANCEL_ORDER. The user is requesting to return several items and cancel an item from a pending order. The assistant follows a step-by-step process to authenticate the user, retrieve order details, and confirm the actions, which makes the conversation procedural. Additionally, the user requests information about the total refund amount, which the assistant provides, making this part of the conversation declarative. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 29,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER for both the skateboard and the garden hose, and SHOW_INFO for the available options of shorter bamboo skateboards. \n\n1. **EXCHANGE_ORDER (Skateboard)**: The user initiates an exchange request for a skateboard, and the assistant follows a step-by-step process to authenticate the user, gather necessary details, and process the exchange. This is procedural as it involves a series of actions to complete the exchange.\n\n2. **SHOW_INFO (Skateboard Options)**: The user requests information about available shorter bamboo skateboards and their prices. The assistant provides this information, which is declarative as it involves retrieving and presenting information.\n\n3. **EXCHANGE_ORDER (Garden Hose)**: Similar to the skateboard exchange, the user requests an exchange for a garden hose. The assistant follows a procedural approach to identify the orders and process the exchange.\n\nOverall, the conversation is both procedural and declarative due to the combination of step-by-step actions and information retrieval."
+  },
+  {
+    "Task id": 30,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: SHOW_INFO, EXCHANGE_ORDER, RETURN_ORDER, and CANCEL_ORDER. \n\n1. **SHOW_INFO**: The user requests information about the tracking number and order details. This task is Declarative as the assistant retrieves and provides information based on the user's request.\n\n2. **EXCHANGE_ORDER**: The user initially wants to exchange the tablet. This task is Procedural as it involves a step-by-step process where the assistant follows the user's instructions to initiate an exchange.\n\n3. **RETURN_ORDER**: The user decides to return the tablet and later requests to return the sneakers. These tasks are Procedural as they involve the assistant following a series of steps to process the returns.\n\n4. **CANCEL_ORDER**: The user requests to cancel the charger order. This task is Procedural as it involves the assistant executing a cancellation process based on the user's instructions.\n\nOverall, the conversation is both Procedural and Declarative because it involves retrieving information (Declarative) and executing multiple step-by-step actions (Procedural)."
+  },
+  {
+    "Task id": 31,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: SHOW_INFO, CANCEL_ORDER, and RETURN_ORDER. \n\n1. SHOW_INFO: The user requests the tracking number for the tablet order. This task is Declarative because the user is seeking information, and the assistant provides it based on the user's account details.\n\n2. CANCEL_ORDER: The user requests to cancel the charger order and later considers cancelling the boots but decides against it. This task is Procedural because the user is instructing the assistant to perform specific actions, and the assistant follows these instructions to cancel the order.\n\n3. RETURN_ORDER: The user requests to return a pair of sneakers. This task is Procedural as the user is instructing the assistant to initiate a return process, and the assistant follows through with the user's request.\n\nOverall, the conversation is both Procedural and Declarative because it involves both seeking information and performing actions based on user instructions."
+  },
+  {
+    "Task id": 32,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: SHOW_INFO, CANCEL_ORDER, and RETURN_ORDER. \n\n1. **SHOW_INFO**: The user initially requests information about the tracking number for a tablet, which is a declarative task as the assistant provides information based on the user's account details.\n\n2. **CANCEL_ORDER**: The user requests to cancel two orders (one for a tablet and another for a charger that was part of a larger order). These tasks are procedural as the assistant follows the user's instructions to cancel the orders and process refunds.\n\n3. **RETURN_ORDER**: The user requests to return a pair of sneakers. This task is procedural as the assistant follows the user's instructions to process the return and refund.\n\nOverall, the conversation is both procedural and declarative because it involves both providing information and executing step-by-step actions based on the user's requests."
+  },
+  {
+    "Task id": 33,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: RETURN_ORDER, CANCEL_ORDER, and MODIFY_ADDRESS. \n\n1. RETURN_ORDER: The user initially wants to return specific items from an order. This task is procedural as the user is trying to perform a step-by-step action to return items, but it also involves declarative elements as the assistant provides information about the order status and return policy.\n\n2. CANCEL_ORDER: The user then decides to cancel specific items from the order. This task is procedural as it involves a step-by-step process to cancel items, but it also involves declarative elements as the assistant provides information about the cancellation policy.\n\n3. MODIFY_ADDRESS: The user requests to update their default address. This task is procedural as it involves a step-by-step action to update the address, but it also involves declarative elements as the assistant confirms the update.\n\nOverall, the conversation is both procedural and declarative because it involves step-by-step actions and information retrieval."
+  },
+  {
+    "Task id": 34,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: CANCEL_ORDER, SHOW_INFO, and MODIFY_ADDRESS. \n\n1. CANCEL_ORDER: The user initially wants to cancel specific items from an order, but the assistant informs them that only entire orders can be canceled. This task is procedural as it involves a step-by-step process to determine if the order can be canceled.\n\n2. SHOW_INFO: The user requests information about their recent orders and specific order details to identify which order they might want to cancel. This task is declarative as it involves the assistant providing information based on the user's request.\n\n3. MODIFY_ADDRESS: The user decides to change the shipping address for the order instead of canceling it. This task is procedural as it involves the assistant following the user's instructions to update the address.\n\nOverall, the conversation is both procedural and declarative because it involves both step-by-step actions and information retrieval."
+  },
+  {
+    "Task id": 35,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: RETURN_ORDER, EXCHANGE_ORDER, and MODIFY_ORDER. \n\n1. **RETURN_ORDER**: The user wants to return a Bluetooth speaker. This task is procedural as the assistant follows a step-by-step process to authenticate the user, find the order, and confirm details before initiating the return.\n\n2. **EXCHANGE_ORDER**: The user initially requests to exchange a 17-inch laptop for a 13-inch one. This task is procedural as the assistant outlines the steps and confirms the details with the user before proceeding.\n\n3. **MODIFY_ORDER**: Since the laptop order is pending, the assistant suggests modifying the order instead of exchanging it. This task is procedural as the assistant follows the user's instructions to modify the order.\n\nAdditionally, there is a declarative aspect when the user requests information about available 13-inch laptop options. The assistant provides this information, which is a declarative task as it involves retrieving and presenting information without further procedural steps.\n\nOverall, the conversation is both procedural and declarative due to the combination of step-by-step actions and information retrieval."
+  },
+  {
+    "Task id": 36,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ORDER, SHOW_INFO, and EXCHANGE_ORDER. \n\n1. **MODIFY_ORDER**: The user requests to modify the order by removing the most expensive item and later switching all items to their cheapest options. This involves a step-by-step process where the assistant follows the user's instructions, making it procedural.\n\n2. **SHOW_INFO**: The user asks for information about the most expensive item in the order. The assistant provides this information, which is a declarative task as it involves retrieving and presenting information.\n\n3. **EXCHANGE_ORDER**: The assistant suggests exchanging the 'Action Camera' for a different variant, which involves procedural steps as the user decides on the modifications.\n\nOverall, the conversation is both procedural and declarative because it involves both step-by-step actions and information retrieval."
+  },
+  {
+    "Task id": 37,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: \n1. SHOW_INFO: The user requests information about the most expensive item in their order and its price. This task is declarative as the assistant provides the information based on the user's request.\n2. CANCEL_ORDER: The user inquires about canceling the most expensive item, which leads to a discussion about canceling the entire order. This is procedural as it involves a decision-making process and potential action.\n3. MODIFY_ORDER: The user requests to switch all items to their cheapest options to reduce the cost. This is procedural as it involves a step-by-step modification of the order based on the user's instructions.\n\nOverall, the conversation is both procedural and declarative because it includes both information retrieval and action-oriented tasks."
+  },
+  {
+    "Task id": 38,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ORDER and CANCEL_ORDER. The MODIFY_ORDER task is procedural as the user is attempting to change the payment method, and the assistant is following the user's instructions to modify the order, even though the request to split the payment cannot be fulfilled. The CANCEL_ORDER task is also procedural because the user is instructing the assistant to cancel a specific item from the order, and the assistant is executing this task based on the user's confirmation and reason for cancellation. Additionally, there is a declarative aspect when the user requests information about the most expensive item in the order, which the assistant provides. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 39,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: \n1. MODIFY_ADDRESS: The user wants to update their address from Florida to Phoenix. This task is procedural as it involves step-by-step actions to verify the user's identity and update the address.\n2. SHOW_INFO: The user requests information about the least expensive t-shirt available. This task is declarative as the user is seeking information, and the assistant provides it based on the available data.\n\nSince there are multiple tasks, the overall conversation is procedural. However, the SHOW_INFO task is declarative because it involves the assistant providing information without requiring step-by-step instructions from the user. Therefore, the conversation is categorized as both procedural and declarative."
+  },
+  {
+    "Task id": 40,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes multiple tasks: \n1. SHOW_INFO: The user requests information about the balance on their gift card and the payment method used for a recent order. These tasks are declarative as the user is seeking information and the assistant provides it based on the system's data.\n2. MODIFY_ORDER: The user requests to apply the gift card balance to an existing order and change the remaining payment method to a Visa card. This task is procedural as it involves a step-by-step process where the assistant follows the user's instructions to modify the order.\n\nSince the conversation involves both information retrieval (declarative) and a step-by-step modification process (procedural), it is categorized as both procedural and declarative."
+  },
+  {
+    "Task id": 41,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER and MODIFY_ADDRESS. The EXCHANGE_ORDER task is procedural as it involves a step-by-step process where the user requests an exchange, provides necessary information, and confirms the exchange. The assistant follows the user's instructions to complete the exchange. The MODIFY_ADDRESS task is also procedural as the user provides the correct address, and the assistant updates it accordingly. Additionally, there is a declarative aspect when the user requests information about the easiest jigsaw puzzle, and the assistant provides the details, which involves the assistant thinking and providing information. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 42,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: \n1. MODIFY_ADDRESS: The user requests to update the address for their orders. This task is procedural as the user provides specific instructions and the assistant follows them to update the address.\n2. SHOW_INFO: The user asks for the status of the jigsaw puzzle in a specific order. This task is declarative as the user is requesting information and the assistant provides it.\n3. MODIFY_ORDER: The user attempts to change the jigsaw puzzle to an easier level. This task is procedural as the user provides instructions for the modification, but it also involves declarative elements as the assistant checks availability and informs the user about the status.\n\nOverall, the conversation is both procedural and declarative as it involves step-by-step actions and information requests."
+  },
+  {
+    "Task id": 43,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks. The first task is SHOW_INFO, where the user asks for information about the order status, which is declarative as the assistant provides the information based on the user's account details. The second task is MODIFY_ADDRESS, where the user requests to change the default address to his daughter's address in Chicago. This task is procedural as it involves a step-by-step action where the assistant confirms the details and updates the address. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 44,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks. The primary task is EXCHANGE_ORDER, where the user wants to exchange the Desk Lamp in their order. This task is procedural because the user and assistant go through a step-by-step process to complete the exchange, including providing order details, selecting a new product, and confirming the exchange. Additionally, there is a SHOW_INFO task when the user asks for the price difference to be refunded to the gift card, which is declarative as the assistant provides the information about the price difference and refund amount. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 45,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves both procedural and declarative elements. \n\nProcedural: The user is engaging in a step-by-step process to exchange a product, which involves providing information, confirming details, and making decisions about the exchange and refund method. The assistant follows these steps to complete the exchange process, making it procedural.\n\nDeclarative: The user requests information about the availability of a bagless version of the canister vacuum cleaner and the price difference. The assistant provides this information, which involves understanding and processing the user's request, making this part of the conversation declarative. Additionally, the assistant informs the user about the refund process and the lack of an existing gift card, which are declarative elements as they involve providing information and clarifications."
+  },
+  {
+    "Task id": 46,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: RETURN_ORDER and SHOW_INFO. \n\n1. RETURN_ORDER: The user is requesting to return an air purifier and a vacuum cleaner. The assistant follows a step-by-step process to authenticate the user, confirm the order details, and process the return. This task is procedural as it involves a sequence of actions that the assistant follows based on the user's instructions.\n\n2. SHOW_INFO: The user requests information about the total amount paid for the remaining items in the order. The assistant provides this information, which is declarative as it involves retrieving and presenting information without a step-by-step process.\n\nSince the conversation involves both procedural actions (returning items) and declarative actions (providing information), it is categorized as both procedural and declarative."
+  },
+  {
+    "Task id": 47,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: RETURN_ORDER and SHOW_INFO. \n\n1. RETURN_ORDER: The user is requesting to return two items from their order. The assistant follows a step-by-step process to authenticate the user, locate the order, and process the return. This task is procedural as it involves a series of actions that the assistant performs based on the user's instructions and confirmations.\n\n2. SHOW_INFO: The user asks for the total amount paid for the remaining items in the order. The assistant provides this information, which is a declarative task as it involves retrieving and presenting information to the user.\n\nSince the conversation includes both procedural and declarative elements, it is categorized as both."
+  },
+  {
+    "Task id": 48,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: RETURN_ORDER and SHOW_INFO. \n\n1. RETURN_ORDER: The user is trying to return an air purifier and possibly a vacuum cleaner. The assistant guides the user through the steps needed to initiate the return process, such as providing an email address, name, zip code, and order ID. This task is procedural because it involves a step-by-step process that the user and assistant follow to complete the return.\n\n2. SHOW_INFO: The user asks if the refund can be processed to the original payment method and if they are eligible to return the vacuum cleaner. The assistant provides information about the refund process and checks eligibility for the return. This task is declarative because the user is requesting information, and the assistant provides the necessary details without requiring further action from the user.\n\nOverall, the conversation is both procedural and declarative because it involves both step-by-step actions and information exchange."
+  },
+  {
+    "Task id": 49,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: EXCHANGE_ORDER and SHOW_INFO.\n\n1. EXCHANGE_ORDER: The user wants to exchange the Wireless Earbuds with an IPX7 water resistance level for a different model. This task is procedural because it involves a step-by-step process where the assistant follows the user's instructions to authenticate the user, gather necessary details, and process the exchange.\n\n2. SHOW_INFO: The user requests information about the order details to identify the cheapest model for exchange. This task is declarative because the assistant provides information about the order and item details, which involves retrieving and presenting data without further user instructions.\n\nSince the conversation includes both procedural and declarative elements, it is categorized as both."
+  },
+  {
+    "Task id": 50,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The conversation involves the user attempting to undo a cancelled order, which falls under the CANCEL_ORDER task. The user is seeking information and assistance regarding the possibility of reinstating a cancelled order. The assistant provides information about the policy that cancelled orders cannot be reinstated and suggests placing a new order. The user also requests escalation to a human agent for further assistance. The conversation is declarative because the user is primarily seeking information and clarification about the company's policies and procedures, and the assistant is providing explanations and information rather than following step-by-step instructions from the user. There is no procedural aspect as there are no step-by-step actions being performed by the assistant based on user instructions."
+  },
+  {
+    "Task id": 51,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks, primarily focused on returning an order, which is a procedural task. The user is guided through the steps necessary to authenticate their identity, locate the correct order ID, and confirm the return process. These steps are procedural as they involve a sequence of actions that the assistant helps the user complete. Additionally, there is a declarative aspect when the user requests information about their orders and the assistant provides details about the order containing the digital camera. This part of the conversation is declarative because the user is seeking information, and the assistant is providing it based on the system's data. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 52,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER and SHOW_INFO. The EXCHANGE_ORDER task is procedural as it involves a step-by-step process where the assistant follows the user's instructions to authenticate identity, retrieve order details, and process the exchange. The SHOW_INFO task is declarative as the user requests information about available camera options and the assistant provides this information based on the user's requirements. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 53,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: RETURN_ORDER and SHOW_INFO. \n\n1. RETURN_ORDER: The user wants to return a damaged bicycle and get a refund. The assistant guides the user through the return process, which involves authenticating the user's identity, retrieving order details, and confirming the return and refund method. This task is procedural as it involves step-by-step actions to initiate the return process.\n\n2. SHOW_INFO: The user does not have the order ID, so the assistant retrieves and provides the order details. This task is declarative as it involves the assistant providing information to the user.\n\nSince the conversation includes both procedural steps (for the return process) and declarative elements (providing order information), it is categorized as both Procedural and Declarative."
+  },
+  {
+    "Task id": 54,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: CANCEL_ORDER, RETURN_ORDER, and EXCHANGE_ORDER. \n\n1. CANCEL_ORDER: The user requests to cancel pending orders, and the assistant follows a step-by-step process to authenticate the user, confirm the orders to be cancelled, and process the cancellation. This is procedural as it involves a sequence of actions.\n\n2. RETURN_ORDER: The user requests to return delivered orders, and the assistant processes the return requests and provides information about the refund. This is procedural as it involves a sequence of actions to complete the return process.\n\n3. EXCHANGE_ORDER: The user inquires about exchanging boots for a cheaper option. The assistant provides information about the possibility of exchange and checks for available options. This task is both procedural (as it involves checking and potentially processing an exchange) and declarative (as it involves providing information about available options).\n\nOverall, the conversation is both procedural and declarative because it involves executing specific actions (procedural) and providing information (declarative)."
+  },
+  {
+    "Task id": 55,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: CANCEL_ORDER, RETURN_ORDER, and SHOW_INFO. \n\n1. **SHOW_INFO**: The user requests information about their orders, and the assistant retrieves and provides details about the user's recent orders and the specific order items. This task is declarative as the user is seeking information and the assistant is providing it based on the user's account details.\n\n2. **RETURN_ORDER**: The user decides to return specific items from an order. The assistant follows a step-by-step process to initiate the return, which involves confirming the items and processing the return request. This task is procedural as it involves a series of actions that the assistant performs based on the user's instructions.\n\nOverall, the conversation is both procedural and declarative because it involves retrieving information (declarative) and performing actions based on user instructions (procedural)."
+  },
+  {
+    "Task id": 56,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The task in this conversation is to check the delivery status of an order, which falls under the SHOW_INFO category. The user is requesting information about the arrival of their air purifier, and the assistant provides this information by checking the order details. This is a declarative task because the user is seeking information and the assistant is providing it based on the data available, without any step-by-step instructions or actions being performed by the user. Therefore, the conversation is categorized as Declarative."
+  },
+  {
+    "Task id": 57,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: SHOW_INFO and CANCEL_ORDER. \n\n1. SHOW_INFO: The user initially requests information about the status of their order. This task is Declarative because the user is seeking information, and the assistant provides the status of the order based on the user's request.\n\n2. CANCEL_ORDER: The user then expresses a desire to cancel an item from the order. This task is Procedural because it involves a step-by-step process where the assistant guides the user through the options available for modifying or canceling the order. The user decides not to proceed with the cancellation after receiving information about the process.\n\nOverall, the conversation is both Procedural and Declarative because it includes both information retrieval and a guided process for order cancellation."
+  },
+  {
+    "Task id": 58,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ORDER and EXCHANGE_ORDER. The user is requesting to modify and exchange items from an order, which involves procedural steps such as authenticating identity, retrieving order details, and selecting new items for exchange. These steps are procedural as they require a sequence of actions to be completed by the assistant based on the user's instructions.\n\nAdditionally, the conversation includes declarative elements where the user is requesting information about available options for exchange and the assistant provides this information. The assistant also informs the user about the successful request for exchange and the price difference, which are declarative tasks as they involve providing information and confirming actions.\n\nTherefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 59,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: SHOW_INFO, CANCEL_ORDER, and MODIFY_ADDRESS. \n\n1. **SHOW_INFO**: The user requests the status of two orders, which is a request for information. This task is declarative as the assistant provides the information based on the user's request.\n\n2. **CANCEL_ORDER**: The user decides to cancel order #W8268610 due to it being \"no longer needed.\" The assistant follows the user's instructions to cancel the order and provides refund details. This task is procedural as it involves a step-by-step action initiated by the user.\n\n3. **MODIFY_ADDRESS**: The user requests to update the shipping address for order #W2702727. The assistant confirms the new address and updates it as per the user's instructions. This task is procedural as it involves a step-by-step action initiated by the user.\n\nOverall, the conversation is both procedural and declarative because it involves both the retrieval of information and the execution of specific actions based on the user's instructions."
+  },
+  {
+    "Task id": 60,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves both procedural and declarative elements. \n\nProcedural: The user is guiding the assistant through a series of steps to modify the order, specifically changing the color of the wireless earbuds. The assistant follows these instructions by authenticating the user, confirming order details, and making the requested changes. This step-by-step process of modifying the order is procedural.\n\nDeclarative: The user requests information about the price difference and available options for the earbuds in blue. The assistant provides detailed information about the different options and their prices, which is a declarative task as it involves the assistant providing information and the user making a decision based on that information."
+  },
+  {
+    "Task id": 61,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: MODIFY_ORDER and SHOW_INFO. \n\n1. MODIFY_ORDER: The user wants to change the color of the wireless earbuds in their recent order. This task is procedural as it involves a step-by-step process where the assistant follows the user's instructions to authenticate the user, locate the order, and modify the order details. The user provides necessary information, and the assistant executes the modification based on the user's confirmation.\n\n2. SHOW_INFO: The user requests information about the price difference and available options for the blue earbuds. This task is declarative as the assistant provides information about the available options and their prices, allowing the user to make an informed decision.\n\nOverall, the conversation is both procedural and declarative because it involves executing a modification (procedural) and providing information (declarative)."
+  },
+  {
+    "Task id": 62,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: \n\n1. SHOW_INFO: The user requests information about the Bluetooth speaker they ordered, specifically its price and battery life. This task is Declarative as the user is seeking information and the assistant provides it based on the user's account details.\n\n2. CANCEL_ORDER: The user initially requests to cancel the Bluetooth speaker from their order. This task is Procedural as it involves a step-by-step action where the assistant follows the user's instructions to modify the order.\n\n3. SHOW_INFO: The user asks if there are any Bluetooth speakers available for less than $100. This is Declarative as the user is requesting information about available products.\n\n4. MODIFY_ORDER: The user decides to replace the Bluetooth speaker with a cheaper option. This task is Procedural as it involves modifying the order based on the user's instructions.\n\n5. SHOW_INFO: The user asks for confirmation of the total price of the updated order. This is Declarative as the user is requesting information about the updated order details.\n\nOverall, the conversation is both Procedural and Declarative because it involves both information requests and step-by-step actions to modify the order."
+  },
+  {
+    "Task id": 63,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks, making it procedural. The user first requests information about their order, specifically the price and battery life of a Bluetooth speaker they purchased, which is a SHOW_INFO task and declarative in nature. The assistant provides this information, which involves the agent thinking and retrieving data. \n\nNext, the user attempts to CANCEL_ORDER for the Bluetooth speaker, but the assistant informs them that only entire orders can be canceled, not individual items. This part is procedural as it involves a step-by-step process of understanding what can be done with the order.\n\nThe user then decides to MODIFY_ORDER by selecting a cheaper Bluetooth speaker from the options provided by the assistant. This involves procedural steps as the user confirms the item ID and provides a payment method for the refund, with the assistant following these instructions to modify the order.\n\nOverall, the conversation is both procedural, due to the step-by-step actions taken to modify the order, and declarative, due to the initial request for information about the order."
+  },
+  {
+    "Task id": 64,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks. The primary task is EXCHANGE_ORDER, where the user wants to exchange their camera for one with higher resolution and waterproof features. This task is procedural as it involves a step-by-step process where the assistant follows the user's instructions to authenticate identity, retrieve order details, and process the exchange. \n\nAdditionally, there is a SHOW_INFO task where the user requests information about available camera options within the same price range. This task is declarative as the assistant provides information based on the user's request, requiring the assistant to think and provide options.\n\nSince the conversation involves both procedural steps (EXCHANGE_ORDER) and declarative information retrieval (SHOW_INFO), it is categorized as both Procedural and Declarative."
+  },
+  {
+    "Task id": 65,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: EXCHANGE_ORDER and SHOW_INFO. \n\n1. EXCHANGE_ORDER: The user initially requests to exchange a bookshelf for a camera, which is not possible due to the policy of exchanging only within the same product type. The assistant provides procedural guidance on how to proceed with an exchange once the order is delivered, including authentication and payment method details. This part of the conversation is procedural as it involves step-by-step instructions and actions that need to be taken by the user.\n\n2. SHOW_INFO: The user requests help in finding the order ID using recent order history. The assistant provides the order ID and informs the user about the order status. This task is declarative as it involves the assistant providing information based on the user's request.\n\nOverall, the conversation is both procedural and declarative because it includes procedural steps for the exchange process and declarative information about the order status and ID."
+  },
+  {
+    "Task id": 66,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ORDER, SHOW_INFO, and CANCEL_ORDER. \n\n1. MODIFY_ORDER: The user initially wants to change an item in the order. This task is procedural as the assistant follows a step-by-step process to authenticate the user and identify the correct order.\n\n2. SHOW_INFO: The assistant retrieves and provides information about the user's orders. This task is declarative as the assistant is providing information based on the user's account details.\n\n3. CANCEL_ORDER: The user decides to cancel the order after learning that the modification is not possible. This task is procedural as the assistant follows a step-by-step process to confirm the cancellation details and execute the cancellation.\n\nOverall, the conversation is both procedural and declarative because it involves both step-by-step actions and information retrieval."
+  },
+  {
+    "Task id": 67,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The task in this conversation is to SHOW_INFO, specifically the payment details of the user's most recent order. The user is requesting information, and the assistant is providing it based on the user's input. The conversation involves the user providing identification details to retrieve information, which is a declarative task because the assistant is performing the thinking and information retrieval based on the user's request. There is no step-by-step action or instruction-following by the assistant, which would characterize a procedural task. Therefore, the conversation is categorized as Declarative."
+  },
+  {
+    "Task id": 68,
+    "procedural": "No",
+    "declarative": "Yes",
+    "reason": "The task in this conversation is to SHOW_INFO, specifically the payment information for the user's most recent order. The user is requesting information, and the assistant is retrieving and providing that information based on the user's input. This task is declarative because the user is not guiding the assistant through a series of steps but rather requesting specific information, which the assistant then provides. The assistant is doing the thinking and processing to retrieve the information, making it a declarative task."
+  },
+  {
+    "Task id": 69,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: RETURN_ORDER and CANCEL_ORDER. Initially, the user inquires about returning a laptop, which is a request for information on the return process, making it declarative. However, the conversation shifts to a cancellation process when the assistant identifies that the order is still pending. The cancellation process involves step-by-step actions where the assistant follows the user's instructions to cancel the order, making it procedural. Therefore, the conversation is both procedural and declarative as it involves both information retrieval and step-by-step actions."
+  },
+  {
+    "Task id": 70,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: EXCHANGE_ORDER and SHOW_INFO. \n\n1. EXCHANGE_ORDER: The user wants to exchange a helmet for a different size and color. This task is procedural because it involves a series of steps that the assistant follows to complete the exchange process, such as authenticating the user, retrieving order details, confirming the new size and color, and processing the payment difference.\n\n2. SHOW_INFO: The user requests information about the available helmet options (size, color, ventilation, and price). This task is declarative because the user is seeking information, and the assistant provides the necessary details without requiring further action from the user.\n\nSince the conversation involves both procedural steps (for the exchange) and declarative elements (providing information), it is categorized as both Procedural and Declarative."
+  },
+  {
+    "Task id": 71,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ORDER and MODIFY_ADDRESS. The user requests to modify the shipping address and item details of an order. The assistant follows a step-by-step process to authenticate the user, retrieve the order, and make the requested modifications, which makes it procedural. Additionally, the assistant provides information about the current order details, available options for modifications, and payment processing, which involves declarative elements as the assistant is providing information and options based on the user's requests. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 72,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ORDER and MODIFY_ADDRESS. The user is requesting to modify an order by changing the delivery address and adjusting the items. The assistant follows a step-by-step process to authenticate the user, retrieve order information, and make the requested modifications, which makes the conversation procedural. Additionally, the user requests information about recent orders and the assistant provides order details, which is declarative. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 73,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: RETURN_ORDER and SHOW_INFO. \n\n1. RETURN_ORDER: The user is seeking assistance to return items from a recent purchase. The assistant follows a step-by-step process to authenticate the user, retrieve order details, and initiate the return process. This task is procedural as it involves a series of actions that the assistant performs based on the user's instructions and confirmations.\n\n2. SHOW_INFO: The assistant retrieves and provides information about the user's recent order, including the order ID and the list of items. This task is declarative as it involves the assistant providing information to the user without requiring step-by-step instructions from the user.\n\nSince the conversation includes both procedural actions (returning items) and declarative actions (providing order information), it is categorized as both Procedural and Declarative."
+  },
+  {
+    "Task id": 74,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER and CANCEL_ORDER. The EXCHANGE_ORDER task is procedural because the user is guiding the assistant through the steps of exchanging the laptop, including specifying the new specifications and confirming the payment method for the refund. The assistant follows these instructions to complete the exchange. The CANCEL_ORDER task is also procedural as the user requests the cancellation of an order, and the assistant follows through by locating the order and confirming the cancellation. Additionally, the conversation includes declarative elements where the assistant provides information about the user's orders and confirms the details of the exchange and cancellation, which involves the assistant doing the thinking and providing information. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 75,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: EXCHANGE_ORDER and SHOW_INFO. \n\n1. EXCHANGE_ORDER: The user initiates a request to exchange a pair of wireless earbuds. The assistant follows a step-by-step process to authenticate the user, locate the order, confirm the details, and process the exchange. This task is procedural as it involves a series of actions that the assistant performs based on the user's instructions and confirmations.\n\n2. SHOW_INFO: The user does not have the order ID, so the assistant retrieves the order details based on the user's description of the product. This task is declarative as the user is requesting information, and the assistant is providing it based on the system's data.\n\nSince the conversation involves both procedural actions (exchange process) and declarative actions (retrieving and providing order information), it is categorized as both procedural and declarative."
+  },
+  {
+    "Task id": 76,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ORDER, CANCEL_ORDER, and SHOW_INFO. \n\n1. MODIFY_ORDER: The user requests to remove a fleece jacket from a pending order and attempts to modify a skateboard. The assistant follows the user's instructions to remove the jacket and checks the possibility of modifying the skateboard. This task is procedural as it involves step-by-step actions guided by the user.\n\n2. CANCEL_ORDER: The user decides to cancel an entire order due to unavailability of the desired skateboard option. The assistant follows the user's confirmation to cancel the order. This task is procedural as it involves a specific action based on user confirmation.\n\n3. SHOW_INFO: The user requests information about the total price for grills already paid for. The assistant provides this information. This task is declarative as it involves providing information based on the user's request.\n\nOverall, the conversation is both procedural and declarative as it involves both step-by-step actions and information retrieval."
+  },
+  {
+    "Task id": 77,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: SHOW_INFO and EXCHANGE_ORDER. \n\n1. SHOW_INFO: The user initially requests information about the largest size available for a perfume they like. The assistant provides detailed information about the product, including size, scent family, gender, and price. This task is declarative because the user is seeking information, and the assistant is providing it based on the user's request.\n\n2. EXCHANGE_ORDER: The user decides to exchange their current 30ml perfume for the 100ml size. The assistant explains the exchange process, including the price difference and refund details. This task is procedural because it involves a step-by-step process to complete the exchange, and the assistant is following the user's decision to proceed with the exchange.\n\nOverall, the conversation is both procedural and declarative because it includes both information retrieval and a step-by-step process for exchanging the order."
+  },
+  {
+    "Task id": 78,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ADDRESS, EXCHANGE_ORDER, MODIFY_ORDER, and CANCEL_ORDER. \n\n1. MODIFY_ADDRESS: The user requests to change the address for order #W5056519. This task is procedural as the assistant follows the user's instructions to update the address.\n\n2. EXCHANGE_ORDER: The user initially requests an exchange for an item in the order, but due to the order status, it turns into a MODIFY_ORDER task. This is procedural as the assistant follows the user's instructions to modify the item and handle the price difference.\n\n3. CANCEL_ORDER: The user requests to cancel order #W5995614. This is procedural as the assistant follows the user's confirmation to cancel the order and process the refund.\n\nThe conversation is both procedural and declarative because while the tasks involve procedural actions, the assistant also provides information about the order status and price differences, which are declarative elements."
+  },
+  {
+    "Task id": 79,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: MODIFY_ORDER and SHOW_INFO. \n\n1. MODIFY_ORDER: The user wants to change the 500ml water bottle to a different 1000ml bottle. This task is procedural because the assistant follows a step-by-step process to authenticate the user, check the order status, provide options for modification, and confirm the changes with the user.\n\n2. SHOW_INFO: The assistant provides information about the current order status and available options for the 1000ml water bottle. This task is declarative as the assistant is providing information and options based on the user's request.\n\nSince the conversation involves both procedural steps (modifying the order) and declarative elements (providing information about the order and options), it is categorized as both procedural and declarative."
+  },
+  {
+    "Task id": 80,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: \n1. SHOW_INFO: The user initially seeks information about their T-shirt order, which is a declarative task as the assistant retrieves and provides order details.\n2. EXCHANGE_ORDER: The user decides to exchange the T-shirt for a different one, which involves procedural steps as the assistant follows the user's instructions to complete the exchange process.\n3. SHOW_INFO: The user asks about the duration of the exchange process, which is declarative as the assistant provides information about the timeline.\n\nSince the conversation includes both procedural tasks (EXCHANGE_ORDER) and declarative tasks (SHOW_INFO), it is categorized as both procedural and declarative."
+  },
+  {
+    "Task id": 81,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ORDER and CANCEL_ORDER. The MODIFY_ORDER task is procedural as the user is attempting to make changes to an order by removing specific items, and the assistant follows the user's instructions to locate the order and identify the items. The CANCEL_ORDER task is also procedural as the user decides to cancel the entire order when the modification is not possible, and the assistant follows the user's instructions to cancel the order and process the refund. Additionally, the conversation includes declarative elements as the user requests information about the order and the assistant provides details about the order items and the cancellation process. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 82,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: RETURN_ORDER and SHOW_INFO. \n\n1. RETURN_ORDER: The user wants to return the more expensive tablet and get a refund. This task is procedural because the user and the assistant go through a step-by-step process to authenticate the user, identify the correct order, and process the return. The assistant follows the user's instructions to complete the return process.\n\n2. SHOW_INFO: The user does not have the order ID, so the assistant retrieves and provides information about the user's recent orders. This task is declarative because the user is requesting information, and the assistant provides it without requiring further action from the user.\n\nOverall, the conversation is both procedural and declarative because it involves both step-by-step actions and information retrieval."
+  },
+  {
+    "Task id": 83,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves both procedural and declarative elements. The task identified is RETURN_ORDER. \n\nProcedural: The user is guided through a step-by-step process to return the tablet. The assistant follows a series of steps to authenticate the user, find the order, and process the return. This involves the user providing information and confirming details, which makes it procedural.\n\nDeclarative: The user is also seeking information about whether they can return the pricier tablet and get a refund on their credit card. The assistant provides this information, confirming the details of the order and the refund process, which is declarative as it involves the assistant providing information and confirmation based on the user's request."
+  },
+  {
+    "Task id": 84,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: RETURN_ORDER and SHOW_INFO. \n\n1. RETURN_ORDER: The user initially wants to return the cheaper tablet and get a refund to their credit card. The assistant follows a step-by-step process to authenticate the user and identify the correct order and item for return. This task is procedural as it involves a sequence of actions to complete the return process.\n\n2. SHOW_INFO: The user does not have the order details handy, so the assistant provides information about the user's orders, including order IDs, item IDs, and prices. This task is declarative as it involves the assistant providing information to the user.\n\nOverall, the conversation is both procedural and declarative because it involves both executing a process (returning an item) and providing information (order details)."
+  },
+  {
+    "Task id": 85,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER and MODIFY_ORDER. Initially, the user wants to exchange a fleece jacket, but since the order is pending, the assistant suggests modifying the order instead. The user agrees to modify the order, which involves changing the item options. This part of the conversation is procedural as it involves step-by-step actions to modify the order, with the assistant following the user's instructions. Additionally, the assistant retrieves order information for the user, which is a declarative task as it involves providing information to the user. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 86,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER, MODIFY_ORDER, and MODIFY_ADDRESS. \n\n1. **EXCHANGE_ORDER**: The user initially wants to exchange the Fleece Jacket. This task is procedural as it involves a step-by-step process where the assistant follows the user's instructions to authenticate identity and retrieve order details.\n\n2. **MODIFY_ORDER**: The user decides to modify the order instead of exchanging it. This task is also procedural as it involves confirming new item options and processing the modification, which the assistant executes based on the user's confirmation.\n\n3. **MODIFY_ADDRESS**: The user requests to change the default address. This task is declarative because the user is seeking information about how to change the address and the assistant provides information about the limitations and requirements for modifying the address.\n\nOverall, the conversation is both procedural and declarative because it involves procedural steps for modifying the order and declarative elements when discussing the address modification."
+  },
+  {
+    "Task id": 87,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: MODIFY_ADDRESS for pending orders and MODIFY_ADDRESS for the default address. The first task involves the user requesting to update the address for all pending orders, which is a procedural task as the assistant follows the user's instructions to make the changes. The second task is also procedural as the user requests to update the default address, and the assistant follows through with the update. Additionally, there is a declarative aspect as the user initially seeks information about their orders, and the assistant provides details about the pending orders, which involves the assistant processing and providing information. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 88,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ORDER and CANCEL_ORDER. \n\n1. MODIFY_ORDER: The user initially wants to modify the order to change the height of the bookshelf. This task involves procedural elements as the assistant follows a step-by-step process to authenticate the user, retrieve order details, and discuss available options for modification. The assistant is following the user's instructions and providing options, making it procedural.\n\n2. SHOW_INFO: The user requests information about the orders to identify which one contains the bookshelf. This is declarative as the assistant retrieves and provides the information without requiring further action from the user.\n\n3. CANCEL_ORDER: The user decides to cancel the order after learning about the unavailability of the desired product. This task is procedural as the assistant follows a step-by-step process to confirm the cancellation and refund the amount.\n\nOverall, the conversation is both procedural and declarative because it involves procedural steps for modifying and canceling the order, and declarative steps for retrieving and providing order information."
+  },
+  {
+    "Task id": 89,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: \n\n1. **SHOW_INFO**: The user initially requests information about the cheapest mechanical keyboard available under $200. This task is declarative as the user is seeking information and the assistant is providing it based on the user's profile and order history.\n\n2. **RETURN_ORDER**: The user decides to return the mechanical keyboard after finding out it is not under $200. This task is procedural as it involves a step-by-step process where the assistant guides the user through confirming details and processing the return.\n\nSince the conversation includes both a request for information (declarative) and a step-by-step process for returning an order (procedural), it is categorized as both procedural and declarative."
+  },
+  {
+    "Task id": 90,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: SHOW_INFO, MODIFY_ORDER, and CANCEL_ORDER. \n\n1. SHOW_INFO: The user asks for information about the camera's zoom feature, which is a request for information, making it a Declarative task.\n\n2. MODIFY_ORDER: The user inquires about modifying the order to include a 10x zoom. This involves checking availability and price, which is also a request for information, making it Declarative.\n\n3. CANCEL_ORDER: The user decides to cancel the order. The assistant follows a step-by-step process to confirm details and proceed with the cancellation, making it Procedural.\n\nSince the conversation includes both requests for information and step-by-step actions, it is categorized as both Procedural and Declarative."
+  },
+  {
+    "Task id": 91,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks, primarily focused on returning items and processing refunds, which are procedural in nature. The user is guided through a step-by-step process to authenticate their identity, confirm order details, and finalize the return request. This makes the conversation procedural as the assistant follows a structured process to complete the user's request. Additionally, the conversation includes declarative elements where the user requests information about available exchange options for the items, and the assistant provides a list of available products. This exchange of information is declarative as it involves the assistant providing information based on the user's request. Therefore, the conversation is categorized as both procedural and declarative."
+  },
+  {
+    "Task id": 92,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks, primarily focused on returning items and processing a refund, which makes it procedural. The user is actively engaging in a step-by-step process to return items, and the assistant is following these instructions to complete the task. This includes authenticating the user's identity, locating the order details, and confirming the items to be returned. \n\nAdditionally, the conversation includes declarative elements, as the user is requesting information about their orders and the assistant is providing details about the order status and item IDs. The assistant is also confirming the user's request for a refund to a specific credit card, which involves understanding and processing the user's request based on the information provided. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 93,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: EXCHANGE_ORDER and SHOW_INFO. \n\n1. EXCHANGE_ORDER: The user wants to exchange a laptop for one with specific specifications. This task is procedural because it involves a step-by-step process where the assistant guides the user through the necessary steps, such as providing authentication details and the order ID, to initiate the exchange.\n\n2. SHOW_INFO: The user is asked to provide specifications for the new laptop, which is a request for information. This task is declarative as the assistant is gathering information to assist in the exchange process.\n\nOverall, the conversation is both procedural and declarative because it involves a step-by-step process for the exchange and a request for information regarding the specifications of the new laptop."
+  },
+  {
+    "Task id": 94,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: EXCHANGE_ORDER and SHOW_INFO. \n\n1. EXCHANGE_ORDER: The user initiates a request to exchange a laptop for a different configuration. The assistant follows a step-by-step process to authenticate the user, retrieve order details, confirm the exchange details, and process the exchange. This task is procedural as it involves a series of actions and confirmations to complete the exchange.\n\n2. SHOW_INFO: The assistant retrieves and provides the order ID and details of the available laptop configuration to the user. This task is declarative as it involves providing information to the user based on the assistant's retrieval of data.\n\nSince the conversation includes both procedural steps (for the exchange) and declarative information (order details and configuration), it is categorized as both Procedural and Declarative."
+  },
+  {
+    "Task id": 95,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER and SHOW_INFO. The EXCHANGE_ORDER task is procedural as it involves a step-by-step process where the user provides information, and the assistant follows these instructions to process the exchange. The SHOW_INFO task is declarative as the user requests information about their order and the assistant retrieves and provides this information without further instructions from the user. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 96,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves both procedural and declarative elements. \n\nProcedural: The user is attempting to exchange a laptop for a different model, which involves a step-by-step process that the assistant is guiding the user through. This includes authenticating the user's identity, obtaining the order ID, and determining the exchange options and price difference. The assistant provides instructions on how to proceed with the exchange, making it procedural.\n\nDeclarative: The user is also seeking information about the exchange options and the potential cost difference, which the assistant provides. The assistant explains the policy regarding exchanges and the requirements for proceeding, which are declarative elements as they involve providing information and clarifying the process.\n\nOverall, the conversation is both procedural, due to the step-by-step guidance for the exchange process, and declarative, due to the information provided about exchange policies and options."
+  },
+  {
+    "Task id": 97,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation includes two main tasks: MODIFY_ADDRESS and EXCHANGE_ORDER. \n\n1. MODIFY_ADDRESS: The user requests to change the delivery address for a pending order. The assistant follows a step-by-step process to authenticate the user, locate the order, and update the address. This task is procedural as it involves a series of actions and confirmations to complete the address change.\n\n2. EXCHANGE_ORDER: The user wants to exchange a Bluetooth Speaker for a different version. The assistant provides information about the available product and the price difference, which is declarative as it involves providing information. However, the exchange cannot be completed because the order is still pending, which is a procedural limitation. \n\nOverall, the conversation is both procedural and declarative because it involves procedural steps to modify the address and declarative information about the exchange process and product details."
+  },
+  {
+    "Task id": 98,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER, MODIFY_ADDRESS, and SHOW_INFO. \n\n1. **EXCHANGE_ORDER**: The user requests to exchange a Bluetooth Speaker for a cheaper green one. The assistant follows a step-by-step process to check the order details and available options, making this task procedural.\n\n2. **MODIFY_ADDRESS**: The user requests to change the delivery address. The assistant attempts to modify the address but encounters an issue due to the order status. The assistant provides guidance on how to proceed, making this task procedural as it involves a step-by-step action.\n\n3. **SHOW_INFO**: The assistant retrieves and provides information about the user's order and the available options for the Bluetooth Speaker. This task is declarative as it involves providing information to the user.\n\nOverall, the conversation is both procedural and declarative because it involves step-by-step actions for modifying the order and address, as well as providing information about the order and product options."
+  },
+  {
+    "Task id": 99,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER for a bicycle, jigsaw puzzle, and camera, and CANCEL_ORDER for a skateboard. The user is also requesting information about the possibility of using a different payment method for refunds. \n\n1. EXCHANGE_ORDER: The user wants to exchange a bicycle, jigsaw puzzle, and camera. This task is procedural as it involves a step-by-step process where the user needs to provide an order ID and specific preferences for the exchange.\n\n2. CANCEL_ORDER: The user wants to cancel a skateboard order. This task is procedural as it involves a process where the user needs to provide an order ID to proceed with the cancellation.\n\n3. The user is also inquiring about using a different payment method for refunds, which is declarative as it involves the agent providing information or confirming the possibility of this request.\n\nOverall, the conversation is both procedural and declarative because it involves procedural tasks (exchanges and cancellation) and declarative elements (information about payment adjustments)."
+  },
+  {
+    "Task id": 100,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER and CANCEL_ORDER. \n\n1. **EXCHANGE_ORDER**: The user requests to exchange two items (a bicycle and a jigsaw puzzle) and provides specific details for the exchange. The assistant follows a step-by-step process to authenticate the user, retrieve order details, and confirm the new options for the exchange. This task is procedural as it involves a sequence of actions to complete the exchange.\n\n2. **CANCEL_ORDER**: The user inquires about canceling a skateboard order. The assistant provides information about the order status and asks for a reason for cancellation. The user decides to handle the cancellation themselves. This task is declarative as it involves providing information and making a decision based on that information.\n\nOverall, the conversation is both procedural and declarative because it involves procedural steps for the exchange and declarative information for the cancellation."
+  },
+  {
+    "Task id": 101,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER, MODIFY_ORDER, and RETURN ORDER. The user is requesting to exchange a luggage set for a different color, modify a skateboard order, and return hiking boots. The assistant follows a step-by-step process to authenticate the user, retrieve order details, and confirm modifications and returns, making it procedural. Additionally, the assistant provides information about the user's order details and payment methods, which is declarative. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 102,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ADDRESS, EXCHANGE_ORDER, and SHOW_INFO. \n\n1. MODIFY_ADDRESS: The user requests to change the delivery address for an order. This task is procedural as the assistant follows the user's instructions to update the address.\n\n2. EXCHANGE_ORDER: The user requests to exchange a wristwatch and an air purifier. These tasks are procedural because the assistant follows the user's instructions to process the exchanges, including confirming details and handling payment differences.\n\n3. SHOW_INFO: The user asks for information about the orders and available products. This task is declarative as the assistant provides information about the orders and available products, which involves retrieving and presenting data.\n\nOverall, the conversation is both procedural and declarative because it involves executing specific actions based on user instructions (procedural) and providing information (declarative)."
+  },
+  {
+    "Task id": 103,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ADDRESS, MODIFY_ORDER, and EXCHANGE_ORDER. \n\n1. MODIFY_ADDRESS: The user requests to change the delivery address for an order. This task is procedural as it involves a step-by-step process where the assistant follows the user's instructions to authenticate the user and update the address.\n\n2. MODIFY_ORDER: The user requests to modify one of the watches in the order. This task is procedural as it involves the assistant following the user's instructions to change the item and process a refund.\n\n3. EXCHANGE_ORDER: The user requests to exchange an air purifier for a larger size with additional features. This task is procedural as it involves the assistant following the user's instructions to find a suitable replacement and process the exchange.\n\nThe conversation is also declarative because the user requests information about the address and the assistant provides it, and the assistant provides information about the price differences and refund amounts. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 104,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: CANCEL_ORDER, RETURN_ORDER, MODIFY_ADDRESS, and MODIFY_ORDER. \n\n1. CANCEL_ORDER: The user initially wants to cancel items from an order, but it turns out the order has already been delivered, so the task shifts to RETURN_ORDER. This task is procedural as it involves step-by-step actions to attempt cancellation and then proceed with a return.\n\n2. RETURN_ORDER: The user decides to return the bookshelf and jigsaw. This task is procedural as it involves specific steps to confirm the return and refund method.\n\n3. MODIFY_ADDRESS: The user requests to change the shipping address of a pending order. This task is procedural as it involves specific steps to update the address.\n\n4. MODIFY_ORDER: The user requests to change the color of an item in the order. This task is procedural as it involves selecting from available options and confirming the change.\n\n5. SHOW_INFO: The user asks for a tracking number for the cancelled order, which is a declarative task as it involves providing information.\n\nOverall, the conversation is both procedural and declarative, as it involves executing specific actions (procedural) and providing information (declarative)."
+  },
+  {
+    "Task id": 105,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: CANCEL_ORDER, RETURN_ORDER, MODIFY_ORDER, and MODIFY_ADDRESS. \n\n1. **CANCEL_ORDER**: The user initially wants to cancel items from orders, but the assistant informs them that the items are part of delivered orders and cannot be canceled. This part involves procedural steps as the assistant follows a process to check the order status and inform the user.\n\n2. **RETURN_ORDER**: The user decides to return the items instead. The assistant follows a procedure to process the return, which involves confirming order details and processing the return request. This is procedural as it involves step-by-step actions.\n\n3. **MODIFY_ORDER**: The user requests to change the color of an item in a pending order. The assistant checks the availability and processes the modification, which involves procedural steps.\n\n4. **MODIFY_ADDRESS**: The user requests to change the delivery address for a pending order. The assistant attempts to process this but is unable to due to the order status. This involves procedural steps as the assistant follows a process to attempt the modification.\n\n5. **SHOW_INFO**: The user asks for tracking numbers for canceled orders, and the assistant provides information that tracking numbers are not available for canceled orders. This is declarative as it involves providing information.\n\nOverall, the conversation is both procedural and declarative because it involves procedural steps for processing returns and modifications, as well as declarative elements when providing information about tracking numbers and order statuses."
+  },
+  {
+    "Task id": 106,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: EXCHANGE_ORDER and SHOW_INFO. \n\n1. EXCHANGE_ORDER: The user is looking to exchange two tea kettles. The assistant follows a step-by-step process to authenticate the user, retrieve order details, and facilitate the exchange by finding suitable replacement items and confirming the user's choices. This task is procedural as it involves a series of actions and decisions made by the user with the assistant executing these steps.\n\n2. SHOW_INFO: The assistant retrieves and presents information about the user's recent orders and available replacement items. This task is declarative as it involves the assistant providing information based on the user's request.\n\nSince the conversation involves both procedural actions (exchange process) and declarative actions (information retrieval), it is categorized as both procedural and declarative."
+  },
+  {
+    "Task id": 107,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks, primarily focused on exchanging an order, which is a procedural task. The user provides information and follows steps to authenticate their identity and specify the details for the exchange, such as the order ID, item ID, and preferred size and color. The assistant follows these instructions to process the exchange, making it procedural.\n\nAdditionally, there is a declarative aspect when the user inquires about the available options for the T-shirt in black. The assistant provides information about the available sizes, styles, and prices, which is a declarative task as it involves providing information without requiring the user to perform any actions. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 108,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: EXCHANGE_ORDER for the hiking boots and EXCHANGE_ORDER for the jigsaw puzzle. \n\n1. **EXCHANGE_ORDER for Hiking Boots**: This task is procedural as the user is requesting an exchange, and the assistant follows a step-by-step process to authenticate the user, retrieve order details, and process the exchange. The user provides necessary information, and the assistant executes the steps without additional decision-making.\n\n2. **EXCHANGE_ORDER for Jigsaw Puzzle**: This task is also procedural for similar reasons. The user requests an exchange, and the assistant follows a structured process to retrieve order details and facilitate the exchange. The assistant also provides options based on availability, which involves some decision-making, making it partially declarative.\n\nOverall, the conversation is both procedural and declarative. It is procedural due to the structured steps followed for exchanges, and declarative because the assistant provides information about product availability and processes the exchanges based on the user's requests."
+  },
+  {
+    "Task id": 109,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves both procedural and declarative elements. \n\nProcedural: The user is engaging in a step-by-step process to return items from an order. The assistant follows the user's instructions to authenticate the user, locate the order, and process the return. This involves a series of actions that are procedural in nature, such as confirming the items to be returned and the refund method.\n\nDeclarative: The user is also seeking information about their order and the return process. The assistant provides information about the order details and confirms the items and refund method, which involves declarative elements as the assistant is providing information and confirming details based on the user's requests."
+  },
+  {
+    "Task id": 110,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ADDRESS, MODIFY_ORDER, and EXCHANGE_ORDER. \n\n1. MODIFY_ADDRESS: The user requests to update the shipping address for an order and also to update the default user address. This involves procedural steps where the assistant follows the user's instructions to update the address, making it procedural.\n\n2. SHOW_INFO: The user asks for the order ID, which is a request for information. The assistant provides the order ID and current address details, making this part declarative.\n\n3. EXCHANGE_ORDER: The user expresses a desire to exchange a tablet for a cheaper model. The assistant provides information about available models and price differences, which is declarative. However, the exchange process itself involves procedural steps, but it cannot be completed due to the order status, so it remains partially procedural.\n\nOverall, the conversation is both procedural and declarative due to the combination of information requests and procedural actions taken by the assistant."
+  },
+  {
+    "Task id": 111,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ADDRESS, EXCHANGE_ORDER, and MODIFY_ORDER. \n\n1. MODIFY_ADDRESS: The user wants to update the address for an order. This task is procedural as it involves a step-by-step process where the assistant follows the user's instructions to attempt to update the address. However, it also involves declarative elements as the assistant provides information about the current address and the inability to update without new details.\n\n2. EXCHANGE_ORDER: The user requests to exchange a tablet for a more affordable one. This task is procedural because it involves a series of steps to identify the new item and confirm the exchange. The assistant follows the user's instructions to proceed with the exchange.\n\n3. MODIFY_ORDER: When the exchange cannot be processed due to the order's pending status, the user requests to modify the order instead. This task is procedural as it involves changing the order details based on the user's instructions.\n\nOverall, the conversation is both procedural and declarative because it involves step-by-step actions (procedural) and information exchange (declarative)."
+  },
+  {
+    "Task id": 112,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ORDER, MODIFY_ADDRESS, and EXCHANGE_ORDER. \n\n1. MODIFY_ORDER: The user requests changes to the laptop's specifications. This is procedural as the user specifies the changes, and the assistant follows through with the modifications.\n\n2. MODIFY_ADDRESS: The user requests an update to the shipping address for the laptop order. This is procedural as the user provides the new address, and the assistant updates it accordingly.\n\n3. EXCHANGE_ORDER: The user requests to exchange a watch for one with a black dial. This is procedural as the user specifies the desired change, and the assistant checks availability and provides options.\n\nThe conversation is both procedural and declarative because it involves procedural steps for modifying orders and addresses, and declarative elements where the assistant provides information about the order status, availability of items, and refund details."
+  },
+  {
+    "Task id": 113,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves multiple tasks: MODIFY_ORDER, MODIFY_ADDRESS, and EXCHANGE_ORDER. \n\n1. MODIFY_ORDER: The user requests to modify the laptop model in their order. This is procedural as the assistant follows the user's instructions to make the change.\n\n2. MODIFY_ADDRESS: The user requests to change the delivery address for their laptop order. This is procedural as the assistant follows the user's instructions to update the address.\n\n3. EXCHANGE_ORDER: The user requests to exchange the watch for one with a black dial. This is procedural as the assistant follows the user's instructions to make the exchange.\n\nAdditionally, the conversation includes declarative elements where the assistant provides information about the order status and the implications of making modifications, which involves the assistant providing information and guidance based on the system's rules. Therefore, the conversation is both procedural and declarative."
+  },
+  {
+    "Task id": 114,
+    "procedural": "Yes",
+    "declarative": "Yes",
+    "reason": "The conversation involves two main tasks: CANCEL_ORDER and SHOW_INFO. \n\n1. CANCEL_ORDER: The user requests to cancel all pending orders. The assistant follows a step-by-step process to authenticate the user, identify the pending orders, and confirm the cancellation. This task is procedural as it involves a sequence of actions that the assistant performs based on the user's instructions.\n\n2. SHOW_INFO: The assistant provides information about the pending orders, including order IDs, items, and total amounts. This task is declarative as it involves the assistant retrieving and presenting information to the user.\n\nSince the conversation involves both procedural actions (cancelling orders) and declarative actions (providing order information), it is categorized as both procedural and declarative."
+  }
+]

@@ -67,8 +67,8 @@ def main(model_name, N, traj_file_path):
         traj_type = "flight"
     elif "retail" in traj_file.lower():
         traj_type = "retail"
-    tasks = read_n_tasks(traj_file_path, 115)
-    output_json_path = f"categorized_tasks-{traj_file}.json"
+    tasks = read_n_tasks(traj_file_path, N)
+    output_json_path = f"categorized_tasks-{model_name}-{traj_file}.json"
     # Load already categorized task ids
     if os.path.exists(output_json_path):
         with open(output_json_path, 'r', encoding='utf-8') as f:
@@ -125,5 +125,4 @@ if __name__ == '__main__':
     parser.add_argument("--N", type=int, default=115, help="Number of tasks to read (default: 115).")
     args = parser.parse_args()
 
-    main(args.model, args.N, args.trajectory_file_path)
     main(args.model, args.N, args.trajectory_file_path)

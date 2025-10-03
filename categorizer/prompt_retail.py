@@ -20,6 +20,7 @@ Some rules:
 2.1 If the user is trying to do a step-by-step action, and agent is not thinking for himself, just following user instructions, then the sub-task is Procedural.
 2.2 If the user is trying to get some information, or stating some facts, or making a request for information, then the task is Declarative as all the thinking is done by the agent.
 
+First give the reasons, what all tasks is included in this conversation from the list I gave, then find whether it can be flagged as Procedural or Declarative or both. 
 
 """
 
