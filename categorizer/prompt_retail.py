@@ -8,7 +8,7 @@ You will be given the conversation between a user and an assistant. Your job is 
 In a single conversation between a user and agent, the user can have multiple tasks, and these tasks can be:
 CANCEL_ORDER
 MODIFY_ORDER.
-RETURN ORDER
+RETURN_ORDER
 EXCHANGE_ORDER
 MODIFY_ADDRESS
 SHOW_INFO (like profile, order, or products)

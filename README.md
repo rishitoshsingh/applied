@@ -8,18 +8,20 @@ cd applied
 
 pip install -r requirements.txt
 ```
-## creating categorizer/.env
-1. Put your keys in in categorizer/template.env
+
+## creating categorizer_new/.env
+
+1. Put your keys in in categorizer_new/template.env
 2. Rename it to .env
 
 ```bash
-mv categorizer/template.env categorizer/.env 
+mv categorizer_new/template.env categorizer_new/.env 
 ```
 
 ## Running the categorizer
 
 ```bash
-cd categorizer
+cd categorizer_new
 python app.py \
     --model gpt-4o \
     --trajectory_file_path ../tau-bench/historical_trajectories/gpt-4o-airline.json \
