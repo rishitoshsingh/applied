@@ -7,6 +7,7 @@
 import os
 from typing import Dict, List, Sequence
 
+from langchain_anthropic import ChatAnthropic
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.rate_limiters import InMemoryRateLimiter
 from langchain_core.runnables import RunnableSequence
@@ -21,19 +22,29 @@ rate_limiter = InMemoryRateLimiter(
 )
 
 llm = None
-if os.getenv("model_name") == "gemini-2.0-flash":    
+temperature = float(os.getenv("temperature"))
+if temperature is None:
+    temperature = 0.1
+if os.getenv("model_name").startswith("gemini"):
     llm = ChatGoogleGenerativeAI(
-            model="gemini-2.0-flash",
-            temperature=0.1,
+            model=os.getenv("model_name"),
+            temperature=temperature,
             max_tokens=None,
             timeout=None,
             max_retries=2,
             rate_limiter=rate_limiter,
         )
-elif os.getenv("model_name") == "gpt-4o":
+elif os.getenv("model_name").startswith("gpt"):
     llm = ChatOpenAI(
-            model_name="gpt-4o",
-            temperature=0.1,
+            model_name=os.getenv("model_name"),
+            temperature=temperature,
+            max_retries=2,
+            rate_limiter=rate_limiter,
+        )
+elif os.getenv("model_name").startswith("claude"):
+    llm = ChatAnthropic(
+            model_name=os.getenv("model_name"),
+            temperature=temperature,
             max_retries=2,
             rate_limiter=rate_limiter,
         )

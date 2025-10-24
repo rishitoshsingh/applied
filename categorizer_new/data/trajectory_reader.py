@@ -2,7 +2,7 @@ import json
 import os
 
 
-def read_n_tasks(file_path, n=10):
+def read_n_tasks(file_path, n=None):
     """
     Reads n tasks from the given trajectory JSON file and returns a list of dicts:
     [{"task_id": ..., "conversation": ...}, ...]
@@ -13,7 +13,18 @@ def read_n_tasks(file_path, n=10):
         raise FileNotFoundError(f"File not found: {file_path}")
     with open(file_path, 'r', encoding='utf-8') as f:
         tasks = json.load(f)
+    seen = set()
+    unique_tasks = []
+    for task in tasks:
+        tid = task.get('task_id')
+        if tid in seen:
+            continue
+        seen.add(tid)
+        unique_tasks.append(task)
+    tasks = unique_tasks
     output = []
+    if n is None:
+        n = len(tasks)
     for task in tasks[:n]:
         task_id = task.get('task_id', '')
         traj = task.get('traj', [])
@@ -30,5 +41,7 @@ def read_n_tasks(file_path, n=10):
 
 
 if __name__ == "__main__":
-    for t in read_n_tasks(file_path="/Users/rishitoshsingh/Documents/projects/applied/tau-bench/historical_trajectories/gpt-4o-retail.json",n=1):
-        print(f"Task ID: {t['task_id']}\n{t['conversation']}\n---")
+    # for t in read_n_tasks(file_path="/Users/rishitoshsingh/Documents/projects/applied/tau-bench/historical_trajectories/gpt-4o-retail.json"):
+    for t in read_n_tasks(file_path="/Users/rishitoshsingh/Documents/projects/applied/tau-bench/historical_trajectories/gpt-4o-airline.json"):
+        print(f"Task ID: {t['task_id']}")
+        # print(f"Task ID: {t['task_id']}\n{t['conversation']}\n---")

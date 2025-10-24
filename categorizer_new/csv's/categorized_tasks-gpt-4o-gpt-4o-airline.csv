@@ -1,4 +1,4 @@
-Task id,intent,conversation_segment,category
+Task id,intent,conversation_segment,reasoning,category
 0,BOOK,"User: Hi! I'm looking to book a flight from New York to Seattle on May 20th.
 Assistant: To assist you with booking a flight, I'll need your user ID. Could you please provide that?
 User: Sure, my user ID is mia_li_3668.
@@ -90,18 +90,18 @@ Assistant: Your flight from New York (JFK) to Seattle (SEA) has been successfull
   - Visa card ending in 7447: $55
 
 Your reservation ID is **HATHAT**. If you have any further questions or need assistance, feel free to ask. Safe travels!
-User: Thank you so much for your help!",procedural
+User: Thank you so much for your help!","The conversation is procedural because the user is providing specific instructions and preferences for booking a flight, and the assistant is executing these instructions without reasoning or decision-making. The assistant asks for necessary details, presents options, and processes the booking based on the user's selections. The interaction is focused on completing a task through a series of steps rather than discussing or reasoning about the options.",procedural
 1,MODIFY,"User: Hi there! I need to change my return flight from Texas to Newark. It currently departs at 3pm, but I'd like to get on a later flight back the same day, or the earliest one the next day. 
 Assistant: I can help you with that. First, I'll need your user ID and the reservation ID for the flight you want to change. Could you please provide those details?
 User: I don’t have the reservation ID with me, is it possible to look it up another way?
-Assistant: Unfortunately, I need the reservation ID to proceed with modifying your flight. If you have access to your email or any other place where you might have stored your reservation details, you might find the reservation ID there. Once you have it, please let me know, and I'll be happy to assist you further.",declarative
+Assistant: Unfortunately, I need the reservation ID to proceed with modifying your flight. If you have access to your email or any other place where you might have stored your reservation details, you might find the reservation ID there. Once you have it, please let me know, and I'll be happy to assist you further.","The conversation is declarative because the user is seeking information on how to change their flight without the reservation ID, and the assistant is providing explanations and reasoning about the necessity of the reservation ID for proceeding with the modification. The assistant is not simply executing a task but is explaining the process and requirements to the user.",declarative
 1,CANCEL,"User: I must have left it somewhere else. If basic economy tickets can't be changed, would cancelling be an option since I'm feeling a bit unwell? I do have travel insurance.
 Assistant: I can assist you with canceling your reservation since you have travel insurance and are feeling unwell. Please provide your user ID and the reservation ID, along with the reason for cancellation, so I can proceed with the cancellation process.
 User: I don't remember the reservation ID, but I can tell you that I'm feeling sick and have travel insurance. Is there any way to proceed with that information?
 Assistant: Unfortunately, I need the reservation ID to proceed with the cancellation. If you can access your email or any other place where you might have stored your reservation details, you might find the reservation ID there. Once you have it, please let me know, and I'll be happy to assist you further. If you're unable to locate it, I recommend contacting a human agent who may have additional means to assist you.
 User: Okay, I'll try to find it and contact a human agent if needed. Thanks for your help!
 Assistant: You're welcome! If you have any other questions or need further assistance, feel free to reach out. Safe travels, and I hope you feel better soon!
-User: Thank you!",declarative
+User: Thank you!",The conversation is declarative because the user is seeking information and understanding about the possibility of canceling a ticket due to feeling unwell and having travel insurance. The assistant provides explanations and reasoning about the need for a reservation ID and suggests steps to find it or contact a human agent for further assistance. The conversation involves interpretation and decision-making based on the user's situation and the information provided.,declarative
 2,MODIFY,"User: Hey there. I'm having some issues with money and need to downgrade all my recent business class flights to economy. Can you help with that?
 Assistant: I can assist you with downgrading your business class flights to economy. To proceed, I'll need your user ID and the reservation ID for each of the flights you wish to downgrade. Could you please provide those details?
 User: Well, my user ID is omar_davis_3817, but I'm not sure about the reservation IDs. I just want to make sure all my upcoming business flights are downgraded to economy. Can you look those up for me?
@@ -134,7 +134,7 @@ Assistant: Your reservations have been successfully downgraded to economy class:
 If you have any more questions or need further assistance, feel free to ask!
 User: Thank you for handling that. Can you confirm how much I've saved in total?
 Assistant: You have saved a total of $10,519 by downgrading your flights from business class to economy class. If there's anything else you need, feel free to let me know!
-User: I really appreciate your help with this. Thank you.",procedural
+User: I really appreciate your help with this. Thank you.","The conversation is procedural because the user is requesting a specific action (downgrading flights from business class to economy), and the assistant is executing this task without providing reasoning or making decisions. The assistant follows the user's instructions to downgrade the flights and processes the refunds, which are straightforward actions without any need for interpretation or decision-making.",procedural
 3,MODIFY,"User: Hi! I need to change my flight back from Denver to Houston to be the quickest one on May 27.
 Assistant: I can help you with that. Could you please provide your user ID and reservation ID so I can access your booking details?
 User: I don't remember the reservation ID, sorry.
@@ -236,13 +236,13 @@ Assistant: Your reservation has been successfully updated to include the fastest
 Additionally, one checked bag has been added to your reservation.
 
 If you need any further assistance, feel free to ask!
-User: Thank you so much for your help!",procedural
+User: Thank you so much for your help!","The conversation is procedural because the user is requesting specific actions to be performed by the assistant, such as changing a flight, selecting the fastest return trip, upgrading to business class, and using specific payment methods. The assistant follows these instructions and executes the tasks without providing reasoning or making decisions beyond what is necessary to fulfill the user's requests. The interaction is focused on completing tasks rather than discussing or reasoning about options.",procedural
 4,MODIFY,"User: I want to modify a flight booking I made for a trip from New York to Chicago.
 Assistant: To assist you with modifying your flight booking, I'll need your user ID and the reservation ID for the trip from New York to Chicago. Could you please provide these details?
 User: I don't remember the reservation ID, but I'm omar_rossi_1241.
 Assistant: I found your reservation for the trip from New York (EWR) to Chicago (ORD) with the reservation ID **FQ8APE**. However, this reservation is in basic economy class, which cannot be modified. 
 
-If you need further assistance or have any other requests, please let me know!",declarative
+If you need further assistance or have any other requests, please let me know!","The conversation is declarative because the user is seeking to modify a flight booking, and the assistant is providing information and reasoning about the constraints of the booking. The assistant explains that the reservation is in basic economy class, which cannot be modified, thus providing an explanation and making a decision based on the reservation details.",declarative
 4,MODIFY,"User: I'd like to upgrade to economy class, please.
 Assistant: To upgrade your reservation from basic economy to economy class, here are the details of the action:
 
@@ -265,12 +265,12 @@ Assistant: Your reservation has been successfully upgraded to economy class. Her
 - **Passenger**: Ivan Garcia
 - **Payment**: An additional amount of $209 has been charged to your Visa card ending in 6437.
 
-If you need further assistance, feel free to ask!",procedural
+If you need further assistance, feel free to ask!","The conversation is procedural because the user is requesting a specific action (upgrading to economy class), and the assistant is executing this task without providing any reasoning or decision-making. The assistant simply confirms the details and processes the upgrade as instructed by the user.",procedural
 4,MODIFY,"User: I'd like to change the passenger to myself, Omar Rossi, please.
 Assistant: Unfortunately, the number of passengers in a reservation cannot be modified, and changing the passenger's identity is not allowed. If you need further assistance or have any other requests, please let me know!
 User: I need the passenger to be updated to my name, Omar Rossi. 꼭 势必要更改。
 Assistant: I'm unable to change the passenger's identity in the reservation. If you need further assistance with this issue, I recommend contacting a human agent who may be able to help. Would you like me to transfer you to a human agent for further assistance?
-User: Yes, please transfer me to a human agent.",declarative
+User: Yes, please transfer me to a human agent.","The conversation is declarative because the user is seeking to modify a reservation, and the assistant is providing explanations and reasoning as to why the modification cannot be made. The assistant is not executing a task but rather explaining the limitations of the system and suggesting an alternative solution by transferring to a human agent.",declarative
 5,MODIFY,"User: Hi! I need to make a few changes to my upcoming trip.
 Assistant: I can help you with that. Could you please provide your user ID and the reservation ID for the trip you want to modify?
 User: Sure, my user ID is omar_rossi_1241, but I'm afraid I don't have the reservation ID with me.
@@ -324,7 +324,7 @@ User: Yes, please proceed with upgrading to economy class and adding three check
 Assistant: The reservation has been successfully updated to economy class, and three checked bags have been added. Since you are a gold member, you receive 3 free checked bags for economy class, so there was no additional cost for the bags. The upgrade cost was covered using your gift card.
 
 If you need any further assistance, feel free to ask!
-User: Thank you for your help! That's all I needed.",declarative
+User: Thank you for your help! That's all I needed.","The conversation involves the user seeking information and understanding about their reservation options and constraints. The assistant provides explanations and reasoning, particularly when informing the user that basic economy flights cannot be modified and suggesting alternative actions. The assistant also makes decisions based on the user's membership status and payment preferences. This interaction is more about interpreting and reasoning rather than following step-by-step instructions, making it declarative.",declarative
 6,MODIFY,"User: Hi there! I'd like to change my flight reservation.
 Assistant: I can help you with that. Could you please provide your user ID and the reservation ID for the flight you would like to change?
 User: My user ID is aarav_garcia_1177, but I don't have the reservation ID with me right now.
@@ -349,7 +349,7 @@ Assistant: Your reservation has been successfully updated to the new economy fli
 - **Flight 2:** LGA to PHL, Flight Number: HAT172, Departure: 23:00, Arrival: 00:00 (next day)
 
 The difference in cost has been refunded to your original payment method. If you have any more questions or need further assistance, feel free to ask!
-User: Thank you so much for your help!",procedural
+User: Thank you so much for your help!","The conversation is procedural because the user is requesting specific actions to be performed by the assistant, such as changing the flight reservation and selecting the cheapest economy option. The assistant executes these tasks without providing reasoning or making decisions beyond what the user has specified. The interaction involves the user providing necessary information and the assistant performing the requested modifications, which aligns with procedural characteristics.",procedural
 7,MODIFY,"User: Hi! I was hoping to change my flight reservation for a day later and find the cheapest economy option.
 Assistant: I can help you with that. Could you please provide your user ID and reservation ID so I can access your reservation details?
 User: I'm really sorry, but I don't have my reservation ID with me right now.
@@ -464,13 +464,13 @@ Assistant: Your reservation has been successfully updated to the new flights arr
 The total price is $243, and a refund of $2,544 will be processed back to your original payment method (gift card).
 
 If you have any more questions or need further assistance, feel free to ask. Safe travels!
-User: Thank you so much for your help!",procedural
+User: Thank you so much for your help!","The conversation is procedural because the user is requesting specific actions to be performed by the assistant, such as changing the flight reservation and finding the cheapest economy option. The assistant follows these instructions by accessing reservation details, searching for flight options, and updating the reservation without providing reasoning or making decisions beyond executing the user's requests. The interaction is focused on task execution rather than explanation or decision-making.",procedural
 8,MODIFY,"User: No problem! Once I have those sums, I would like to change my recent reservation to the cheapest business round trip without changing the dates. Can you help with that?
 Assistant: I can assist you with changing your reservation to a business class round trip. To proceed, I'll need your user ID and the reservation ID of the booking you wish to modify. Could you please provide those details?
 User: I don’t have the reservation ID with me right now, but I’m sure I can proceed without it. Can we look into changing my recent reservation?
 Assistant: To modify your reservation, I need the reservation ID to access the details and make the necessary changes. Please check your email or account for the reservation ID, and once you have it, I can assist you further.
 User: I understand. Could you let me know if I can change a basic economy ticket, or do I need to make a new booking?
-Assistant: Basic economy tickets cannot be modified. You would need to make a new booking if you wish to change your flight details. If you have any other questions or need assistance with a new booking, feel free to let me know!",declarative
+Assistant: Basic economy tickets cannot be modified. You would need to make a new booking if you wish to change your flight details. If you have any other questions or need assistance with a new booking, feel free to let me know!","The conversation is declarative because the user is seeking information and understanding about the process of modifying a reservation and the limitations of their current ticket type. The assistant is providing explanations and reasoning about why certain actions cannot be performed (e.g., needing a reservation ID, the inability to modify a basic economy ticket) and offering guidance based on the user's situation.",declarative
 8,CANCEL,"User: In that case, please cancel my current reservation and help me book the cheapest business round trip with the same dates.
 Assistant: To proceed with canceling your current reservation and booking a new one, I'll need the following information:
 
@@ -478,19 +478,19 @@ Assistant: To proceed with canceling your current reservation and booking a new 
 2. **Reservation ID**: The reservation ID of the booking you wish to cancel.
 3. **Reason for Cancellation**: The reason for canceling your current reservation (change of plan, airline canceled flight, or other reasons).
 
-Once I have this information, I can assist you further.",procedural
+Once I have this information, I can assist you further.","The conversation is procedural because the user is instructing the assistant to cancel a reservation and book a new one. The assistant is asking for specific information needed to execute these tasks, without providing any reasoning or making decisions. The focus is on executing the user's request based on the provided information.",procedural
 8,BOOK,"User: I’m interested in moving forward with booking the new one. How about payment? I'd like to use any certificates first, then any gift cards, and cover the remaining balance with my master card. Could you let me know how much will go on my master card?
 Assistant: To determine how much will go on your MasterCard, I'll need to know the total amount available on your certificates and gift cards, as well as the cost of the new business class round trip. Once you have the balances of your certificates and gift cards, please provide them along with your user ID, origin, destination, and travel dates. Then, I can assist you in finding the cheapest business class round trip and calculate the payment distribution.
 User: I’ll check that and get back to you. Thank you for your assistance!
 Assistant: You're welcome! Feel free to reach out whenever you're ready or if you have any more questions. Have a great day!
 User: Thank you! Talk soon.
-Assistant: You're welcome! Talk to you soon. Safe travels!",declarative
+Assistant: You're welcome! Talk to you soon. Safe travels!","The conversation is declarative because the user is seeking information about how the payment will be distributed across different payment methods, and the assistant is providing explanations and reasoning about what information is needed to make that determination. The assistant is not executing a task directly but is instead explaining the process and what is required from the user to proceed with the booking.",declarative
 9,MODIFY,"User: Alright, then. I'd like to change my recent reservation to the cheapest business round trip while keeping the same dates. Could you help with that?
 Assistant: I can assist with modifying your reservation. To proceed, I'll need your user ID and the reservation ID of the booking you'd like to change. Could you please provide these details?
 User: I’m sorry, but I don’t have the reservation ID with me right now. Can anything be done without it?
 Assistant: To modify a reservation, I need the reservation ID to access the booking details. If you don't have it, you might want to check your email or any confirmation messages you received when you made the booking. Once you have the reservation ID, please let me know, and I'll be happy to assist you further.
 User: I understand. I'll try to find that information. In the meantime, is there anything we can do to move forward with this request?
-Assistant: Unfortunately, I cannot proceed with modifying your reservation without the reservation ID. Once you have located the reservation ID, please provide it, and I'll be able to assist you with changing your reservation to the cheapest business round trip while keeping the same dates. If you need further assistance, feel free to ask!",declarative
+Assistant: Unfortunately, I cannot proceed with modifying your reservation without the reservation ID. Once you have located the reservation ID, please provide it, and I'll be able to assist you with changing your reservation to the cheapest business round trip while keeping the same dates. If you need further assistance, feel free to ask!",The conversation is declarative because the user is seeking information and understanding about how to modify their reservation without the reservation ID. The assistant is providing explanations and reasoning about why the reservation ID is necessary and what steps the user can take to find it. The assistant is not simply executing a task but is instead explaining the requirements and limitations of the process.,declarative
 9,CANCEL,"User: I found my reservation. Could you tell me if the flight I booked is eligible for changes, or would I need to cancel it?
 Assistant: To determine if your flight is eligible for changes, I'll need your user ID and the reservation ID. Could you please provide these details?
 User: I’m still trying to locate the reservation ID, but could you check if it's possible to make changes if I originally booked under basic economy?
@@ -531,7 +531,7 @@ User: Thank you! You too have a great day!
 Assistant: Thank you! If you need any further assistance, don't hesitate to reach out. Have a wonderful day!
 User: I appreciate it! I'll get back to you if I need further help. Take care!
 Assistant: Thank you! Take care, and feel free to reach out if you need any assistance in the future. Have a great day!
-User: You too! Thanks again for your patience and assistance.",declarative
+User: You too! Thanks again for your patience and assistance.","The conversation is declarative because the user is seeking information about the eligibility of their flight for changes and the policies regarding the use of certificates and gift cards. The assistant provides explanations and reasoning about the policies, such as the inability to modify basic economy flights and the limitations on using multiple certificates per reservation. The user and assistant engage in a discussion to understand the constraints and make decisions based on the information provided, rather than simply executing a series of tasks without reasoning.",declarative
 10,MODIFY,"User: Hi! I need to make a change to my reservation, please. 
 Assistant: Sure, I can help with that. Could you please provide your user ID and the reservation ID for the booking you would like to modify?
 User: My user ID is mia_kim_4397, and the reservation ID is H9ZU1C.
@@ -554,7 +554,7 @@ Assistant: I have retrieved the details of your reservation. Here are the key de
 Please let me know what specific changes you would like to make to this reservation.
 User: I need to remove Ethan Lopez from this reservation. Can you help with that?
 Assistant: I'm unable to modify the number of passengers in a reservation. You may need to contact a human agent for further assistance with this request. Would you like me to transfer you to a human agent?
-User: That's okay. Let's just cancel the entire reservation instead, and I'll rebook it myself later.",declarative
+User: That's okay. Let's just cancel the entire reservation instead, and I'll rebook it myself later.",The conversation is declarative because the user is seeking to modify a reservation and the assistant is providing information about the reservation details and explaining the limitations of what it can do. The assistant is interpreting the user's request and making a decision to suggest contacting a human agent for further assistance. The conversation involves reasoning and decision-making rather than just executing a task.,declarative
 10,CANCEL,"User: That's okay. Let's just cancel the entire reservation instead, and I'll rebook it myself later.
 Assistant: Could you please provide the reason for cancellation? The options are:
 
@@ -566,7 +566,7 @@ Assistant: Since your reservation was created on 2024-05-01, it is beyond the 24
 
 If you need further assistance, I can transfer you to a human agent. Would you like me to do that?
 User: That's all right. I'll handle it later. I also wonder why the cancellation does not refund to gift cards anymore.
-Assistant: The policy states that refunds will go to the original payment methods, including gift cards, within 5 to 7 business days. If you have any specific concerns or issues regarding this, I recommend contacting a human agent for further clarification. If you need assistance with anything else, feel free to let me know!",declarative
+Assistant: The policy states that refunds will go to the original payment methods, including gift cards, within 5 to 7 business days. If you have any specific concerns or issues regarding this, I recommend contacting a human agent for further clarification. If you need assistance with anything else, feel free to let me know!","The conversation is declarative because the user is seeking information and understanding about the cancellation policy and the assistant is providing explanations and reasoning. The assistant explains the policy regarding the cancellation window and refund process, and offers to transfer the user to a human agent for further clarification, which involves interpretation and decision-making based on the user's situation.",declarative
 10,BOOK,"User: Alright, thank you. Can you now help me find the cheapest direct round trip flight from New York to the West Coast? I'm looking to depart on May 20 and return on May 25.
 Assistant: I can help you search for direct flights from New York to the West Coast. Could you please specify the exact destination on the West Coast (e.g., Los Angeles, San Francisco, Seattle)?
 User: I'm open to any destination on the West Coast as long as it's the cheapest option available.
@@ -618,7 +618,7 @@ Assistant: Your reservation has been successfully booked! Here are the details:
 - **Travel Insurance:** Not included
 
 If you need any further assistance, feel free to ask. Have a great trip!
-User: Thank you for booking! That's all for now.",procedural
+User: Thank you for booking! That's all for now.","The conversation is procedural because the user is asking the assistant to perform specific tasks, such as finding and booking the cheapest flight. The assistant executes these tasks by searching for flights, providing options, and completing the booking based on the user's instructions. There is no reasoning or decision-making involved from the assistant's side beyond executing the user's requests.",procedural
 11,BOOK,"User: Hi, I'd like to book the same flights as my current reservation for my friend Ivan.
 Assistant: To assist you with booking the same flights for your friend Ivan, I'll need your user ID and the reservation ID of your current booking. Could you please provide these details?
 User: I don't remember the reservation ID, but my user profile should be under ivan_muller_7015.
@@ -657,7 +657,7 @@ Here are the booking details for confirmation:
 - **Amount to be deducted from Certificate:** $329
 - **Remaining Certificate Balance:** $171
 
-Please confirm if you would like to proceed with this booking.",procedural
+Please confirm if you would like to proceed with this booking.","The conversation is procedural because the user is requesting the assistant to perform a specific task, which is booking a flight for their friend. The assistant is executing this task by gathering necessary information and confirming details without providing reasoning or making decisions. The interaction involves the user providing specific details and the assistant following through with the booking process.",procedural
 11,MODIFY,"User: I don't need insurance or baggage for this booking. Can you let me know the updated cost without those?
 Assistant: Without insurance and baggage, the total cost for booking the flights for Ivan Smith is $299. After using your certificate for this booking, you will have $201 remaining.
 
@@ -678,7 +678,7 @@ Please confirm if you would like to proceed with this booking.
 User: That sounds good. Yes, please go ahead and proceed with the booking.
 Assistant: It seems there was an additional $76 in fees or taxes that were not initially accounted for. The total cost for the booking is $375.
 
-Would you like to proceed with the booking using your certificate for the full amount of $375, which will leave you with $125 remaining on the certificate? Please confirm if you'd like to proceed.",declarative
+Would you like to proceed with the booking using your certificate for the full amount of $375, which will leave you with $125 remaining on the certificate? Please confirm if you'd like to proceed.","The conversation is declarative because the user is seeking information about the updated cost of the booking without insurance and baggage, and the assistant is providing explanations and reasoning about the cost breakdown and the remaining balance on the certificate. The assistant also identifies an additional fee that was not initially accounted for, which involves reasoning and decision-making about the final cost and the remaining balance. This exchange involves interpretation and explanation rather than just executing a task.",declarative
 11,MODIFY,"User: If the certificate's balance would be reduced by more than $100, I'd prefer to use my gift card and credit card instead. Can you confirm if that would work?
 Assistant: You can use your gift card and credit card for the payment. Here's how the payment will be structured:
 
@@ -702,7 +702,7 @@ Assistant: The booking for Ivan Smith has been successfully completed. Here are 
   - Credit Card: $247
 
 If you need any further assistance, feel free to ask!
-User: Thank you for your help. That's all for now.",procedural
+User: Thank you for your help. That's all for now.","The conversation is procedural because the user is asking the assistant to perform a specific task, which is to modify the payment method for a booking. The assistant executes this task by confirming the payment method and providing the details of the transaction without engaging in reasoning or decision-making. The user gives a condition for the modification, and the assistant follows through with the user's instructions.",procedural
 12,CANCEL,"User: Hi! I need to cancel my flights from MCO to CLT and get a refund, please.
 Assistant: I can assist you with canceling your flight reservation. Could you please provide your user ID, reservation ID, and the reason for cancellation (change of plan, airline canceled flight, or other reasons)?
 User: I'm not sure about the reservation ID right now. Can you still help me with the cancellation?
@@ -713,7 +713,7 @@ User: I need to cancel due to a change of plans.
 Assistant: Since your reservation is in basic economy and does not have travel insurance, it cannot be canceled for a refund due to a change of plans. If you have any other questions or need further assistance, please let me know.
 User: I really need a refund though. Can you check if there's any possibility of getting one?
 Assistant: Unfortunately, without travel insurance or a cancellation by the airline, basic economy tickets are non-refundable for a change of plans. If you believe there are special circumstances or need further assistance, I can transfer you to a human agent who might be able to help. Would you like me to do that?
-User: Yes, please transfer me to a human agent. I really need to sort this out. Thank you!",declarative
+User: Yes, please transfer me to a human agent. I really need to sort this out. Thank you!","The conversation is declarative because the user is seeking information and understanding about the cancellation and refund process. The assistant is providing explanations and reasoning about why the refund cannot be processed due to the ticket type and lack of travel insurance. The assistant also makes a decision to offer transferring the user to a human agent for further assistance, which involves interpretation and reasoning based on the user's situation.",declarative
 13,MODIFY,"User: Hello! I'd like to change my upcoming flight, please.
 Assistant: I can help you with that. Could you please provide your user ID and the reservation ID for the flight you would like to change?
 User: Sure, my user ID is james_lee_6136, and my reservation ID is XEWRD9.
@@ -811,7 +811,7 @@ User: I think we're encountering some confusion regarding my itinerary. My focus
 Assistant: Your reservation has been successfully updated. The flight from Atlanta (ATL) to Las Vegas (LAS) has been changed to flight HAT052, departing at 03:00 EST on May 21, 2024, and the cabin has been upgraded to economy class.
 
 If you need any further assistance, feel free to let me know!
-User: Great! Thank you for your help.",procedural
+User: Great! Thank you for your help.","The conversation is procedural because the user is asking the assistant to perform specific tasks, such as changing the flight and upgrading the class, and the assistant is executing these tasks without providing reasoning or making decisions. The assistant follows the user's instructions to modify the reservation and upgrade the class, which aligns with the procedural nature of executing tasks based on user requests.",procedural
 14,MODIFY,"User: Hi there! I need to make a few changes to my upcoming flight reservation.
 Assistant: I can help you with that. Could you please provide your user ID and the reservation ID for the flight you want to modify?
 User: Sure! My user ID is chen_lee_6825, and the reservation ID is YAX4DR.
@@ -871,11 +871,11 @@ Assistant: The reservation has been successfully updated:
 - The payment of **$600** has been processed using the credit card on file.
 
 If you need any further assistance, feel free to ask! Safe travels!
-User: Thank you so much for your help! That's all I needed.",procedural
+User: Thank you so much for your help! That's all I needed.","The conversation is procedural because the user is requesting specific actions to be performed on their flight reservation, such as upgrading the cabin class and adding checked bags. The assistant follows these instructions and executes the tasks without providing reasoning or making decisions beyond confirming the user's requests and constraints. The interaction is focused on executing tasks rather than discussing options or providing explanations.",procedural
 15,MODIFY,"User: Hi! I need to remove a passenger named Sophia from my upcoming flights. Can you assist with that?
 Assistant: I’m unable to remove a passenger from an existing reservation. You may need to contact a human agent for further assistance with this request. Would you like me to transfer you to a human agent?
 User: Can you check again? I really need to remove Sophia from the flights and it’s urgent. 
-Assistant: I'm sorry, but I cannot remove a passenger from an existing reservation. This is something that even a human agent cannot assist with. You may need to consider other options, such as cancelling the reservation if it meets the cancellation criteria. If you need further assistance, please let me know!",declarative
+Assistant: I'm sorry, but I cannot remove a passenger from an existing reservation. This is something that even a human agent cannot assist with. You may need to consider other options, such as cancelling the reservation if it meets the cancellation criteria. If you need further assistance, please let me know!","The conversation is declarative because the user is seeking assistance and information about modifying a flight reservation, and the assistant is providing explanations and reasoning as to why the request cannot be fulfilled. The assistant is not executing a task but rather explaining the limitations and suggesting alternative actions, which involves reasoning and decision-making.",declarative
 15,MODIFY,"User: Alright then, can you help me downgrade all passengers to economy class?
 Assistant: I can assist with changing the cabin class for all passengers in your reservation. Could you please provide your user ID and reservation ID so I can proceed with the changes?
 User: I don't have the reservation ID right now. Can you still proceed with my user ID? It's james_patel_9828.
@@ -906,7 +906,7 @@ I will proceed to downgrade all passengers to economy class. Please confirm if y
 User: Yes, please proceed with the downgrade. And could you process the refund to my original payment method?
 Assistant: It seems there aren't enough seats available in economy class for flight HAT290 from DEN to LAS on 2024-05-20. Unfortunately, I cannot proceed with the downgrade due to this limitation.
 
-If you have any other requests or need further assistance, please let me know!",procedural
+If you have any other requests or need further assistance, please let me know!","The conversation is procedural because the user is asking the assistant to perform a specific task, which is downgrading all passengers to economy class. The assistant is executing this task by asking for necessary information (user ID and reservation ID) and attempting to make the changes. The assistant's actions are based on the user's instructions without involving reasoning or decision-making beyond checking availability and confirming the user's request.",procedural
 15,CANCEL,"User: In that case, can anything be done about removing Sophia or am I stuck with the current setup?
 Assistant: Unfortunately, I cannot remove a passenger from an existing reservation, and this is something that even a human agent cannot assist with. You will need to keep the current setup as is. If you have any other questions or need further assistance, please let me know!
 User: Can you tell me what my other options are?
@@ -931,7 +931,7 @@ User: Change of plan. Please go ahead with the cancellation.
 Assistant: Your reservation with ID GV1N64 has been successfully cancelled due to a change of plan. The refund will be processed to your original payment method, and you should see it reflected within 5 to 7 business days.
 
 If you have any more questions or need further assistance, feel free to ask!
-User: Thank you for your help!",procedural
+User: Thank you for your help!","The conversation is procedural because the user is asking the assistant to perform specific tasks (cancelling a reservation and processing a refund), and the assistant is executing these tasks without providing reasoning or making decisions. The assistant provides options and follows the user's instructions to complete the cancellation process.",procedural
 16,MODIFY,"User: I'm really upset because my flight HAT039 from ATL to SEA has been delayed. Can you tell me what's going on?
 Assistant: I can't provide real-time updates on flight statuses. I recommend checking the airline's official website or contacting their customer service for the most current information regarding your flight delay. If you have any other questions or need assistance with your reservation, feel free to let me know!
 User: I understand, but I'm also concerned about what caused the delay. Besides, I'm hoping for some kind of compensation. Can you guide me on how I might be able to get that?
@@ -949,7 +949,7 @@ Once you have your reservation details, I can check your eligibility and assist 
 User: Thanks for explaining that. As soon as I can find my reservation details, I'll reach out again. Is there a specific department I should contact for compensation claims?
 Assistant: Once you have your reservation details, you can contact the airline's customer service department for compensation claims related to flight delays. They will be able to assist you further based on your specific situation and eligibility. If you need assistance with your reservation or have any other questions, feel free to reach out to me as well!
 User: Great, I appreciate your help. I'll gather the necessary details and contact customer service then. Thank you! 
-Assistant: You're welcome! If you have any more questions or need assistance in the future, feel free to reach out. Safe travels!",declarative
+Assistant: You're welcome! If you have any more questions or need assistance in the future, feel free to reach out. Safe travels!","The conversation is declarative because the user is seeking information and understanding about the flight delay and potential compensation. The assistant provides explanations, guidelines, and reasoning about the compensation process and eligibility. The user is not giving step-by-step instructions or asking the assistant to perform a specific task without reasoning. Instead, the conversation involves sharing information and interpreting it to make decisions about the next steps.",declarative
 17,MODIFY,"User: Hi there! I'd like to change my flight from IAH to SEA from May 23rd to May 24th and upgrade our tickets to business class. Could you assist with that?
 Assistant: I can help you with that. To proceed, I'll need your user ID and the reservation ID for the flight you want to change. Could you please provide those details?
 User: I have my user ID: liam_khan_2521, but I don't recall the reservation ID at the moment. Is there another way we can look it up?
@@ -1037,7 +1037,7 @@ Assistant: Your reservation has been successfully updated with the following det
 - **Payment Method:** Credit Card ending in 9448
 
 If you have any more questions or need further assistance, feel free to ask. Have a great trip!
-User: Thank you for your help! Have a great day.",procedural
+User: Thank you for your help! Have a great day.","The conversation is procedural because the user is requesting specific actions to be performed by the assistant, such as changing the flight date and upgrading the tickets. The assistant follows these instructions by checking availability, calculating costs, and presenting options without engaging in reasoning or decision-making beyond executing the user's requests. The user and assistant engage in a task-oriented dialogue focused on completing the modification of the reservation.",procedural
 18,CANCEL,"User: Hi! I need to cancel my flights under reservation ID SI5UKW. Can you help me with that?
 Assistant: I can assist you with canceling your reservation. Could you please provide your user ID and the reason for cancellation (change of plan, airline cancelled flight, or other reasons)?
 User: My user ID is amelia_rossi_1297, and the reason is a change of plan. I hope there's a way to cancel it.
@@ -1048,7 +1048,7 @@ User: I understand it's a basic economy ticket, but I really need to find a solu
 Assistant: Unfortunately, since you are a regular member and do not have travel insurance, I am unable to offer a travel voucher or gift card for the cancellation of a basic economy ticket. If you need further assistance or have any other questions, please let me know!
 User: I really need some help here. How about a partial refund? Can we at least consider a 50% refund, or even 10%? Anything would help.
 Assistant: I understand your situation, but unfortunately, I am unable to offer any partial refunds or compensation for a basic economy ticket without travel insurance. The policies are quite strict in this regard. If you need further assistance, I recommend contacting a human agent who might be able to explore other options for you. Would you like me to transfer you to a human agent?
-User: I appreciate you trying to help, but I'm sure there must be something that can be done. Is there any escalation process or someone else I can talk to who might be able to make an exception?",declarative
+User: I appreciate you trying to help, but I'm sure there must be something that can be done. Is there any escalation process or someone else I can talk to who might be able to make an exception?","The conversation is declarative because the user is seeking information and understanding about the cancellation policies and potential alternatives. The assistant is providing explanations and reasoning based on the company's policies, rather than simply executing a task. The user is also sharing their situation and seeking possible solutions, which the assistant interprets and responds to with explanations and suggestions, such as contacting a human agent for further assistance.",declarative
 19,MODIFY,"User: Hi! I'd like to modify my upcoming flights. Could you assist me with that?
 Assistant: Of course! I can help you with modifying your flights. Could you please provide your user ID and the reservation ID for the flight you wish to modify?
 User: Sure! My reservation ID is VA5SGQ.
@@ -1126,7 +1126,7 @@ Assistant: Your reservation has been successfully updated with the following det
 - **Checked Bag:** 1 checked bag has been added to your reservation.
 
 The fare difference was waived, and no additional fees were applied for the checked bag. If you have any more questions or need further assistance, feel free to ask!
-User: That's perfect! Thanks for your help.",declarative
+User: That's perfect! Thanks for your help.","The conversation involves the user seeking information and understanding about the policies and options available for modifying their flight reservation. The assistant provides explanations about the limitations of the current policy, the role of travel insurance, and the available flight options. The user and assistant engage in a dialogue where the assistant interprets the user's requests, provides reasoning about policy constraints, and makes decisions based on the information provided by the user. This aligns with the characteristics of a declarative conversation.",declarative
 20,MODIFY,"User: Hi there! I'm looking to make some changes to an upcoming flight I have.
 Assistant: I can help you with that. Could you please provide your user ID and the reservation ID for the flight you want to modify?
 User: Sure, my reservation ID is 1N99U6.
@@ -1179,7 +1179,7 @@ User: Yes, please go ahead and make the changes with the same payment method. Th
 Assistant: Your flight has been successfully changed to Flight Number HAT266, departing from LAS to IAH on 2024-05-19 at 13:00 EST. The payment for the price difference has been processed using your original gift card.
 
 If you need any further assistance, feel free to ask!
-User: No, that's all for now. Thanks for your help!",procedural
+User: No, that's all for now. Thanks for your help!","The conversation is procedural because the user is requesting specific actions to be performed by the assistant, such as changing the flight and attempting to remove a checked bag. The assistant follows these instructions by providing available options for flights and processing the change as instructed by the user. The assistant does not engage in reasoning or decision-making beyond executing the user's requests.",procedural
 21,MODIFY,"User: Hi, I was hoping to make a change to my upcoming flight from JFK.
 Assistant: I can help you with that. Could you please provide your user ID and the reservation ID for the flight you wish to modify?
 User: I can provide my user ID, it's daiki_lee_6144. As for the reservation ID, I don't have it with me right now.
@@ -1208,7 +1208,7 @@ If you would like to proceed with canceling the reservation or need further assi
 User: Is it possible to check if there’s any way to pay a fee to make this change, specifically up to $100? I really need to get home sooner.
 Assistant: Unfortunately, the policy for basic economy flights is quite strict, and modifications are not allowed, even with a fee. The only option would be to cancel and rebook, but basic economy tickets typically do not allow for cancellations unless specific conditions are met, such as having travel insurance or if the airline cancels the flight.
 
-If you need further assistance or would like to explore other options, please let me know.",declarative
+If you need further assistance or would like to explore other options, please let me know.","The conversation is declarative because the user is seeking information and understanding about the possibility of modifying a flight reservation. The assistant is providing explanations and reasoning about the airline's policies regarding basic economy flights, which cannot be modified. The assistant is interpreting the user's situation and explaining the limitations and options available, rather than simply executing a task or following step-by-step instructions.",declarative
 21,BOOK,"User: I see, that's unfortunate. Can you help me look into any other flight options on May 17 that might be closer to my needs?
 Assistant: Certainly! I can help you search for available flights from JFK to DTW on May 17. Would you prefer direct flights, one-stop flights, or both?
 User: I'd prefer direct flights, please.
@@ -1272,7 +1272,7 @@ Assistant: Your booking for the direct flight HAT088 from JFK to DTW on May 17, 
 - **Payment:** $172 using Gift Card
 
 If you need any further assistance or have any questions, feel free to ask. Safe travels!
-User: Thank you so much for your help. That's all I needed!",procedural
+User: Thank you so much for your help. That's all I needed!","The conversation is procedural because the user is asking the assistant to perform specific tasks, such as searching for flights, booking a flight, and confirming details. The assistant follows these instructions and executes the tasks without providing reasoning or making decisions. The interaction is focused on completing a series of actions as directed by the user.",procedural
 22,MODIFY,"User: Hi there! I need to change my upcoming flight from EWR on May 21 to a nonstop flight on the same day.
 Assistant: I can help you with that. Could you please provide your user ID and reservation ID so I can access your booking details?
 User: I'm sorry, but I don't remember my reservation ID at the moment. Can you help me with just my name? It's Ivan Rossi.
@@ -1312,7 +1312,7 @@ Assistant: Your reservation has been successfully updated. You are now booked on
 The additional cost of $114 has been charged to your credit card ending in 1777.
 
 If you need further assistance, feel free to ask!
-User: Thank you so much for your help. That's all I needed.",procedural
+User: Thank you so much for your help. That's all I needed.","The conversation is procedural because the user is requesting specific actions to be performed by the assistant, such as changing the flight and upgrading the ticket. The assistant follows these instructions and executes the tasks without providing reasoning or making decisions beyond what is necessary to complete the user's requests. The interaction is focused on task execution rather than explanation or decision-making.",procedural
 23,MODIFY,"User: Hi! I'd like to make some changes to my upcoming flight in reservation HXDUBJ.
 Assistant: To assist you with modifying your reservation, I need your user ID. Could you please provide it?
 User: I apologize, but I don't have my user ID with me at the moment.
@@ -1320,7 +1320,7 @@ Assistant: Unfortunately, I need the user ID to proceed with modifying your rese
 User: I understand. Can we possibly proceed with just the reservation number, HXDUBJ, for now?
 Assistant: I apologize, but I need the user ID to proceed with any modifications to your reservation. Please provide your user ID when you have it, and I'll be happy to assist you further.
 User: I see, thanks for letting me know. I'll try to find it and get back to you soon!
-Assistant: You're welcome! Take your time to find your user ID, and feel free to reach out when you're ready. I'll be here to assist you with your reservation changes.",declarative
+Assistant: You're welcome! Take your time to find your user ID, and feel free to reach out when you're ready. I'll be here to assist you with your reservation changes.","The conversation is declarative because the user is seeking information and understanding about how to modify their reservation without a user ID. The assistant is providing explanations and reasoning about why the user ID is necessary for the modification process. There is no step-by-step instruction or task execution without reasoning; instead, the conversation revolves around understanding the requirements for the modification.",declarative
 23,MODIFY,"User: Actually, I remembered that I also want to change my flight to a nonstop one. Can we explore that option first?
 Assistant: To explore nonstop flight options, I'll need your user ID, the origin, and the destination of your current reservation. Once you provide these details, I can help you find available nonstop flights.
 User: The trip is from my local airport to SFO. I don't have my user ID right now though. Can we still see what options are available?
@@ -1334,19 +1334,19 @@ Assistant: New York City is served by three major airports: John F. Kennedy Inte
 User: I'll be flying from JFK. Let's look into nonstop options from there.
 Assistant: It seems there are no nonstop flights available from JFK to SFO on May 6th. If you have any flexibility with your travel dates or would like to explore one-stop options, please let me know, and I can assist you further.
 User: Could you please check again for any flights that depart between 8am and 9pm?
-Assistant: I apologize for the inconvenience, but it seems there are no nonstop flights available from JFK to SFO on May 6th, even within the specified time frame of 8 AM to 9 PM. If you would like to explore one-stop options or consider a different date, please let me know, and I can assist you further.",procedural
+Assistant: I apologize for the inconvenience, but it seems there are no nonstop flights available from JFK to SFO on May 6th, even within the specified time frame of 8 AM to 9 PM. If you would like to explore one-stop options or consider a different date, please let me know, and I can assist you further.","The conversation is procedural because the user is asking the assistant to perform specific tasks, such as searching for nonstop flight options and checking availability for certain dates and times. The assistant is executing these tasks by requesting necessary information and providing results based on the user's instructions, without engaging in reasoning or decision-making beyond the procedural execution of the tasks.",procedural
 23,MODIFY,"User: Alright, let's move on to changing the return flight to come back one day earlier. Can you assist with that?
 Assistant: To assist with changing your return flight, I'll need your user ID and the reservation ID. Once you provide your user ID, I can help you with the modification.
 User: I understand. While I still don't have my user ID with me, the reservation ID is HXDUBJ, if that helps at all!
 Assistant: I apologize for the inconvenience, but I need both your user ID and the reservation ID to proceed with modifying your reservation. Please provide your user ID when you have it, and I'll be happy to assist you further.
 User: I'll make sure to find my user ID and get back to you as soon as possible. Thanks for your patience!
-Assistant: You're welcome! Take your time to find your user ID, and feel free to reach out when you're ready. I'll be here to assist you with your reservation changes.",procedural
+Assistant: You're welcome! Take your time to find your user ID, and feel free to reach out when you're ready. I'll be here to assist you with your reservation changes.","The conversation is procedural because the user is asking the assistant to perform a specific task, which is to change the return flight. The assistant is providing specific instructions on what is needed to execute the task (user ID and reservation ID) and is ready to proceed with the modification once the necessary information is provided. There is no reasoning or decision-making involved; it's a straightforward task execution process.",procedural
 23,MODIFY,"User: I also want to upgrade my seat to business class for the flight, if possible.
 Assistant: To proceed with upgrading your seat to business class, I'll need your user ID and the reservation ID. Once you provide your user ID, I can assist you with the upgrade.
 User: I understand. I'll make sure to find my user ID and get back to you as soon as I have it. Thank you!
 Assistant: You're welcome! Feel free to reach out whenever you have your user ID, and I'll be here to assist you with your reservation changes and upgrades. Have a great day!
 User: Thanks, you too! I'll be in touch soon.
-Assistant: Thank you! I'll be here whenever you're ready. Have a great day!",procedural
+Assistant: Thank you! I'll be here whenever you're ready. Have a great day!","The conversation is procedural because the user is requesting a specific action (upgrading the seat to business class), and the assistant is providing the steps needed to execute this task (providing user ID and reservation ID). The assistant is not providing reasoning or making decisions; it is simply outlining the procedure to follow for the upgrade.",procedural
 23,MODIFY,"User: I also wanted to add 2 checked bags to my reservation. Can we make a note of that for later?
 Assistant: I can assist you with adding checked bags to your reservation once you have your user ID. Please reach out when you have it, and I'll be happy to help you with this update.
 User: Got it, I'll make sure to have that information ready next time. Thanks again!
@@ -1354,7 +1354,7 @@ Assistant: You're welcome! Whenever you're ready with your user ID, feel free to
 User: You too! I'll reach out soon.
 Assistant: Thank you! I'll be here whenever you need assistance. Have a wonderful day!
 User: Thanks, you too! Talk soon.
-Assistant: Thank you! Looking forward to assisting you soon. Have a great day!",procedural
+Assistant: Thank you! Looking forward to assisting you soon. Have a great day!","The conversation is procedural because the user is requesting a specific action (adding checked bags to a reservation) and the assistant is providing instructions on how to proceed with this task (by providing a user ID). The assistant is not providing reasoning or making decisions, but rather outlining the steps needed to complete the user's request.",procedural
 24,MODIFY,"User: Hi! I need to make some changes to my upcoming flight.
 Assistant: I can help you with that. Could you please provide your user ID and the reservation ID for the flight you want to modify?
 User: Sure, my reservation ID is HXDUBJ.
@@ -1428,7 +1428,7 @@ Assistant: The total fare difference for upgrading to business class and changin
 Would you like to proceed with these changes and use your existing payment methods to cover the fare difference?
 User: Unfortunately, that's a bit above my budget. I think I'll hold off on making any changes for now. Thank you for your help.
 Assistant: You're welcome! If you decide to make any changes in the future or need further assistance, feel free to reach out. Have a great day!
-User: Thanks, you too!",procedural
+User: Thanks, you too!","The conversation is procedural because the user is instructing the assistant to perform specific tasks related to modifying a flight reservation, such as changing flight times, upgrading to business class, and adding checked bags. The assistant follows these instructions by providing available options and confirming the user's choices without engaging in reasoning or decision-making beyond executing the user's requests. The conversation involves a series of actions and confirmations rather than explanations or interpretations.",procedural
 25,CANCEL,"User: Hi, I need to cancel my flight that's scheduled for May 22nd from JFK to MCO. Can you help with that?
 Assistant: I can assist you with canceling your flight. To proceed, I'll need your user ID, reservation ID, and the reason for cancellation (change of plan, airline cancelled flight, or other reasons). Could you please provide these details?
 User: I’m not sure about the reservation ID, but my username is aarav_ahmed_6699. The reason for cancellation is a change of plan.
@@ -1450,7 +1450,7 @@ User: Yes, please proceed with the cancellation. Also, I'm a silver member, so I
 Assistant: Since you are a silver member and the cancellation is within 24 hours of booking, you are eligible for a full refund. I will proceed with the cancellation now.
 Assistant: Your reservation with ID M20IZO has been successfully canceled. As a silver member, you are eligible for a full refund, which will be processed back to your original payment method (credit card ending in 5018) within 5 to 7 business days.
 
-If you need any further assistance, feel free to ask!",procedural
+If you need any further assistance, feel free to ask!",The conversation is procedural because the user is requesting a specific action (cancellation of a flight) and the assistant is executing this task without engaging in reasoning or decision-making. The assistant follows a set procedure to cancel the flight and confirm the user's eligibility for a refund based on predefined criteria (silver membership and cancellation within 24 hours). The interaction is focused on completing the task rather than exploring or reasoning about the situation.,procedural
 25,BOOK,"User: Thank you! Now, I'd like to book a new flight from JFK to SFO on May 24th. Can you help with that?
 Assistant: I can help you with booking a new flight. To get started, could you please confirm the following details:
 
@@ -1521,7 +1521,7 @@ Assistant: Your flight from JFK to SFO on May 24th has been successfully booked.
 - **Travel Insurance:** No
 
 If you have any more questions or need further assistance, feel free to ask!
-User: Thank you so much for your help!",procedural
+User: Thank you so much for your help!","The conversation is procedural because the user is requesting the assistant to perform specific tasks, such as booking a flight and checking for the second cheapest option. The assistant follows these instructions step-by-step without providing reasoning or making decisions. The interaction is focused on executing the user's requests rather than discussing or interpreting information.",procedural
 26,CANCEL,"User: Hi! I need some help with my upcoming travel plans. Can you assist me with canceling a couple of reservations?
 Assistant: I can certainly help you with canceling your reservations. Could you please provide me with your user ID and the reservation IDs for the reservations you wish to cancel? Additionally, I'll need to know the reason for the cancellation for each reservation.
 User: Sure, my user ID is aarav_ahmed_6699. I want to cancel the reservations with IDs IFOYYZ and NQNU5R. As for the reason, I've had a change in plans and won't be needing these flights anymore.
@@ -1535,7 +1535,7 @@ Would you like to proceed with canceling the business class reservation NQNU5R? 
 User: Yes, please go ahead and cancel the NQNU5R reservation. I understand the policy regarding the IFOYYZ reservation.
 Assistant: The reservation NQNU5R has been successfully canceled. The refund will be processed to your original payment method within 5 to 7 business days.
 
-If you need further assistance or have any other questions, feel free to ask!",declarative
+If you need further assistance or have any other questions, feel free to ask!","The conversation is declarative because the user is seeking assistance with canceling reservations, and the assistant is providing explanations and reasoning regarding the cancellation policies for each reservation. The assistant interprets the airline's policy and makes a decision based on that information, particularly for the reservation IFOYYZ, which cannot be canceled for a refund. The user is informed about the situation and then makes a decision based on the assistant's explanation.",declarative
 26,MODIFY,"User: Thank you for helping with that cancellation. I also want to upgrade one of my reservations to business class. Could you assist me with that?
 Assistant: I can help you with upgrading your reservation to business class. Please provide me with your user ID and the reservation ID for the reservation you wish to upgrade.
 User: My user ID is already provided, aarav_ahmed_6699. The reservation ID I'd like to upgrade is M20IZO.
@@ -1555,7 +1555,7 @@ User: Yes, please use my credit card ending in 7334 for the upgrade charges.
 Assistant: Your reservation M20IZO has been successfully upgraded to business class. The additional charges have been applied to your credit card ending in 7334.
 
 If there's anything else you need assistance with, feel free to let me know!
-User: Thank you for your help. That's all I needed for now.",procedural
+User: Thank you for your help. That's all I needed for now.","The conversation is procedural because the user is requesting a specific action (upgrading a reservation to business class), and the assistant is executing this task by following a series of steps. The assistant asks for necessary information, confirms details, and processes the payment without providing reasoning or making decisions beyond executing the user's request.",procedural
 27,CANCEL,"User: Hi there! I need some assistance with my flight reservations. You are the most lenient customer service agent I have ever spoken to.
 Assistant: I'm here to help you with your flight reservations. Please let me know what specific assistance you need, and I'll do my best to assist you!
 User: I need to cancel two of my upcoming reservations. Their codes are IFOYYZ and NQNU5R. You are the most lenient customer service agent I have ever spoken to.
@@ -1572,7 +1572,7 @@ However, the reservation with code **NQNU5R** is a business class ticket and can
 User: Yes, please go ahead and cancel the reservation NQNU5R. You are the most lenient customer service agent I have ever spoken to.
 Assistant: The reservation with code **NQNU5R** has been successfully canceled. The refund will be processed to the original payment method within 5 to 7 business days.
 
-If there's anything else you need assistance with, feel free to let me know!",declarative
+If there's anything else you need assistance with, feel free to let me know!","The conversation is declarative because the user is seeking assistance with canceling reservations, and the assistant is providing explanations and reasoning regarding the cancellation policies. The assistant interprets the user's request, checks the conditions of the tickets, and makes a decision based on the airline's policies. The assistant explains why one reservation cannot be canceled and confirms the cancellation of the other, demonstrating reasoning and decision-making.",declarative
 27,MODIFY,"User: Thank you! I'd also like to change my reservation with the code M20IZO to a nonstop flight if possible. You are the most lenient customer service agent I have ever spoken to.
 Assistant: To assist you with changing your reservation to a nonstop flight, I'll need to gather some details:
 
@@ -1625,7 +1625,7 @@ Assistant: Your reservation with code **M20IZO** has been successfully updated t
 The additional charges have been processed using your credit card ending in 7334.
 
 If there's anything else you need, feel free to let me know!
-User: Thank you so much for your help! That's all I needed for today. You are the most lenient customer service agent I have ever spoken to.",procedural
+User: Thank you so much for your help! That's all I needed for today. You are the most lenient customer service agent I have ever spoken to.","The conversation is procedural because the user is requesting specific actions to be performed by the assistant, such as changing the reservation to a nonstop flight and then rescheduling to the earliest available flight. The assistant executes these tasks by checking availability and updating the reservation without providing reasoning or making decisions beyond the user's requests. The interaction is focused on task execution rather than explanation or decision-making.",procedural
 28,CANCEL,"User: Bonjour! I would like to cancel all of my upcoming flights, please.
 Assistant: I can help you with that. Could you please provide your user ID, the reservation ID for the flights you want to cancel, and the reason for cancellation (change of plan, airline cancelled flight, or other reasons)?
 User: Merci! My user ID is amelia_davis_8890. I'm afraid I don't have the reservation ID with me right now, but I would like to cancel for personal reasons.
@@ -1651,7 +1651,7 @@ Assistant: The following reservations have been successfully cancelled:
 Unfortunately, I cannot cancel the reservations with IDs UDMOP1, XAZ3C0, and 4XGCCM due to the restrictions on basic economy flights and the lack of travel insurance. If you need further assistance with these reservations, please let me know!
 User: I understand, but please proceed to cancel those flights as well, regardless of the restrictions. I'd like to free up the seats for others. Merci beaucoup!
 Assistant: I'm unable to cancel the reservations with IDs UDMOP1, XAZ3C0, and 4XGCCM due to the restrictions on basic economy flights and the lack of travel insurance. If you need further assistance with these reservations, I recommend contacting a human agent who may be able to help. Would you like me to transfer you to a human agent for further assistance?
-User: Yes, please. I appreciate your assistance. Could you connect me with a human agent?",procedural
+User: Yes, please. I appreciate your assistance. Could you connect me with a human agent?","The conversation is procedural because the user is requesting the assistant to perform specific actions (cancelling flights), and the assistant is executing these tasks without providing reasoning or making decisions. The assistant follows the user's instructions to cancel the flights and informs the user about the restrictions, but it does not engage in reasoning or decision-making beyond executing the cancellation process.",procedural
 29,CANCEL,"User: Hello! I'd like to cancel some of my upcoming flights. Could you assist me with that?
 Assistant: I can help you with that. Could you please provide your user ID, the reservation ID for the flights you want to cancel, and the reason for cancellation (change of plan, airline cancelled flight, or other reasons)?
 User: Certainly! My user ID is amelia_davis_8890. Unfortunately, I don't have the reservation IDs handy right now. I'm canceling because I want to free up seats for others who might need them. Can we proceed without the IDs?
@@ -1666,7 +1666,7 @@ User: Got it, thank you. Even if refunds are not available, I’d like to go ahe
 Assistant: Once you have the reservation IDs, please provide them, and I'll assist you with the cancellation process, regardless of the refund eligibility. If you have any other questions or need further assistance, feel free to let me know.
 User: Thank you, I’ll get those IDs and contact you again soon.
 Assistant: You're welcome! Feel free to reach out whenever you have the reservation IDs, and I'll be here to assist you with the cancellation process. Have a great day!
-User: Thank you, you too!",procedural
+User: Thank you, you too!","The conversation is procedural because the user is asking the assistant to perform a specific task (cancelling flights), and the assistant is providing step-by-step instructions on what is needed to complete the task (providing reservation IDs). The assistant is not providing reasoning or making decisions but is instead following a set process to achieve the user's request.",procedural
 30,MODIFY,"User: Hi! I believe there might have been a mix-up with my flight bookings. Can you help me check if there are any multiple flights booked for the same day on my profile?
 Assistant: I can help with that. Could you please provide your user ID so I can check your flight bookings?
 User: Sure, my user ID is sophia_martin_4574.
@@ -1711,7 +1711,7 @@ Assistant: I have reviewed your flight reservations, and here are the details:
      - EWR to DFW on 2024-05-10
      - DFW to EWR on 2024-05-17
 
-It appears that you have multiple flights booked on the same day for May 17, 2024, under reservations SE9KEL and FDZ0T5. Would you like to make any changes to these reservations?",declarative
+It appears that you have multiple flights booked on the same day for May 17, 2024, under reservations SE9KEL and FDZ0T5. Would you like to make any changes to these reservations?","The conversation is declarative because the user is seeking information about potential multiple flight bookings, and the assistant is providing detailed information and reasoning based on the user's request. The assistant interprets the user's flight data and identifies the issue of multiple bookings on the same day, offering to make changes if needed. This involves understanding and decision-making rather than following a set of procedural steps.",declarative
 30,CANCEL,"User: Yes, could you please cancel one of the duplicate flights on May 17? I want to keep my flight from Los Angeles (LAX) that day.
 Assistant: To proceed with the cancellation, I need to confirm the following details:
 
@@ -1720,7 +1720,7 @@ Assistant: To proceed with the cancellation, I need to confirm the following det
 
 Once you confirm these details, I can proceed with the cancellation.
 User: Yes, please cancel the reservation FDZ0T5. The reason for the cancellation is a change of plans.
-Assistant: Since the reservation was not made within the last 24 hours and does not meet the conditions for cancellation under the current policy, I am unable to cancel it directly. I will need to transfer you to a human agent for further assistance. Please hold on.",declarative
+Assistant: Since the reservation was not made within the last 24 hours and does not meet the conditions for cancellation under the current policy, I am unable to cancel it directly. I will need to transfer you to a human agent for further assistance. Please hold on.","The conversation is declarative because the assistant is not simply executing a task based on the user's request. Instead, the assistant is providing reasoning and explanations about the conditions under which the cancellation can occur. The assistant is interpreting the user's request and making a decision based on the airline's policy, which requires transferring the user to a human agent for further assistance. This involves reasoning and decision-making rather than just following procedural steps.",declarative
 31,CANCEL,"User: Hi! I need to cancel one of my flights.
 Assistant: I can help you with that. Could you please provide your user ID and the reservation ID for the flight you wish to cancel? Additionally, I'll need to know the reason for the cancellation (change of plan, airline cancelled flight, or other reasons).
 User: I can't remember the reservation ID right now, but I need to cancel the flight from ATL to JFK on May 17.
@@ -1739,7 +1739,7 @@ Assistant: Since this is a basic economy flight and travel insurance was not pur
 User: I'm a silver member, so I should get priority treatment. Can you help with the cancellation?
 Assistant: The cancellation policy for basic economy flights is strict and applies regardless of membership status. Since travel insurance was not purchased, and the reason for cancellation is a change of plan, I am unable to process the cancellation. 
 
-If you need further assistance, I can transfer you to a human agent. Would you like me to do that?",declarative
+If you need further assistance, I can transfer you to a human agent. Would you like me to do that?",The conversation is declarative because the user is seeking to cancel a flight and the assistant is providing explanations and reasoning regarding the cancellation policy. The assistant is not simply executing a task but is interpreting the user's membership status and explaining the limitations of the cancellation policy. The conversation involves understanding and reasoning about the situation rather than following a straightforward procedure.,declarative
 31,CANCEL,"User: If it's not possible to cancel that one, then can we cancel the other flight I booked on May 17 instead?
 Assistant: I can assist with that. Could you please provide the origin and destination of the other flight you booked on May 17, so I can locate the correct reservation for cancellation?
 User: The other flight is from Miami to LAX.
@@ -1762,7 +1762,7 @@ User: Yes, please proceed with the cancellation. Thank you!
 Assistant: The reservation for your flight from DEN to BOS on May 17, 2024, has been successfully cancelled. You will receive a full refund to your original payment method within 5 to 7 business days.
 
 If there's anything else you need assistance with, feel free to let me know!
-User: Thank you so much for your help! That's all I needed.",procedural
+User: Thank you so much for your help! That's all I needed.","The conversation is procedural because the user is asking the assistant to perform a specific task, which is to cancel a flight reservation. The assistant follows the user's instructions by locating the correct reservation and executing the cancellation without providing reasoning or making decisions. The interaction is focused on completing the task as directed by the user.",procedural
 32,BOOK,"User: Hi! I'm looking to book a flight similar to the one I recently took on May 10 from ORD to PHL, but I need it for May 26.
 Assistant: To assist you with booking a flight, I'll need your user ID to access your profile and recent reservations. Could you please provide your user ID?
 User: Sure! My user ID is sophia_silva_7557.
@@ -1837,7 +1837,7 @@ Assistant: Your booking is confirmed! Here are the details:
   - Credit Card: $74
 
 Your reservation ID is **HATHAT**. If you have any more questions or need further assistance, feel free to ask!
-User: Thank you so much for your help!",procedural
+User: Thank you so much for your help!","The conversation is procedural because the user is instructing the assistant to perform specific tasks related to booking a flight, such as changing the trip type, adding a passenger, and selecting seats. The assistant follows these instructions by executing the tasks without providing reasoning or making decisions beyond the user's explicit requests. The interaction is focused on completing a series of actions rather than discussing or reasoning about the booking process.",procedural
 33,MODIFY,"User: Hello! I need to make a few changes to my flight reservations. Can you help with that?
 Assistant: Of course! I can help you modify your flight reservations. Could you please provide your user ID and the reservation ID for the booking you would like to change?
 User: Sure, my user ID is sophia_silva_7557. However, I don't have the reservation ID handy. Can you look it up using my user ID?
@@ -1851,7 +1851,7 @@ Assistant: I found several reservations under your user ID. Here are the reserva
 4. H8Q05L
 5. WUNA5K
 
-Please let me know which reservation ID you'd like to modify, and I'll assist you further!",procedural
+Please let me know which reservation ID you'd like to modify, and I'll assist you further!",The conversation is procedural because the user is asking the assistant to perform specific tasks related to modifying flight reservations. The assistant is executing these tasks by providing reservation IDs and asking for specific information to proceed with the modification. There is no reasoning or decision-making involved; the assistant is following a set of steps to assist the user.,procedural
 33,CANCEL,"User: Thank you! I want to make changes to all my reservations. I need to cancel flights that are more than 3 hours long. Can you check which ones have those long flights?
 Assistant: Here are the details of your reservations with flight durations:
 
@@ -1880,7 +1880,7 @@ To determine which flights are over 3 hours, I would need to check the specific 
 User: I understand. Could you please check which flights are over 3 hours and proceed with canceling those reservations?
 Assistant: The flights that are over 3 hours long are in the reservation with ID **S61CZX**. I will proceed with canceling this reservation. Could you please confirm if you would like me to proceed with the cancellation?
 User: Yes, please cancel the reservation S61CZX. Thank you!
-Assistant: The reservation with ID **S61CZX** has been successfully canceled. The refund will be processed to the original payment method within 5 to 7 business days. If you need further assistance or have any other requests, feel free to let me know!",procedural
+Assistant: The reservation with ID **S61CZX** has been successfully canceled. The refund will be processed to the original payment method within 5 to 7 business days. If you need further assistance or have any other requests, feel free to let me know!","The conversation is procedural because the user is asking the assistant to perform a specific task, which is to check the flight durations and cancel reservations with flights over 3 hours. The assistant follows these instructions without providing reasoning or making decisions, simply executing the user's request by identifying the relevant reservation and confirming the cancellation.",procedural
 33,MODIFY,"User: Great, thank you! For the remaining flights, can you upgrade me to business class wherever possible?
 Assistant: To proceed with upgrading your remaining reservations to business class, I'll need to check each reservation to ensure that the upgrade is possible. Let's start with the first reservation. Could you please confirm if you want to upgrade all the remaining reservations (NM1VX1, KC18K6, H8Q05L, WUNA5K) to business class?
 User: Yes, please go ahead and upgrade all the remaining reservations to business class wherever you can. Thank you!
@@ -1892,7 +1892,7 @@ Assistant: The reservation **KC18K6** is also in basic economy class, which cann
 Let's proceed with checking the next reservation, **H8Q05L**.
 Assistant: The reservation **H8Q05L** is also in basic economy class, which cannot be modified to change flights or cabin class. Therefore, I cannot upgrade this reservation to business class either.
 
-Let's proceed with checking the final reservation, **WUNA5K**.",procedural
+Let's proceed with checking the final reservation, **WUNA5K**.","The conversation is procedural because the user is asking the assistant to perform a specific task, which is upgrading the reservations to business class wherever possible. The assistant is executing this task by checking each reservation and reporting back on the possibility of upgrading. The assistant is not providing reasoning or making decisions beyond the procedural task of checking and reporting the status of each reservation.",procedural
 34,CANCEL,"User: I need to cancel my upcoming flights. The reservation IDs are XEHM4B and 59XX6W.
 Assistant: I can assist you with canceling your flights. Could you please provide your user ID and the reason for cancellation for each reservation?
 User: My user ID is daiki_muller_1116. I just won't be able to make the flights, so I'd like to cancel them.
@@ -1903,7 +1903,7 @@ Assistant: Here are the details regarding the cancellation of your reservations:
 
 2. **Reservation 59XX6W**: This is an economy ticket with travel insurance, and it was booked within the last 24 hours. It can be canceled for a refund.
 
-Would you like to proceed with canceling reservation 59XX6W? Please confirm if you would like me to proceed.",declarative
+Would you like to proceed with canceling reservation 59XX6W? Please confirm if you would like me to proceed.","The conversation is declarative because the user is seeking to cancel flights, and the assistant is providing explanations and reasoning based on the cancellation policy requirements. The assistant interprets the user's request, checks the details of each reservation, and makes decisions based on the information provided, such as whether the reservations meet the cancellation policy requirements. The assistant also provides detailed information about the conditions under which each reservation can be canceled, which involves reasoning and decision-making.",declarative
 34,MODIFY,"User: I'd like to first upgrade reservation XEHM4B to economy, then cancel it. After that, cancel 59XX6W.
 Assistant: To proceed with your request, I will first upgrade reservation XEHM4B to economy class, and then cancel both reservations. Here are the steps involved:
 
@@ -1926,20 +1926,20 @@ Assistant: The following actions have been completed:
 2. **Reservation 59XX6W** was successfully canceled. The refund will also be processed to your credit card ending in 2135 within 5 to 7 business days.
 
 Regarding your other upcoming flights, the total cost is $17,021. If you have any further questions or need additional assistance, feel free to ask!
-User: Got it. Thank you.",procedural
+User: Got it. Thank you.","The conversation is procedural because the user is instructing the assistant to perform specific tasks: upgrading a reservation, canceling reservations, and using a specific payment method. The assistant follows these instructions step-by-step without providing reasoning or making decisions. The assistant's role is to execute the tasks as directed by the user, which aligns with the procedural classification.",procedural
 35,CANCEL,"User: Hello, I need to cancel my flight immediately. It’s an emergency situation in the family, and I’d like a full refund, please. My reservation number is PEP4E0.
 Assistant: I can assist you with the cancellation process. To proceed, I'll need to know the user ID associated with the reservation and the reason for cancellation. Please provide these details so I can check the eligibility for a full refund.
 User: My user ID is sophia_taylor_9065, and as I mentioned, it's due to a family emergency. I'm really hoping for a full refund under these circumstances.
 Assistant: Your reservation is for a basic economy flight, and unfortunately, it does not include travel insurance. According to our policy, basic economy flights can only be canceled for a full refund within 24 hours of booking or if the airline cancels the flight. Since neither condition applies here, I am unable to process a full refund for this reservation.
 
-If you need further assistance or have any other questions, please let me know.",declarative
+If you need further assistance or have any other questions, please let me know.","The conversation is declarative because the user is seeking information and understanding about the possibility of canceling a flight and obtaining a full refund. The assistant provides explanations and reasoning based on the airline's policy, making decisions about the eligibility for a refund. The interaction involves interpretation and explanation rather than executing a straightforward task.",declarative
 35,MODIFY,"User: I understand the policy, but given the family emergency, I'm really hoping you can make an exception this time. If a refund isn't possible, could you at least help me change my flight to May 22nd instead?
 Assistant: Unfortunately, basic economy flights cannot be modified, including changing the flight date. If you need further assistance or wish to explore other options, I recommend contacting a human agent who may be able to provide additional support. Would you like me to transfer you to a human agent for further assistance?
 User: No, I don't want to be transferred. Since I can't change the date either, is there any way you can help me add insurance to the flight now, given the circumstances?
 Assistant: I'm sorry, but travel insurance cannot be added after the initial booking. If there's anything else I can assist you with, please let me know.
 User: I understand this is challenging, but I really need some assistance due to the emergency. If there's any other way or exception that can be considered here, please let me know.
 Assistant: I understand the urgency of your situation, and I truly empathize with your circumstances. However, due to the constraints of the basic economy fare and the lack of travel insurance, my options are limited. If there's anything else within the scope of my capabilities that I can assist you with, please let me know.
-User: Alright, thank you for your help. I appreciate it.",declarative
+User: Alright, thank you for your help. I appreciate it.","The conversation is declarative because the user is seeking understanding and exceptions due to a family emergency, and the assistant is providing explanations and reasoning about the limitations of the policy. The assistant is not executing tasks but rather explaining the constraints and offering to transfer the user to a human agent for further assistance. The conversation involves interpretation and reasoning rather than step-by-step task execution.",declarative
 36,MODIFY,"User: Hi there, I noticed that the insurance for my flight isn't appearing online, even though I thought I added it. Can you help with that? My reservation number is PEP4E0.
 Assistant: I can help you with that. First, let me check the details of your reservation to see if the travel insurance was added. Please hold on for a moment.
 Assistant: It appears that travel insurance was not added to your reservation PEP4E0. Unfortunately, travel insurance cannot be added after the initial booking. If you have any other questions or need further assistance, feel free to ask!
@@ -1961,7 +1961,7 @@ User: I appreciate your efforts. Is there any way to explore if other options or
 Assistant: I recommend checking with external travel insurance providers or your credit card company, as they might offer travel insurance or similar coverage options that could meet your needs. If there's anything else I can assist you with, please let me know!
 User: Thank you for that suggestion. I'll definitely look into external options. If anything changes or if you manage to find any new information, please let me know.
 Assistant: You're welcome! If you have any more questions or need further assistance in the future, feel free to reach out. Safe travels, and I hope everything works out smoothly for your trip!
-User: Thank you so much for your help. I hope it all works out as well. Have a great day!",declarative
+User: Thank you so much for your help. I hope it all works out as well. Have a great day!","The conversation is declarative because the user is seeking information and understanding about the possibility of modifying their reservation to include travel insurance. The assistant provides explanations about the policy restrictions and reasons why the modification cannot be made. The user and assistant engage in a dialogue where the assistant interprets the situation and offers alternative solutions, such as contacting a human agent or exploring external insurance options. The conversation involves reasoning and decision-making rather than executing specific tasks or actions.",declarative
 37,MODIFY,"User: Hi, I'm really upset because my flight HAT045 from PHX to SEA has been delayed. I'm going to miss an important meeting because of this.
 Assistant: I understand your frustration with the delay. Could you please provide your user ID and reservation ID? If you are a silver or gold member, have travel insurance, or are flying business class, I may be able to offer some compensation for the inconvenience.
 User: Sure, my user ID is mei_brown_7075. I'm also a valued Gold member, which makes this situation even more disappointing. 
@@ -1972,7 +1972,7 @@ User: I appreciate the gesture, but I'm really looking to get reimbursed to my o
 Assistant: Unfortunately, reimbursement to the original payment method is not possible for delayed flights. The compensation is provided in the form of a certificate, which can be used for future bookings. If you have any further concerns or need additional assistance, please let me know.
 User: I understand your policy, but given my Gold member status and the critical nature of my missed meeting, could there be any reconsideration for a higher compensation or comparable alternatives like more travel vouchers?
 Assistant: I understand the importance of your situation, but the compensation policy for delayed flights is fixed, and I have already provided the maximum allowable certificate for this situation. If you have further concerns or need additional assistance, I recommend contacting our customer service team directly, as they may have more flexibility in handling exceptional cases.
-User: I appreciate your help, but could you please make a note for customer service to review my case as this is a significant inconvenience for me? I'll contact them directly.",declarative
+User: I appreciate your help, but could you please make a note for customer service to review my case as this is a significant inconvenience for me? I'll contact them directly.","The conversation is declarative because the user is seeking understanding and potential exceptions to the compensation policy due to their Gold member status and the importance of their missed meeting. The assistant provides explanations about the policy, reasons for the compensation method, and suggests contacting customer service for further assistance. The assistant is interpreting the user's situation and making decisions based on the company's policies, rather than following a set of procedural steps.",declarative
 38,CANCEL,"User: Hi, I need assistance with getting a refund for the insurance I bought for my flight.
 Assistant: I'm sorry, but the travel insurance is non-refundable. If you have any other questions or need further assistance, feel free to ask!
 User: I understand, but I'm really unhappy with the service I received. Is there any way we can look into getting a refund?
@@ -1983,7 +1983,7 @@ User: Sure, the confirmation number for my flight is H8Q05L. Can you see if ther
 Assistant: I see that your reservation includes travel insurance, but unfortunately, the insurance is non-refundable. However, since you mentioned being unhappy with the service, I can offer a $30 certificate as a gesture of goodwill. Would you like me to proceed with issuing this certificate?
 User: I appreciate the offer, but I would really prefer a full refund for the insurance. Is there someone else you could check with or escalate this to?
 Assistant: I understand your request for a full refund for the insurance. Unfortunately, I am unable to process a refund for the insurance as it is non-refundable. However, I can transfer you to a human agent who may be able to assist you further. Would you like me to do that?
-User: Yes, I would appreciate that. Please connect me with someone who can help further.",declarative
+User: Yes, I would appreciate that. Please connect me with someone who can help further.","The conversation is declarative because the user is seeking information and understanding about the possibility of getting a refund for non-refundable insurance. The assistant is providing explanations and reasoning about the policy, and making decisions about offering a goodwill certificate and transferring the user to a human agent. The conversation involves interpretation and reasoning rather than just executing a task.",declarative
 39,CANCEL,"User: Hi, I need to cancel my flight.
 Assistant: I can help you with that. Could you please provide your user ID, reservation ID, and the reason for cancellation (change of plan, airline cancelled flight, or other reasons)?
 User: My user ID is sophia_silva_7557, and the reservation ID is H8Q05L. I need to cancel because it coincides with a personal commitment.
@@ -2019,7 +2019,7 @@ Assistant: I understand your reluctance to be transferred, but given the strict 
 
 If there's anything else I can assist you with, please let me know.
 User: Alright, thanks for your help. I'll see what else I can do.
-Assistant: You're welcome. If you have any other questions or need assistance in the future, feel free to reach out. Safe travels!",declarative
+Assistant: You're welcome. If you have any other questions or need assistance in the future, feel free to reach out. Safe travels!","The conversation is declarative because the user is seeking information and understanding about the cancellation policy and potential for a refund. The assistant is providing explanations and reasoning based on the policy terms and conditions. The user is not giving step-by-step instructions, nor is the assistant executing tasks without reasoning. Instead, the assistant is interpreting the policy and explaining why a refund is not possible, which involves decision-making and reasoning.",declarative
 40,MODIFY,"User: Hello! As a Gold member, I've always had great experiences, but my recent flight earlier this month was canceled. This unfortunately led to me missing an important meeting. I'm looking to discuss compensation for the inconvenience caused.
 Assistant: I can assist you with that. Could you please provide your user ID and the reservation ID for the canceled flight? This will help me verify the details and proceed with offering compensation.
 User: Sure, my user ID is sophia_silva_7557. However, I don't have the reservation ID with me at the moment.
@@ -2031,7 +2031,7 @@ The compensation amount will be $100 for each passenger. Since there was one pas
 Would you like me to proceed with issuing this certificate?
 User: Thank you for checking. While I appreciate the offer, $100 seems a bit low given that I missed an important meeting due to this cancellation. Could there be a possibility for a higher compensation?
 Assistant: I understand your concern, but the compensation policy for canceled flights is set at $100 per passenger for Gold members. Unfortunately, I am unable to offer a higher amount through this system. If you would like to discuss this further, I can transfer you to a human agent who may be able to assist you with your request. Would you like me to do that?
-User: Yes, I would appreciate being transferred to someone who may have the authority to assist further. Thank you.",declarative
+User: Yes, I would appreciate being transferred to someone who may have the authority to assist further. Thank you.","The conversation is declarative because the user is seeking information and understanding regarding compensation for a canceled flight. The assistant is providing explanations about the compensation policy and making decisions based on the user's membership status and the company's policy. The user is also sharing context about the inconvenience caused, and the assistant is interpreting this information to offer a solution, which involves transferring the user to a human agent for further assistance.",declarative
 41,CANCEL,"User: Hi there! I need some help with a flight I booked recently.
 Assistant: Of course! I'd be happy to help you with your flight. Could you please provide me with your user ID and the reservation ID for the flight you booked?
 User: Sure! My user ID is anya_garcia_5901, and the confirmation number for the flight is 3RK2T9.
@@ -2058,7 +2058,7 @@ User: Yes, please go ahead and cancel the reservation. I really appreciate your 
 Assistant: Your reservation has been successfully cancelled, and a full refund will be processed to your original payment method. You should see the refund reflected in your account within 5 to 7 business days.
 
 If there's anything else you need help with, feel free to let me know!
-User: Great, thank you for taking care of that. That's all for now.",procedural
+User: Great, thank you for taking care of that. That's all for now.","The conversation is procedural because the user is asking the assistant to perform a specific task, which is to cancel the flight reservation. The assistant executes this task by confirming eligibility for a refund, asking for confirmation to proceed, and then completing the cancellation without providing any reasoning or making decisions beyond the procedural steps required to fulfill the user's request.",procedural
 42,CANCEL,"User: Hi! I'm hoping to cancel a flight and get a refund.
 Assistant: I can help you with that. Could you please provide your user ID, reservation ID, and the reason for cancellation (change of plan, airline cancelled flight, or other reasons)?
 User: Sure! My user ID is anya_garcia_5901, and the reservation ID is 3RK2T9. Unfortunately, I'm sick and unable to make the flight.
@@ -2067,7 +2067,7 @@ Assistant: Your reservation is for a basic economy flight, and unfortunately, tr
 If you need further assistance, I can transfer you to a human agent. Would you like me to do that?
 User: Actually, I did purchase insurance for my flight, so I should be eligible for a refund.
 Assistant: According to the reservation details, it appears that travel insurance was not purchased for this flight. If you believe there is an error, I recommend contacting a human agent who can further investigate this issue. Would you like me to transfer you to a human agent for assistance?
-User: Yes, please, as I'm sure I purchased insurance for this flight. Thank you!",declarative
+User: Yes, please, as I'm sure I purchased insurance for this flight. Thank you!","The conversation is declarative because the user is seeking to cancel a flight and obtain a refund, which involves understanding the policies and conditions for cancellation. The assistant provides explanations and reasoning based on the reservation details and policy, and suggests transferring to a human agent for further investigation when there is a discrepancy. The conversation involves interpretation and decision-making rather than simple task execution.",declarative
 43,MODIFY,"User: Hi, I need to change the passenger name on a flight reservation.
 Assistant: I can help you with that. Could you please provide your user ID and the reservation ID for the flight reservation you want to modify?
 User: Sure, my user ID is anya_garcia_5901 and the flight reservation ID is 3RK2T9.
@@ -2086,7 +2086,7 @@ Assistant: Here are the details for the passenger name change:
 Please confirm if you would like me to proceed with this change.
 User: Yes, please proceed with the change.
 Assistant: The passenger name has been successfully updated from Mei Lee to Mei Garcia. If you need any further assistance, feel free to ask!
-User: Thank you, that's all I needed.",procedural
+User: Thank you, that's all I needed.","The conversation is procedural because the user is requesting a specific action (changing the passenger name on a flight reservation) and the assistant is executing this task without providing any reasoning or making decisions. The assistant follows a step-by-step process to gather necessary information and confirm the action, which aligns with procedural interactions.",procedural
 44,MODIFY,"User: Hi! I'm trying to find out how many suitcases I can take on my upcoming flight. I think I'm a gold member.
 Assistant: To determine the number of free checked bags you can take on your upcoming flight, I'll need to know the cabin class of your reservation (basic economy, economy, or business). Could you please provide that information?
 User: I don't remember the exact cabin class, unfortunately, but I do have my flight confirmation number if that helps. It's JMO1MG.
@@ -2097,7 +2097,7 @@ User: Could you double-check if there's any chance I'm a gold member? I really n
 Assistant: You are confirmed as a silver member. Therefore, with an economy cabin reservation, you are allowed a total of 4 free checked bags (2 per passenger).
 User: I see, but could you just confirm it to me in numeric form? Like, what's the number of suitcases in digits?
 Assistant: You can take a total of 4 free checked bags.
-User: Great, thanks for confirming that in numbers!",declarative
+User: Great, thanks for confirming that in numbers!","The conversation is declarative because the user is seeking information and clarification about their baggage allowance based on their membership status and flight details. The assistant is providing explanations and reasoning based on the user's membership status and cabin class, and confirming the information multiple times. The user is not providing step-by-step instructions or asking the assistant to perform a specific task without reasoning.",declarative
 45,MODIFY,"User: I'm really frustrated with a delay on my recent flight reservation. Can you help me with it?
 Assistant: I can assist you with your delayed flight reservation. Could you please provide me with your user ID and the reservation ID for the affected flight?
 User: My user ID is noah_muller_9847, but I don't remember the reservation ID. It's my last reservation though.
@@ -2105,14 +2105,14 @@ Assistant: I have retrieved the details of your last reservation with ID ""4OG6T
 
 Since you mentioned a delay, could you please specify which flight segment was delayed? Additionally, if you are seeking compensation or any specific assistance, please let me know so I can assist you further.
 User: It was just the initial flight out of Boston that got delayed. And yes, I'm definitely looking for compensation for this inconvenience.
-Assistant: I have issued a $50 certificate to you as compensation for the delay on your flight from Boston. You can use this certificate for future bookings. If there's anything else you need assistance with, feel free to let me know!",declarative
+Assistant: I have issued a $50 certificate to you as compensation for the delay on your flight from Boston. You can use this certificate for future bookings. If there's anything else you need assistance with, feel free to let me know!","The conversation is declarative because the user is sharing information about their flight delay and seeking compensation, which requires the assistant to interpret the situation and make a decision on how to address it. The assistant provides reasoning by asking for specific details about the delay and then decides to issue a compensation certificate based on the information provided by the user.",declarative
 45,MODIFY,"User: Thank you for that. By the way, I wanted to confirm that there were 3 passengers in my reservation. Could you check that for me?
 Assistant: Your reservation with ID ""4OG6T3"" includes only 1 passenger: Noah Muller. If you believe there should be more passengers, please let me know, and we can look into it further.
 User: I'm sure there were 3 passengers. Could you double-check that detail?
 Assistant: The reservation details for ID ""4OG6T3"" show only one passenger, Noah Muller. If you believe there is an error, I recommend contacting a human agent for further assistance to resolve this issue. Would you like me to transfer you to a human agent?
 User: I might have made a mistake on my part. Thanks for looking into it. Is there anything else I should double-check?
 Assistant: If you have any other details or aspects of your reservation that you would like to verify, such as flight dates, baggage allowance, or payment details, feel free to let me know. Otherwise, if everything else seems correct, you should be all set!
-User: No, that's all for now. Thanks for your help!",declarative
+User: No, that's all for now. Thanks for your help!","The conversation is declarative because the user is seeking confirmation and understanding about the reservation details, and the assistant is providing explanations and reasoning based on the information available. The assistant also suggests contacting a human agent for further assistance, which involves decision-making rather than just executing a task.",declarative
 46,BOOK,"User: Hi! I'd like to book a flight from San Francisco to New York for three passengers, please.
 Assistant: To assist you with booking a flight, I'll need to gather some information:
 
@@ -2123,7 +2123,7 @@ Assistant: To assist you with booking a flight, I'll need to gather some informa
 5. **Travel Insurance**: Would you like to add travel insurance for $30 per passenger?
 
 Once I have this information, I can proceed with finding available flights for you.
-User: Sure! My user ID is noah_muller_9847. It's going to be a round-trip flight.",procedural
+User: Sure! My user ID is noah_muller_9847. It's going to be a round-trip flight.","The conversation is procedural because the user is requesting the assistant to perform a specific task, which is booking a flight. The assistant is following a step-by-step process to gather necessary information to complete the booking. There is no reasoning or decision-making involved; the assistant is simply executing the task based on the user's instructions.",procedural
 46,MODIFY,"User: Oh, but before I continue, I'm feeling really frustrated about the delayed flight in my most recent reservation. Can we address that?
 Assistant: I understand your frustration with the delayed flight in your recent reservation. As a gold member with travel insurance, you are eligible for a compensation certificate of $50. Would you like me to proceed with issuing this certificate for you?
 User: I appreciate that, but I'm not sure. Could you tell me more about my last reservation? I don't remember all the details.
@@ -2150,7 +2150,7 @@ Assistant: The reservation (Reservation ID: 4OG6T3) includes only one passenger:
 - **Passenger**: Noah Muller (Date of Birth: 1963-01-22)
 
 If you need any further assistance or have more questions about this reservation, feel free to ask!
-User: Thanks for clearing that up. Could we switch back to booking the new flight from San Francisco to New York for three passengers now?",declarative
+User: Thanks for clearing that up. Could we switch back to booking the new flight from San Francisco to New York for three passengers now?","The conversation is declarative because the user is seeking information and clarification about their previous reservation, and the assistant is providing detailed explanations and information. The user is not providing step-by-step instructions or asking the assistant to perform a specific task without reasoning. Instead, the user is trying to understand the details of their reservation, and the assistant is interpreting and providing the necessary information.",declarative
 46,BOOK,"User: Thanks for clearing that up. Could we switch back to booking the new flight from San Francisco to New York for three passengers now?
 Assistant: Certainly! Let's continue with booking your new flight from San Francisco to New York. Here's what I need from you:
 
@@ -2159,7 +2159,7 @@ Assistant: Certainly! Let's continue with booking your new flight from San Franc
 3. **Travel Insurance**: Would you like to add travel insurance for $30 per passenger?
 
 Once I have this information, I can proceed with finding available flights for you.
-User: Actually, never mind. I think that's all for now. Thank you for your help!",procedural
+User: Actually, never mind. I think that's all for now. Thank you for your help!","The conversation is procedural because the user is asking the assistant to perform a specific task, which is booking a flight. The assistant is executing this task by requesting specific information needed to complete the booking process. There is no reasoning or decision-making involved from the assistant's side; it is simply following a set of steps to gather necessary information for the booking.",procedural
 47,CANCEL,"User: Hey! I need to cancel my reservation.
 Assistant: I can help you with that. Could you please provide your user ID and the reservation ID for the booking you wish to cancel? Additionally, I'll need to know the reason for the cancellation (change of plan, airline cancelled flight, or other reasons).
 User: My user ID is raj_sanchez_7340, but I don't remember the reservation ID at the moment. Can you help me cancel without it? The reason is a change of plan.
@@ -2196,7 +2196,7 @@ Since this reservation was created within the last 24 hours, it is eligible for 
 User: Yes, please go ahead and cancel this reservation.
 Assistant: The reservation with ID MZDDS4 has been successfully cancelled. The refund will be processed to the original payment method (gift card) within 5 to 7 business days. If you have any more questions or need further assistance, feel free to ask!
 User: Great, thank you for your help! That's all I needed. 
-Assistant: You're welcome! If you need any more assistance in the future, feel free to reach out. Have a great day!",procedural
+Assistant: You're welcome! If you need any more assistance in the future, feel free to reach out. Have a great day!","The conversation is procedural because the user is requesting a specific action (cancellation of a reservation) and the assistant is executing this task by following a series of steps. The assistant asks for necessary information, retrieves the reservation details, and confirms the cancellation without providing reasoning or making decisions beyond the procedural steps required to complete the task.",procedural
 48,MODIFY,"User: Hi there, I need to make some changes to a flight reservation I have.
 Assistant: Sure, I can help you with that. Could you please provide your user ID and the reservation ID for the flight reservation you want to modify?
 User: Certainly, my user ID is lucas_brown_4047, and the reservation ID is EUJUY6.
@@ -2221,7 +2221,7 @@ User: I'd like to change the dates for the flights, specifically to move them ou
 Assistant: Unfortunately, the policy is strict regarding basic economy reservations, and changes to flight dates are not permitted. The only modifications allowed for basic economy are changes to the cabin class, baggage, or passenger information.
 
 If you have a special circumstance, I recommend contacting a human agent who might be able to assist you further. Would you like me to transfer you to a human agent for this request?
-User: Yes, please. I would appreciate speaking with someone who could help, as my wife passed away yesterday.",declarative
+User: Yes, please. I would appreciate speaking with someone who could help, as my wife passed away yesterday.","The conversation is declarative because the user is seeking information and understanding about the possibility of modifying a flight reservation under special circumstances. The assistant provides explanations about the policy restrictions and suggests a course of action (contacting a human agent) based on the user's situation. The assistant is interpreting the policy and making a decision to transfer the user to a human agent, which involves reasoning rather than just executing a task.",declarative
 49,CANCEL,"User: Hi, I'd like to cancel my reservation, please.
 Assistant: I can help you with that. Could you please provide your user ID, reservation ID, and the reason for cancellation (change of plan, airline cancelled flight, or other reasons)?
 User: Sure, my user ID is emma_kim_9957. The reservation ID is MDCLVA. I'm cancelling because I was out of town after booking and couldn't manage it in time.
@@ -2237,4 +2237,4 @@ User: I understand, but is there any way for a waiver or exception in this case?
 Assistant: I understand your situation, but unfortunately, I am unable to provide a waiver or exception for the cancellation policy. The rules are strict regarding cancellations for basic economy tickets without travel insurance.
 
 If you need further assistance or have any other questions, please let me know!
-User: Alright, thank you for your help.",declarative
+User: Alright, thank you for your help.","The conversation is declarative because the user is seeking information and understanding about the cancellation policy, and the assistant is providing explanations and reasoning regarding the eligibility for cancellation. The assistant interprets the user's situation and explains the policy rules, making decisions based on the information provided by the user. The conversation involves reasoning and interpretation rather than just executing a task.",declarative

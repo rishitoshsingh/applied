@@ -33,7 +33,7 @@ def categorize_tasks(tasks):
         results.append(result_json)
     return results
 
-def main(model_name, N, traj_file_path):
+def main(model_name, N, traj_file_path, temperature):
     traj_file = traj_file_path.split('/')[-1].replace('.json', '')
     traj_type = None
     if "airline" in traj_file.lower():
@@ -43,6 +43,7 @@ def main(model_name, N, traj_file_path):
 
     os.environ["traj_type"] = traj_type
     os.environ["model_name"] = model_name
+    os.environ["temperature"] = str(temperature)
 
     tasks = read_n_tasks(traj_file_path, N)
     output_json_path = f"categorized_tasks-{model_name}-{traj_file}.json"
@@ -78,8 +79,9 @@ def main(model_name, N, traj_file_path):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Categorize tasks using LLM models.")
     parser.add_argument("--model", type=str, required=True, choices=['gpt-4o', 'gemini-2.0-flash'], help="Model to use for categorization.")
+    parser.add_argument("--temperature", type=float, default=0.1, help="Temperature for the model.")
     parser.add_argument("--trajectory_file_path", type=str, required=True, help="Path to the trajectory file.")
-    parser.add_argument("--N", type=int, default=115, help="Number of tasks to read (default: 115).")
+    parser.add_argument("--N", type=int, help="Number of tasks to to process, if not provided, will process all tasks.")
     args = parser.parse_args()
-
-    main(args.model, args.N, args.trajectory_file_path)
+    print(args)
+    main(args.model, args.N, args.trajectory_file_path, args.temperature)

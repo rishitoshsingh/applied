@@ -24,8 +24,8 @@ mv categorizer_new/template.env categorizer_new/.env
 cd categorizer_new
 python app.py \
     --model gpt-4o \
-    --trajectory_file_path ../tau-bench/historical_trajectories/gpt-4o-airline.json \
-    --N 50
+    --temperature 0.1 \
+    --trajectory_file_path ../tau-bench/historical_trajectories/gpt-4o-airline.json
 ```
 
 ## Visualizing the trajectories
