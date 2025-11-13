@@ -54,6 +54,8 @@ if os.getenv("traj_type") == "flight":
     tasks_type_str = "BOOK, MODIFY, CANCEL"
 elif os.getenv("traj_type") == "retail":
     tasks_type_str = "CANCEL_ORDER, MODIFY_ORDER, RETURN_ORDER, EXCHANGE_ORDER, MODIFY_ADDRESS"
+elif os.getenv("traj_type") == "telecom":
+    tasks_type_str = "GET_ACCOUNT_DETAILS, TROUBLESHOOT, HANDLE_BILLING_PAYMENTS, MANAGE_MY_SERVICES, SUPPORT_TICKET"
 
 class UserRequest(BaseModel):
     intent: str = Field(description=f"Intent of the user request, one of {tasks_type_str}")

@@ -1,0 +1,76 @@
+Task id,intent,conversation_segment,reasoning,category
+0,GET_ACCOUNT_DETAILS,"User: Hi, I'm Sarah Johnson. Could you please help me find out what my customer ID is?
+Assistant: I can help you with that. Could you please provide me with either your email address or phone number?
+User: Sure, my email address is sarah.johnson@email.com.
+Assistant: Your customer ID is sarah_johnson_5678.","The conversation is procedural because the user is asking the agent to perform a specific task, which is to retrieve the customer ID. The agent executes this task by asking for necessary information and then providing the customer ID without any reasoning or decision-making involved.",procedural
+0,HANDLE_BILLING_PAYMENTS,"User: Great, thank you! Could you also help me with my billing details?
+Assistant: Here are your billing details:
+
+- **Account Number:** ACC002345678
+- **Current Balance:** $89.75
+- **Last Payment:** $200.00 on 2025-09-10 via bank transfer (Status: Completed)
+- **Next Billing Date:** 2025-10-10
+- **Monthly Charges:**
+  - Mobile Family (4 lines): $160.00
+  - Internet Cable (500mb): $55.00
+  - TV Basic: $45.00
+  - Cable Box HD: $10.00
+  - Taxes & Fees: $19.75
+
+- **Payment History:**
+  - 2025-09-10: $200.00 (Completed)
+  - 2025-08-10: $289.75 (Completed)
+  - 2025-07-10: $289.75 (Completed)
+
+- **Auto Pay:** Disabled
+- **Paperless Billing:** Disabled
+
+If you need any further assistance, feel free to ask!","The conversation is declarative because the user is seeking information about their billing details, and the assistant is providing detailed information and explanations about the billing account, payment history, and other related details. The assistant is not performing any tasks or actions but rather sharing information and context.",declarative
+0,SUPPORT_TICKET,"User: Wait a minute, I'm only supposed to be paying for internet cable and TV basic. Why am I being charged for mobile and a cable box HD? This is absolutely unacceptable! I demand to speak with a human representative immediately. If this isn't resolved by tomorrow, I will cancel all my services.
+Assistant: I understand your frustration, and I apologize for any inconvenience this may have caused. I will create a support ticket with high priority to ensure that this issue is addressed promptly by a human representative. Please allow me a moment to do that for you.
+Assistant: A support ticket has been created with high priority to address your billing issue. The ticket ID is TICKET003. A human representative will contact you as soon as possible to resolve this matter. 
+
+Thank you for your patience, and I apologize again for the inconvenience.
+User: Thank you. I'll be waiting for their call.","The conversation is procedural because the user is requesting a specific action (speaking with a human representative and resolving the billing issue), and the assistant is executing this request by creating a support ticket with high priority. The assistant is not providing explanations or reasoning but is instead following the user's directive to ensure the issue is addressed by a human representative.",procedural
+1,GET_ACCOUNT_DETAILS,"User: Hi there! I'd like to start by seeing all the devices I currently have. Can you assist with that?
+Assistant: Could you please provide me with your email address or phone number so I can locate your account and retrieve the details of your devices?
+User: Sure thing! My phone number is (555) 456-7890.
+Assistant: Here are the devices currently associated with your account:
+
+1. **iPhone 15** - Service: Mobile Business 10 Lines
+2. **Google Pixel 8** - Service: Mobile Business 10 Lines
+3. **Conference Phone System** - Service: Business Phone System
+4. **Enterprise Router** - Service: Internet Fiber 2GB
+5. **Conference Room TV** - Service: TV Sports Package
+
+If you need any further assistance, feel free to ask!","The conversation is procedural because the user is requesting a specific task to be performed, which is retrieving and displaying the list of devices associated with their account. The assistant executes this task by asking for necessary information (phone number) and then providing the requested details without any reasoning or decision-making involved.",procedural
+1,TROUBLESHOOT,"User: Thanks for sharing that. I have a conference phone that's not receiving calls. Could we troubleshoot it?
+Assistant: Here are the troubleshooting steps for your Conference Phone System that's not receiving calls:
+
+1. Restart the device.
+2. Check the signal coverage.
+3. Reset the network settings.
+4. If the issue persists, please contact support.
+
+If you need further assistance or if the problem continues, let me know!","The conversation is procedural because the user is asking the assistant to perform a specific task, which is troubleshooting the conference phone. The assistant provides a step-by-step guide to resolve the issue without providing reasoning or making decisions. The focus is on executing the steps provided to solve the problem.",procedural
+1,MANAGE_MY_SERVICES,"User: Great, thanks! I'll go ahead and try those steps. In the meantime, can you list all my current services?
+Assistant: Here are your current services:
+
+1. **Business Mobile - 10 Lines**
+   - Category: Mobile
+   - Price: $450.00
+
+2. **Fiber Internet 2GB**
+   - Category: Internet
+   - Price: $120.00
+
+3. **Sports TV Package**
+   - Category: TV
+   - Price: $75.00
+
+4. **Business Phone System**
+   - Category: Phone
+   - Price: $150.00
+
+If you have any other questions or need further assistance, feel free to ask!
+User: That's perfect, thank you for your help!","The conversation is declarative because the user is seeking information about their current services, and the assistant is providing that information. The assistant is not executing a task or following step-by-step instructions but rather delivering a list of services, which involves interpreting the user's request and providing the relevant data.",declarative

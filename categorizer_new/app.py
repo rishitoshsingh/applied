@@ -40,6 +40,8 @@ def main(model_name, N, traj_file_path, temperature):
         traj_type = "flight"
     elif "retail" in traj_file.lower():
         traj_type = "retail"
+    elif "telecom" in traj_file.lower():
+        traj_type = "telecom"
 
     os.environ["traj_type"] = traj_type
     os.environ["model_name"] = model_name

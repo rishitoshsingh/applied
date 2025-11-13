@@ -1,0 +1,6 @@
+intent,category,count,task_ids
+GET_ACCOUNT_DETAILS,procedural,2,"[0, 1]"
+HANDLE_BILLING_PAYMENTS,declarative,1,[0]
+MANAGE_MY_SERVICES,declarative,1,[1]
+SUPPORT_TICKET,procedural,1,[0]
+TROUBLESHOOT,procedural,1,[1]
